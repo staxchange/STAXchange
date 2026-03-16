@@ -1,8 +1,5 @@
-export default function HomeScreen() {
-  return (
-    <div>
-      <h1>STAX</h1>
-      <p>Your digital card vault</p>
-    </div>
-  );
+import HomeScreen from "./screens/HomeScreen";
+
+export default function App() {
+  return <HomeScreen />;
 }
