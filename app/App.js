@@ -1,5 +1,10 @@
-import HomeScreen from "./screens/HomeScreen";
+import React from "react";
+import { View, Text } from "react-native";
 
 export default function App() {
-  return <HomeScreen />;
+  return (
+    <View style={{flex:1,justifyContent:"center",alignItems:"center"}}>
+      <Text>STAX is running</Text>
+    </View>
+  );
 }
