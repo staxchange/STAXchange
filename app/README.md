@@ -1,2 +1,3 @@
-STAX mobile application source code will live here.
-This will eventually contain the iOS, Android, and shared mobile code.
+STAX mobile application.
+
+This folder contains the source code for the STAX mobile app including screens, navigation, components, services, utilities, and styling.
