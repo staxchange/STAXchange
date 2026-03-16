@@ -26,6 +26,13 @@ export default function App() {
       <View style={styles.scanButton}>
         <Text style={styles.scanButtonText}>Scan Collectible</Text>
       </View>
+
+      <View style={styles.navBar}>
+        <Text style={styles.navItem}>Home</Text>
+        <Text style={styles.navItem}>Vault</Text>
+        <Text style={styles.navItem}>Scan</Text>
+        <Text style={styles.navItem}>Profile</Text>
+      </View>
     </View>
   );
 }
@@ -84,5 +91,18 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
     textAlign: "center",
+  },
+  navBar: {
+    flexDirection: "row",
+    justifyContent: "space-around",
+    marginTop: 24,
+    paddingTop: 14,
+    borderTopWidth: 1,
+    borderTopColor: "#2A2A2A",
+  },
+  navItem: {
+    color: "#BBBBBB",
+    fontSize: 14,
+    fontWeight: "600",
   },
 });
