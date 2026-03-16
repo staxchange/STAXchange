@@ -5,7 +5,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.content}>
-
         <Text style={styles.logo}>STAX</Text>
         <Text style={styles.value}>$128,450</Text>
         <Text style={styles.ticker}>Trade Value Today ▲ 2.4%</Text>
@@ -29,6 +28,7 @@ export default function App() {
           <Text style={styles.scanButtonText}>Scan Collectible</Text>
         </View>
 
+        <View style={{ height: 80 }} />
       </ScrollView>
 
       <View style={styles.navBar}>
@@ -108,9 +108,12 @@ const styles = StyleSheet.create({
   },
 
   navBar: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
     flexDirection: "row",
     justifyContent: "space-around",
-    alignItems: "center",
     paddingVertical: 16,
     borderTopWidth: 1,
     borderTopColor: "#2A2A2A",
