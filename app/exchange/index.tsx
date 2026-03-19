@@ -1,5 +1,6 @@
 import { View, Text, TouchableOpacity } from "react-native";
 import MarketTicker from "../../components/MarketTicker";
+import SectionCard from "../../components/SectionCard";
 
 export default function ExchangeScreen() {
   return (
@@ -46,51 +47,20 @@ export default function ExchangeScreen() {
         Trade Value Today ▲ 2.4%
       </Text>
 
-      <View
-        style={{
-          backgroundColor: "#111",
-          padding: 20,
-          borderRadius: 15,
-          marginBottom: 15,
-        }}
-      >
-        <Text style={{ color: "#fff", fontSize: 18, fontWeight: "bold" }}>
-          Vault
-        </Text>
-        <Text style={{ color: "#aaa" }}>Manage your collectibles</Text>
-      </View>
+      <SectionCard
+        title="Vault"
+        subtitle="Manage your collectibles"
+      />
 
-      <View
-        style={{
-          backgroundColor: "#111",
-          padding: 20,
-          borderRadius: 15,
-          marginBottom: 15,
-        }}
-      >
-        <Text style={{ color: "#fff", fontSize: 18, fontWeight: "bold" }}>
-          Pulse
-        </Text>
-        <Text style={{ color: "#aaa" }}>
-          Trade board and market activity
-        </Text>
-      </View>
+      <SectionCard
+        title="Pulse"
+        subtitle="Trade board and market activity"
+      />
 
-      <View
-        style={{
-          backgroundColor: "#111",
-          padding: 20,
-          borderRadius: 15,
-          marginBottom: 20,
-        }}
-      >
-        <Text style={{ color: "#fff", fontSize: 18, fontWeight: "bold" }}>
-          Break Room
-        </Text>
-        <Text style={{ color: "#aaa" }}>
-          Live events and community breaks
-        </Text>
-      </View>
+      <SectionCard
+        title="Break Room"
+        subtitle="Live events and community breaks"
+      />
 
       <TouchableOpacity
         style={{
