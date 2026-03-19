@@ -1,6 +1,12 @@
 import { View, Text } from "react-native";
 
-export default function SectionCard({ title, subtitle }: { title: string; subtitle: string }) {
+export default function SectionCard({
+  title,
+  subtitle,
+}: {
+  title: string;
+  subtitle: string;
+}) {
   return (
     <View
       style={{
