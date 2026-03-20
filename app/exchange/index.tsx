@@ -53,8 +53,8 @@ export default function ExchangeScreen() {
       />
 
       <SectionCard
-        title="Pulse"
-        subtitle="Trade board and market activity"
+        title="Trade Board"
+        subtitle="Recent completed public deals and transactions"
       />
 
       <SectionCard
