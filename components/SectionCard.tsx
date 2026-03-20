@@ -1,14 +1,18 @@
-import { View, Text } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 
 export default function SectionCard({
   title,
   subtitle,
+  onPress,
 }: {
   title: string;
   subtitle: string;
+  onPress?: () => void;
 }) {
   return (
-    <View
+    <TouchableOpacity
+      onPress={onPress}
+      activeOpacity={0.8}
       style={{
         backgroundColor: "#111",
         padding: 20,
@@ -20,6 +24,6 @@ export default function SectionCard({
         {title}
       </Text>
       <Text style={{ color: "#aaa" }}>{subtitle}</Text>
-    </View>
+    </TouchableOpacity>
   );
 }
