@@ -1,8 +1,11 @@
 import { View, Text, TouchableOpacity } from "react-native";
+import { useRouter } from "expo-router";
 import MarketTicker from "../../components/MarketTicker";
 import SectionCard from "../../components/SectionCard";
 
 export default function ExchangeScreen() {
+  const router = useRouter();
+
   return (
     <View
       style={{
@@ -50,16 +53,19 @@ export default function ExchangeScreen() {
       <SectionCard
         title="Vault"
         subtitle="Manage your collectibles"
+        onPress={() => router.push("/vault")}
       />
 
       <SectionCard
         title="Trade Board"
         subtitle="Recent completed public deals and transactions"
+        onPress={() => router.push("/trade-board")}
       />
 
       <SectionCard
         title="Break Room"
         subtitle="Live events and community breaks"
+        onPress={() => router.push("/break-room")}
       />
 
       <TouchableOpacity
