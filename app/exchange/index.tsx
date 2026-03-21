@@ -2,6 +2,7 @@ import { View, Text, TouchableOpacity } from "react-native";
 import { useRouter } from "expo-router";
 import MarketTicker from "../../components/MarketTicker";
 import SectionCard from "../../components/SectionCard";
+import ExchangeCard from "../../components/ExchangeCard";
 
 export default function ExchangeScreen() {
   const router = useRouter();
@@ -44,11 +45,13 @@ export default function ExchangeScreen() {
         style={{
           color: "#FFD700",
           textAlign: "center",
-          marginBottom: 30,
+          marginBottom: 10,
         }}
       >
         Trade Value Today ▲ 2.4%
       </Text>
+
+      <ExchangeCard />
 
       <SectionCard
         title="Vault"
