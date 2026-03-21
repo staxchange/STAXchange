@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 
-export default function BreakRoomScreen() {
+export default function DealRoomScreen() {
   return (
     <View
       style={{
@@ -19,7 +19,7 @@ export default function BreakRoomScreen() {
           marginBottom: 10,
         }}
       >
-        Break Room
+        Deal Room
       </Text>
 
       <Text
@@ -30,7 +30,7 @@ export default function BreakRoomScreen() {
           maxWidth: 320,
         }}
       >
-        Live events and community breaks
+        Buy, trade, or negotiate deals
       </Text>
     </View>
   );
