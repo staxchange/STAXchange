@@ -1,0 +1,16 @@
+Import E2E Commerce Release Candidate Phase 1.
+
+Use:
+stax_ecommerce_shell_dwg_E2E_RELEASE_CANDIDATE_PHASE1.zip
+
+Run:
+npm install
+npm run audit:e2e-commerce
+npm run seed:demo:dry-run
+npm run audit:all-strengthened
+npm run test -- --runInBand
+npm run typecheck --workspace @stax/e2e-readiness
+npm run build --workspace @stax/admin
+npm run build --workspace @stax/customer
+npm run build --workspace @stax/storefront
+npm run build --workspace @stax/c3-storefront

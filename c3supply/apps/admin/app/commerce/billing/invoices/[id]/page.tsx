@@ -1,0 +1,1 @@
+export default async function Page({ params }: { params: Promise<{ id: string }> }) { const { id } = await params; return <section><h1>Commerce invoice {id}</h1><p>No direct accounting sync. Finance review required.</p></section>; }

@@ -1,0 +1,870 @@
+{
+  "file_count": 173,
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 450,
+      "sha256": "58a37fc2d08c82b8"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 535,
+      "sha256": "76c05bb24b6cbbc9"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 567,
+      "sha256": "02942dd01db23f11"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 73,
+      "sha256": "14f33a83fb579fc9"
+    },
+    {
+      "path": ".npmrc",
+      "bytes": 23,
+      "sha256": "f7dbda001b627b3a"
+    },
+    {
+      "path": "AI_SUPPORT_AUDIT_REPORT.md",
+      "bytes": 2823,
+      "sha256": "2e603411251b3f57"
+    },
+    {
+      "path": "AUDIT_MANIFEST.json",
+      "bytes": 32033,
+      "sha256": "636e1aa031d64710"
+    },
+    {
+      "path": "AUDIT_REPORT.md",
+      "bytes": 13225,
+      "sha256": "403a9f76d3e64c24"
+    },
+    {
+      "path": "COPILOT_IMPORT_PROMPT.txt",
+      "bytes": 646,
+      "sha256": "65814eff6f06527e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3053,
+      "sha256": "2da046bfdda80df6"
+    },
+    {
+      "path": "TREE.txt",
+      "bytes": 9355,
+      "sha256": "c1d376bb8d95759c"
+    },
+    {
+      "path": "apps/admin/app/exports/page.tsx",
+      "bytes": 210,
+      "sha256": "26c7ab178546c934"
+    },
+    {
+      "path": "apps/admin/app/fulfillment/page.tsx",
+      "bytes": 218,
+      "sha256": "ed0a238427465fbf"
+    },
+    {
+      "path": "apps/admin/app/layout.tsx",
+      "bytes": 480,
+      "sha256": "9055518fb722576c"
+    },
+    {
+      "path": "apps/admin/app/page.tsx",
+      "bytes": 677,
+      "sha256": "ad337e1a946478da"
+    },
+    {
+      "path": "apps/admin/app/pricing/page.tsx",
+      "bytes": 210,
+      "sha256": "3b34854a9ebac4ac"
+    },
+    {
+      "path": "apps/admin/app/products/page.tsx",
+      "bytes": 212,
+      "sha256": "18f59f654ba97c74"
+    },
+    {
+      "path": "apps/admin/app/quotes/page.tsx",
+      "bytes": 208,
+      "sha256": "af848437f20168d3"
+    },
+    {
+      "path": "apps/admin/app/support/page.tsx",
+      "bytes": 747,
+      "sha256": "b9297284c888ba44"
+    },
+    {
+      "path": "apps/admin/next-env.d.ts",
+      "bytes": 262,
+      "sha256": "85ae5aee75f01196"
+    },
+    {
+      "path": "apps/admin/next.config.ts",
+      "bytes": 356,
+      "sha256": "02351d3f9cdcb213"
+    },
+    {
+      "path": "apps/admin/package.json",
+      "bytes": 648,
+      "sha256": "c6634551168aec62"
+    },
+    {
+      "path": "apps/admin/tsconfig.json",
+      "bytes": 283,
+      "sha256": "15ba8719aa437e45"
+    },
+    {
+      "path": "apps/storefront/app/api/quote/route.ts",
+      "bytes": 813,
+      "sha256": "bc1f893269be0030"
+    },
+    {
+      "path": "apps/storefront/app/api/support-chat/route.ts",
+      "bytes": 2787,
+      "sha256": "59d7451bf97a5ea6"
+    },
+    {
+      "path": "apps/storefront/app/cart/page.tsx",
+      "bytes": 246,
+      "sha256": "62d3290ce7acc010"
+    },
+    {
+      "path": "apps/storefront/app/catalog/page.tsx",
+      "bytes": 1169,
+      "sha256": "806abc552924f155"
+    },
+    {
+      "path": "apps/storefront/app/contact/page.tsx",
+      "bytes": 463,
+      "sha256": "5023cbda2c75ed9b"
+    },
+    {
+      "path": "apps/storefront/app/globals.css",
+      "bytes": 2477,
+      "sha256": "16104fd3aae10a73"
+    },
+    {
+      "path": "apps/storefront/app/layout.tsx",
+      "bytes": 1154,
+      "sha256": "6de7802ebd558b53"
+    },
+    {
+      "path": "apps/storefront/app/page.tsx",
+      "bytes": 1152,
+      "sha256": "3526dc5e1e3a7cab"
+    },
+    {
+      "path": "apps/storefront/app/product/[slug]/page.tsx",
+      "bytes": 907,
+      "sha256": "b0cfd8721e4374a4"
+    },
+    {
+      "path": "apps/storefront/app/quote/page.tsx",
+      "bytes": 909,
+      "sha256": "08b7096268cde18c"
+    },
+    {
+      "path": "apps/storefront/app/quote/thank-you/page.tsx",
+      "bytes": 215,
+      "sha256": "d97e2afe2bbfb681"
+    },
+    {
+      "path": "apps/storefront/app/support/SupportChat.tsx",
+      "bytes": 3976,
+      "sha256": "845f4378535ed39f"
+    },
+    {
+      "path": "apps/storefront/app/support/page.tsx",
+      "bytes": 454,
+      "sha256": "f5f6f99181e45135"
+    },
+    {
+      "path": "apps/storefront/next-env.d.ts",
+      "bytes": 262,
+      "sha256": "85ae5aee75f01196"
+    },
+    {
+      "path": "apps/storefront/next.config.ts",
+      "bytes": 356,
+      "sha256": "02351d3f9cdcb213"
+    },
+    {
+      "path": "apps/storefront/package.json",
+      "bytes": 677,
+      "sha256": "b20acba1f612035b"
+    },
+    {
+      "path": "apps/storefront/tsconfig.json",
+      "bytes": 283,
+      "sha256": "15ba8719aa437e45"
+    },
+    {
+      "path": "brands/dwg/DWG_DRESS.md",
+      "bytes": 272,
+      "sha256": "3d03e148b18dda75"
+    },
+    {
+      "path": "brands/dwg/package.json",
+      "bytes": 382,
+      "sha256": "44bd60f11a247146"
+    },
+    {
+      "path": "brands/dwg/src/brand.ts",
+      "bytes": 1093,
+      "sha256": "a972bfa3d8e6afe3"
+    },
+    {
+      "path": "brands/dwg/src/categories.ts",
+      "bytes": 894,
+      "sha256": "865298c6e6243972"
+    },
+    {
+      "path": "brands/dwg/src/index.ts",
+      "bytes": 83,
+      "sha256": "c946e72fc4cb02bf"
+    },
+    {
+      "path": "brands/dwg/src/products.ts",
+      "bytes": 1416,
+      "sha256": "6931709ec095eb2c"
+    },
+    {
+      "path": "brands/dwg/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "docs/CNAME",
+      "bytes": 21,
+      "sha256": "0567b5ce38b22642"
+    },
+    {
+      "path": "docs/architecture/AI_SUPPORT_BOUNDARIES.md",
+      "bytes": 699,
+      "sha256": "3c13e0a6b7db166a"
+    },
+    {
+      "path": "docs/architecture/ARCHITECTURE.md",
+      "bytes": 290,
+      "sha256": "df5dae5b4d57663d"
+    },
+    {
+      "path": "docs/architecture/DWG_DRESS_MODEL.md",
+      "bytes": 132,
+      "sha256": "4f97255d0e431eff"
+    },
+    {
+      "path": "docs/deployment/GITHUB_PAGES.md",
+      "bytes": 94,
+      "sha256": "d841c21a697a4b23"
+    },
+    {
+      "path": "docs/deployment/VERCEL.md",
+      "bytes": 85,
+      "sha256": "f2a45db8d6068689"
+    },
+    {
+      "path": "docs/governance/MUTATION_GATEWAY.md",
+      "bytes": 178,
+      "sha256": "a95a3346da100ea1"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 1610,
+      "sha256": "2e8d0c34fd0c87bf"
+    },
+    {
+      "path": "docs/runbooks/INCIDENTS.md",
+      "bytes": 88,
+      "sha256": "d07f4497e8cb3e8a"
+    },
+    {
+      "path": "docs/runbooks/LOCAL_DEV.md",
+      "bytes": 60,
+      "sha256": "d52447605bc0f906"
+    },
+    {
+      "path": "docs/runbooks/RELEASE.md",
+      "bytes": 63,
+      "sha256": "d0ea667ab9bf7ea7"
+    },
+    {
+      "path": "docs/runbooks/SUPPORT_HUMAN_INTERVENTION.md",
+      "bytes": 991,
+      "sha256": "2e3a820011d085c8"
+    },
+    {
+      "path": "docs/styles.css",
+      "bytes": 1469,
+      "sha256": "917b0b6031cf12ea"
+    },
+    {
+      "path": "docs/workflows/PRODUCT_PUBLICATION.md",
+      "bytes": 126,
+      "sha256": "81ffecd9c4b34e91"
+    },
+    {
+      "path": "docs/workflows/QUOTE_FIRST.md",
+      "bytes": 159,
+      "sha256": "5b6d3d49762c4d3b"
+    },
+    {
+      "path": "docs/workflows/TECH_SUPPORT_HANDOFF.md",
+      "bytes": 651,
+      "sha256": "861c9d7e8072430f"
+    },
+    {
+      "path": "eslint.config.js",
+      "bytes": 1019,
+      "sha256": "3d8c4c0f7a370e3d"
+    },
+    {
+      "path": "infra/github/README.md",
+      "bytes": 167,
+      "sha256": "e823bf6ebde1f6a8"
+    },
+    {
+      "path": "infra/supabase/README.md",
+      "bytes": 110,
+      "sha256": "8065023d674a87aa"
+    },
+    {
+      "path": "infra/supabase/migrations/0001_initial_schema.sql",
+      "bytes": 2649,
+      "sha256": "c1c2d60f37ff57d7"
+    },
+    {
+      "path": "infra/supabase/migrations/0002_support_workflow.sql",
+      "bytes": 1322,
+      "sha256": "dbdf8007fbe453dd"
+    },
+    {
+      "path": "infra/vercel/README.md",
+      "bytes": 308,
+      "sha256": "241350940fc12da6"
+    },
+    {
+      "path": "jest.config.cjs",
+      "bytes": 623,
+      "sha256": "dae4eaa7a1d3bc4a"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 252555,
+      "sha256": "14bf2b38b5927579"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1156,
+      "sha256": "849f35cea5d3c500"
+    },
+    {
+      "path": "packages/ai-support/package.json",
+      "bytes": 396,
+      "sha256": "ec73f31173075141"
+    },
+    {
+      "path": "packages/ai-support/src/escalation-rules.ts",
+      "bytes": 4405,
+      "sha256": "8438cfee3568dda8"
+    },
+    {
+      "path": "packages/ai-support/src/index.ts",
+      "bytes": 166,
+      "sha256": "44411a77c383e7d7"
+    },
+    {
+      "path": "packages/ai-support/src/openai-client.ts",
+      "bytes": 1927,
+      "sha256": "291dd22adbdde52a"
+    },
+    {
+      "path": "packages/ai-support/src/response-templates.ts",
+      "bytes": 945,
+      "sha256": "e1e1ae1976174388"
+    },
+    {
+      "path": "packages/ai-support/src/support-prompt.ts",
+      "bytes": 1254,
+      "sha256": "c5f3eb07ba3efafd"
+    },
+    {
+      "path": "packages/ai-support/src/types.ts",
+      "bytes": 1457,
+      "sha256": "d4bc1b0b6c072924"
+    },
+    {
+      "path": "packages/ai-support/tsconfig.json",
+      "bytes": 170,
+      "sha256": "e0dcaf38aa33c1af"
+    },
+    {
+      "path": "packages/audit/package.json",
+      "bytes": 380,
+      "sha256": "0bde2c531322168a"
+    },
+    {
+      "path": "packages/audit/src/append-audit-event.ts",
+      "bytes": 369,
+      "sha256": "bdd5912042f4c790"
+    },
+    {
+      "path": "packages/audit/src/audit-event.ts",
+      "bytes": 229,
+      "sha256": "1baf5716edb860a7"
+    },
+    {
+      "path": "packages/audit/src/index.ts",
+      "bytes": 69,
+      "sha256": "7ef72a3ffc7efa19"
+    },
+    {
+      "path": "packages/audit/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/catalog/package.json",
+      "bytes": 382,
+      "sha256": "525a8d20a1701e6a"
+    },
+    {
+      "path": "packages/catalog/src/index.ts",
+      "bytes": 203,
+      "sha256": "0128872015e1428c"
+    },
+    {
+      "path": "packages/catalog/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/commands/package.json",
+      "bytes": 436,
+      "sha256": "e571944f1174ac87"
+    },
+    {
+      "path": "packages/commands/src/catalog/ApproveProductLaunchCommand.ts",
+      "bytes": 2786,
+      "sha256": "12600d90072961ce"
+    },
+    {
+      "path": "packages/commands/src/catalog/PublishProductCommand.ts",
+      "bytes": 2681,
+      "sha256": "f885a7dd66fe4354"
+    },
+    {
+      "path": "packages/commands/src/catalog/QuarantineProductCommand.ts",
+      "bytes": 2762,
+      "sha256": "f2bce47a5434731e"
+    },
+    {
+      "path": "packages/commands/src/command-contract.ts",
+      "bytes": 905,
+      "sha256": "ae83b48b2b148bed"
+    },
+    {
+      "path": "packages/commands/src/command-result.ts",
+      "bytes": 269,
+      "sha256": "1fdc87d2ff5beff4"
+    },
+    {
+      "path": "packages/commands/src/commerce/AddToCartCommand.ts",
+      "bytes": 2562,
+      "sha256": "8346604c5f4c3dfe"
+    },
+    {
+      "path": "packages/commands/src/commerce/CreateCheckoutSessionCommand.ts",
+      "bytes": 2771,
+      "sha256": "fea4c6b5601585bf"
+    },
+    {
+      "path": "packages/commands/src/commerce/CreateOrderFromStripeCommand.ts",
+      "bytes": 2804,
+      "sha256": "c83605bfc4f725df"
+    },
+    {
+      "path": "packages/commands/src/fulfillment/CreateFulfillmentRequestCommand.ts",
+      "bytes": 2822,
+      "sha256": "a205d94b9a61f24b"
+    },
+    {
+      "path": "packages/commands/src/fulfillment/GeneratePackingSlipCommand.ts",
+      "bytes": 2842,
+      "sha256": "40c7d045500b06c4"
+    },
+    {
+      "path": "packages/commands/src/index.ts",
+      "bytes": 1170,
+      "sha256": "89c35cb75abbbad7"
+    },
+    {
+      "path": "packages/commands/src/internal/run-command.ts",
+      "bytes": 1009,
+      "sha256": "f268fcbebae802c2"
+    },
+    {
+      "path": "packages/commands/src/ops/CreateCapitalSignalCommand.ts",
+      "bytes": 2752,
+      "sha256": "3338f7489ef6f74b"
+    },
+    {
+      "path": "packages/commands/src/ops/ExportSageBatchCommand.ts",
+      "bytes": 2679,
+      "sha256": "0b6ca3ab164dcf9d"
+    },
+    {
+      "path": "packages/commands/src/pricing/ApproveRetailPriceCommand.ts",
+      "bytes": 2766,
+      "sha256": "25671f4efd84b92d"
+    },
+    {
+      "path": "packages/commands/src/pricing/ValidateProductPricingCommand.ts",
+      "bytes": 2866,
+      "sha256": "573fde13e09adc69"
+    },
+    {
+      "path": "packages/commands/src/quotes/AcceptQuoteCommand.ts",
+      "bytes": 2580,
+      "sha256": "bff5c11a62d43ec6"
+    },
+    {
+      "path": "packages/commands/src/quotes/CreateQuoteRequestCommand.ts",
+      "bytes": 2894,
+      "sha256": "89087571bef67eeb"
+    },
+    {
+      "path": "packages/commands/src/quotes/DraftQuoteCommand.ts",
+      "bytes": 2558,
+      "sha256": "6108ddfca870d0e8"
+    },
+    {
+      "path": "packages/commands/src/quotes/SendQuoteCommand.ts",
+      "bytes": 2530,
+      "sha256": "0366b5babe70687e"
+    },
+    {
+      "path": "packages/commands/src/support/AssignSupportTicketCommand.ts",
+      "bytes": 2774,
+      "sha256": "b6cb577e52f7d0d0"
+    },
+    {
+      "path": "packages/commands/src/support/CloseSupportTicketCommand.ts",
+      "bytes": 2749,
+      "sha256": "e0f0a27d3bbad96f"
+    },
+    {
+      "path": "packages/commands/src/support/CreateSupportConversationCommand.ts",
+      "bytes": 2951,
+      "sha256": "35cddd1f12506f2d"
+    },
+    {
+      "path": "packages/commands/src/support/CreateSupportTicketCommand.ts",
+      "bytes": 2878,
+      "sha256": "a0914e7342a0ac77"
+    },
+    {
+      "path": "packages/commands/src/support/SendSupportMessageCommand.ts",
+      "bytes": 2785,
+      "sha256": "f66172a5bf9d6ba1"
+    },
+    {
+      "path": "packages/commands/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/commerce/package.json",
+      "bytes": 383,
+      "sha256": "53b98a062e4b8345"
+    },
+    {
+      "path": "packages/commerce/src/index.ts",
+      "bytes": 250,
+      "sha256": "541f966cd279267d"
+    },
+    {
+      "path": "packages/commerce/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/commerce-shell/package.json",
+      "bytes": 417,
+      "sha256": "a309888d84bf8e93"
+    },
+    {
+      "path": "packages/commerce-shell/src/index.ts",
+      "bytes": 58,
+      "sha256": "2453b2aeab0c7c9c"
+    },
+    {
+      "path": "packages/commerce-shell/src/routes.ts",
+      "bytes": 185,
+      "sha256": "4b578ea8628851a8"
+    },
+    {
+      "path": "packages/commerce-shell/src/shell-policy.ts",
+      "bytes": 165,
+      "sha256": "2283ce6dced084c2"
+    },
+    {
+      "path": "packages/commerce-shell/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/core-contracts/package.json",
+      "bytes": 354,
+      "sha256": "70070e9e618c369c"
+    },
+    {
+      "path": "packages/core-contracts/src/index.ts",
+      "bytes": 1501,
+      "sha256": "2e1cabff02432f8e"
+    },
+    {
+      "path": "packages/core-contracts/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/fulfillment/package.json",
+      "bytes": 386,
+      "sha256": "4a7c9b6a2d3a1a0a"
+    },
+    {
+      "path": "packages/fulfillment/src/index.ts",
+      "bytes": 186,
+      "sha256": "ee31b88cabdff736"
+    },
+    {
+      "path": "packages/fulfillment/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/governance/package.json",
+      "bytes": 350,
+      "sha256": "4212537bf8d93845"
+    },
+    {
+      "path": "packages/governance/src/actors.ts",
+      "bytes": 170,
+      "sha256": "78be8ce2e1bf1eec"
+    },
+    {
+      "path": "packages/governance/src/guards.ts",
+      "bytes": 861,
+      "sha256": "1d2a020efc6758dd"
+    },
+    {
+      "path": "packages/governance/src/index.ts",
+      "bytes": 110,
+      "sha256": "caef9d8bd7b93290"
+    },
+    {
+      "path": "packages/governance/src/permissions.ts",
+      "bytes": 2242,
+      "sha256": "430ffcf617d70ceb"
+    },
+    {
+      "path": "packages/governance/src/results.ts",
+      "bytes": 241,
+      "sha256": "48bf0d84f6210cdf"
+    },
+    {
+      "path": "packages/governance/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/pricing/package.json",
+      "bytes": 382,
+      "sha256": "3c4a8dcbc2e614b8"
+    },
+    {
+      "path": "packages/pricing/src/index.ts",
+      "bytes": 255,
+      "sha256": "1e6d632da2162c84"
+    },
+    {
+      "path": "packages/pricing/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/quotes/package.json",
+      "bytes": 381,
+      "sha256": "455feb07aeed26e8"
+    },
+    {
+      "path": "packages/quotes/src/index.ts",
+      "bytes": 243,
+      "sha256": "479e59d87311731f"
+    },
+    {
+      "path": "packages/quotes/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/signals/package.json",
+      "bytes": 347,
+      "sha256": "4b629e9c5092dc52"
+    },
+    {
+      "path": "packages/signals/src/index.ts",
+      "bytes": 289,
+      "sha256": "5c4c8761d40dbb1e"
+    },
+    {
+      "path": "packages/signals/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/tooling/package.json",
+      "bytes": 347,
+      "sha256": "0822f321116b2463"
+    },
+    {
+      "path": "packages/tooling/src/index.ts",
+      "bytes": 41,
+      "sha256": "6e4cee8ca87f17b5"
+    },
+    {
+      "path": "packages/tooling/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/ui/package.json",
+      "bytes": 342,
+      "sha256": "d69af85a42c3d2f0"
+    },
+    {
+      "path": "packages/ui/src/index.ts",
+      "bytes": 180,
+      "sha256": "59f0d8c069f69d81"
+    },
+    {
+      "path": "packages/ui/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "packages/workflows/package.json",
+      "bytes": 380,
+      "sha256": "f041b63bdefb3ac9"
+    },
+    {
+      "path": "packages/workflows/src/definitions/checkout.ts",
+      "bytes": 752,
+      "sha256": "d265bd96a067cffa"
+    },
+    {
+      "path": "packages/workflows/src/definitions/fulfillment.ts",
+      "bytes": 737,
+      "sha256": "c5cab6245baaac5e"
+    },
+    {
+      "path": "packages/workflows/src/definitions/pricing-approval.ts",
+      "bytes": 739,
+      "sha256": "b2c37e41f476cc68"
+    },
+    {
+      "path": "packages/workflows/src/definitions/product-publication.ts",
+      "bytes": 1207,
+      "sha256": "5ccdc385ce0624cb"
+    },
+    {
+      "path": "packages/workflows/src/definitions/quote-first.ts",
+      "bytes": 889,
+      "sha256": "eea7421bf84f4120"
+    },
+    {
+      "path": "packages/workflows/src/definitions/sage-export.ts",
+      "bytes": 583,
+      "sha256": "dd919eb93a1fb046"
+    },
+    {
+      "path": "packages/workflows/src/definitions/tech-support.ts",
+      "bytes": 1157,
+      "sha256": "e1d53f7f96590a6a"
+    },
+    {
+      "path": "packages/workflows/src/index.ts",
+      "bytes": 1219,
+      "sha256": "7ad24e434ccf5ac2"
+    },
+    {
+      "path": "packages/workflows/src/workflow-engine.ts",
+      "bytes": 631,
+      "sha256": "ed04af0d5ead149c"
+    },
+    {
+      "path": "packages/workflows/src/workflow-types.ts",
+      "bytes": 447,
+      "sha256": "637c8076528fdce6"
+    },
+    {
+      "path": "packages/workflows/tsconfig.json",
+      "bytes": 137,
+      "sha256": "241f82da42b43a8f"
+    },
+    {
+      "path": "scripts/audit-support-workflow.mjs",
+      "bytes": 972,
+      "sha256": "e3e369a948f5c5a7"
+    },
+    {
+      "path": "scripts/print-workflows.mjs",
+      "bytes": 248,
+      "sha256": "714fcb584a978522"
+    },
+    {
+      "path": "scripts/validate-boundaries.mjs",
+      "bytes": 918,
+      "sha256": "43d1ea813f329ec6"
+    },
+    {
+      "path": "tests/governance/command-lifecycle.test.ts",
+      "bytes": 944,
+      "sha256": "1e1b793e32846fa0"
+    },
+    {
+      "path": "tests/governance/import-boundary.test.ts",
+      "bytes": 838,
+      "sha256": "64cf359be842303b"
+    },
+    {
+      "path": "tests/governance/mutation-gateway.test.ts",
+      "bytes": 526,
+      "sha256": "c8aefee6f7887401"
+    },
+    {
+      "path": "tests/support/escalation-rules.test.ts",
+      "bytes": 1057,
+      "sha256": "ee7e3520330850b2"
+    },
+    {
+      "path": "tsconfig.base.json",
+      "bytes": 1675,
+      "sha256": "c26e04d76f6daf87"
+    },
+    {
+      "path": "turbo.json",
+      "bytes": 370,
+      "sha256": "dc352247cfd7bf42"
+    },
+    {
+      "path": "vercel.json",
+      "bytes": 173,
+      "sha256": "141ec4aac8f4e851"
+    }
+  ]
+}

@@ -1,0 +1,2037 @@
+[
+  {
+    "path": ".env.example",
+    "bytes": 1437,
+    "sha256": "b56966762fdf42bcadd0119abefd250effc4db68a051badcc6f748c96ab6baad"
+  },
+  {
+    "path": ".github/workflows/ci.yml",
+    "bytes": 535,
+    "sha256": "76c05bb24b6cbbc95199210a363583b69df4c548cc08e0c67a64024825977812"
+  },
+  {
+    "path": ".github/workflows/pages.yml",
+    "bytes": 567,
+    "sha256": "02942dd01db23f114a8b31d6ddfe7e096ea6b45f81472e98a982ddbf72342f42"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 73,
+    "sha256": "14f33a83fb579fc9b20aeb952a2d4d2112fea10d3397471a6da7f1756dce998a"
+  },
+  {
+    "path": ".npmrc",
+    "bytes": 23,
+    "sha256": "f7dbda001b627b3a792fb6929303b517f047f03916f2c55227e81216d38a2008"
+  },
+  {
+    "path": "AI_SUPPORT_AUDIT_REPORT.md",
+    "bytes": 2823,
+    "sha256": "2e603411251b3f5719ed66dc81424112dc5776be08e63ef33040a2ffe4c8a551"
+  },
+  {
+    "path": "AI_SUPPORT_HARDENING_MANIFEST.json",
+    "bytes": 2334,
+    "sha256": "d2a94eadd9ed12055e4901f43ea85e19c82c10ea24444fb6b8694528438e9505"
+  },
+  {
+    "path": "AI_SUPPORT_HARDENING_REPORT.md",
+    "bytes": 2802,
+    "sha256": "1667010811f8d25ae9bc653f3cb7e53929d98f993867ffe419d569ca76bb7cc4"
+  },
+  {
+    "path": "AI_SUPPORT_MANIFEST.json",
+    "bytes": 20865,
+    "sha256": "5a1b89b635327dacdf3bba2461ba32ea7d94665038575577d28801a05437b988"
+  },
+  {
+    "path": "AUDIT_MANIFEST.json",
+    "bytes": 32033,
+    "sha256": "636e1aa031d64710bb47808ecdd7483bf15ae58ec976b102fd4c96841d2f6207"
+  },
+  {
+    "path": "AUDIT_REPORT.md",
+    "bytes": 13225,
+    "sha256": "403a9f76d3e64c24bca6f68032deae90e9dc4d8637c08375c9409c00ac14d247"
+  },
+  {
+    "path": "BILLING_NEXT5_IMPORT_PROMPT.txt",
+    "bytes": 1094,
+    "sha256": "628eae7ead0c0d57c08825764adca45f53f803a261146a1f8067679955ad7dfc"
+  },
+  {
+    "path": "BILLING_NEXT5_REPORT.md",
+    "bytes": 899,
+    "sha256": "c7aaa78edef10119c610da7ef3b99abcd7ec69251c5e57ef5e989caeaa53225e"
+  },
+  {
+    "path": "COPILOT_IMPORT_PROMPT.txt",
+    "bytes": 646,
+    "sha256": "65814eff6f06527eeb641071adfdc68f43d3c433ade6fd4920d991540fe5c607"
+  },
+  {
+    "path": "NEXT_5_EXECUTION_REPORT.md",
+    "bytes": 670,
+    "sha256": "043e7cdf5707dabb8afd3ad02e60d10f2f1ff8274d00deb1d27fc7c9146a5b2c"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1289,
+    "sha256": "80e5db23c56bb06bb2ff9cb5778680555d244d395ec8899fce34d62dabc585d0"
+  },
+  {
+    "path": "SERVICE_INTERFACE_CHECKPOINT_CONTINUATION_REPORT.md",
+    "bytes": 2484,
+    "sha256": "d93db65a9c8d1ee00e54e2d4c216242e55a4505b28df247c4458e0577dfae30a"
+  },
+  {
+    "path": "SERVICE_INTERFACE_CHECKPOINT_CONTINUE_MANIFEST.json",
+    "bytes": 36489,
+    "sha256": "7dc34966eaf50e213d491063f0cff69af827f1669e6229a767eb1e0c0fcf43da"
+  },
+  {
+    "path": "SERVICE_INTERFACE_FULL_CODE_AUDIT.md",
+    "bytes": 2253,
+    "sha256": "c0ccbc2568d2b08ee5f8b763b0e117b05ea1eb4367426dbd4356a77bdbb63900"
+  },
+  {
+    "path": "SERVICE_INTERFACE_FULL_CODE_MANIFEST.json",
+    "bytes": 33692,
+    "sha256": "5ab8c713fe467789c2adaee746af9a4fb5924ede23e1c89be1a8810c26486a86"
+  },
+  {
+    "path": "SERVICE_INTERFACE_IMPORT_PROMPT.txt",
+    "bytes": 2673,
+    "sha256": "13a3fab263be4c2c0242fb26830b44e8250aedfd7e68581a87936f3dc0021a76"
+  },
+  {
+    "path": "SERVICE_INTERFACE_MANIFEST.json",
+    "bytes": 5437,
+    "sha256": "9efaadce9a28631016f48c821b4361e52d340fcd3c71dcd795b4928b36a8f52f"
+  },
+  {
+    "path": "SERVICE_PRODUCTION_PERSISTENCE_MANIFEST.json",
+    "bytes": 45654,
+    "sha256": "d441d1f04e3cd6003dee4cb808dcade1751be4c6bfa3a83549f1b8b4768a713b"
+  },
+  {
+    "path": "SERVICE_PRODUCTION_PERSISTENCE_REPORT.md",
+    "bytes": 1980,
+    "sha256": "b8df84e64b31393c9b976af70e5a7356beb47e866a2e565d920b66f21c75aa11"
+  },
+  {
+    "path": "SERVICE_PRODUCTION_WIRING_AUDIT.md",
+    "bytes": 1773,
+    "sha256": "281a55b0d43fb6de3bf1218e9d8decbd490ca22f41d5b4544ddac2ca233f1066"
+  },
+  {
+    "path": "SERVICE_PRODUCTION_WIRING_MANIFEST.json",
+    "bytes": 42096,
+    "sha256": "bf1b83bf4d33bd17e69e75b54bf0f344c49e3730765bea9b5148439cd3457395"
+  },
+  {
+    "path": "SERVICE_PRODUCTION_WIRING_REPORT.md",
+    "bytes": 1251,
+    "sha256": "a9bb106cdefbb3f9660751eeb19ce8b8926a22b933714708bdc952b5358c640b"
+  },
+  {
+    "path": "TECHNICIAN_PORTAL_NEXT5_MANIFEST.json",
+    "bytes": 55555,
+    "sha256": "6c8a5712eb69183bc0a2b83fba2c1396f0f1a32cb81308d8c08bcf88fc75c104"
+  },
+  {
+    "path": "TECHNICIAN_PORTAL_NEXT5_REPORT.md",
+    "bytes": 2991,
+    "sha256": "ffd62a1279d44dcd3c3768743a221ba9cb0b041f862a323cdc7043ed7d45ae72"
+  },
+  {
+    "path": "TREE.txt",
+    "bytes": 24166,
+    "sha256": "9ea992404113d203dc0ba9c12e4603397d4bb592336baa69fc75e603e756517e"
+  },
+  {
+    "path": "UPDATE_EXISTING_FILES.md",
+    "bytes": 1951,
+    "sha256": "b93de8eeb0b250a4aa801f6a9ac3d63e06dba9196f0cf394f638ea508c3ba925"
+  },
+  {
+    "path": "apps/admin/app/api/billing/approve-invoice/route.ts",
+    "bytes": 581,
+    "sha256": "7bb21d7d0da96f78bba58974733ff54d7111766d1f30cfade39590c51461f820"
+  },
+  {
+    "path": "apps/admin/app/api/billing/labor-entry/route.ts",
+    "bytes": 625,
+    "sha256": "cbb7c9fb5d4bc75f96255566e3b4d29b8d81f905c8a3be8cc5da37984110e0d5"
+  },
+  {
+    "path": "apps/admin/app/api/billing/maintenance-followup/route.ts",
+    "bytes": 592,
+    "sha256": "083eb9dbaf4fa2c7ac5e5968835110ee12c979d02f792073e7d1ef3be56f9171"
+  },
+  {
+    "path": "apps/admin/app/api/billing/parts-adjustment/route.ts",
+    "bytes": 607,
+    "sha256": "dc2f6e3b6f47f5a1dd9f9013f1614b0b8e6d972d5e20d01a0abff88bdfa50c88"
+  },
+  {
+    "path": "apps/admin/app/api/billing/sage-export-batch/route.ts",
+    "bytes": 583,
+    "sha256": "d63116ab7e72172f265dfe23fc90ece9ae960f5a680a725c87a3b0c4a5ec44d9"
+  },
+  {
+    "path": "apps/admin/app/api/billing/service-invoice/route.ts",
+    "bytes": 576,
+    "sha256": "fcd10065476a9f5f3d73fc28ad6b221da80c2c5a55914f298d6c6f4cc21a8fdf"
+  },
+  {
+    "path": "apps/admin/app/api/service/requests/route.ts",
+    "bytes": 784,
+    "sha256": "e62cc1e9f731fd3a38b274d16a5c4bcf3931929b56e4cc064ea29899e5dcbcfe"
+  },
+  {
+    "path": "apps/admin/app/api/service/technicians/route.ts",
+    "bytes": 732,
+    "sha256": "3b93a070c9b8c94da75fd89f90285ce7abffa1ceb68b136fc0231cc982c31b87"
+  },
+  {
+    "path": "apps/admin/app/api/service-queue/route.ts",
+    "bytes": 974,
+    "sha256": "da2e3a50df74563dc38f2278bf3da97bfcc4a2524a8884cc3acf4f593dd3fb78"
+  },
+  {
+    "path": "apps/admin/app/billing/labor-review/page.tsx",
+    "bytes": 213,
+    "sha256": "018cdcf2df8ec763ecbcfa2fcaa1a20b4f7eb4677a1a073e52b2f2e4718d5b23"
+  },
+  {
+    "path": "apps/admin/app/billing/maintenance-followups/page.tsx",
+    "bytes": 231,
+    "sha256": "cdf1a2501a5999594f7dc0d0e365ba6a0b31c2fdbdf4f4de6f0c704ffd2803c3"
+  },
+  {
+    "path": "apps/admin/app/billing/page.tsx",
+    "bytes": 987,
+    "sha256": "bdf310cacdf8d36c938ae5b40c1edd9eb0f992d529fb2fd9efe61bced3ded65f"
+  },
+  {
+    "path": "apps/admin/app/billing/parts-inventory/page.tsx",
+    "bytes": 230,
+    "sha256": "6c13b106bf085b7639dc033de6ae80d78cd78ddb0f0e721f08df958e1d2efafa"
+  },
+  {
+    "path": "apps/admin/app/billing/sage-export/[batchId]/page.tsx",
+    "bytes": 274,
+    "sha256": "41af51288221b451020ba97abd1e8a86413336353e5eb794934984da89b84d82"
+  },
+  {
+    "path": "apps/admin/app/billing/sage-export/page.tsx",
+    "bytes": 308,
+    "sha256": "404cc17d018227d3351ef2c383b503016f5d7c8ad868238ad739a4f4fca22950"
+  },
+  {
+    "path": "apps/admin/app/billing/service-invoices/[invoiceId]/page.tsx",
+    "bytes": 355,
+    "sha256": "00461a02697c83f06c0c55e9ddbf71e9579e11686b0819082f9ea9b79de837fd"
+  },
+  {
+    "path": "apps/admin/app/billing/service-invoices/page.tsx",
+    "bytes": 916,
+    "sha256": "694d758de694a18d5c01322eac518e106ac2a6f76f7e8610bda3c161387ff2a3"
+  },
+  {
+    "path": "apps/admin/app/exports/page.tsx",
+    "bytes": 210,
+    "sha256": "26c7ab178546c934d0761856a4f962789d45277b46e650dfab6bd8be0704d5b1"
+  },
+  {
+    "path": "apps/admin/app/fulfillment/page.tsx",
+    "bytes": 218,
+    "sha256": "ed0a238427465fbf568b3643d9d022590048b754dac5468ea948677a5dabfa29"
+  },
+  {
+    "path": "apps/admin/app/layout.tsx",
+    "bytes": 480,
+    "sha256": "9055518fb722576ca0f0cd615034980fe9910b77f1bebf90aedfafcfc5b9c0e3"
+  },
+  {
+    "path": "apps/admin/app/page.tsx",
+    "bytes": 677,
+    "sha256": "ad337e1a946478daa30980d49d50a188e0ce3032fe5fd2f2aa2b8ed3b4a273e7"
+  },
+  {
+    "path": "apps/admin/app/pricing/page.tsx",
+    "bytes": 210,
+    "sha256": "3b34854a9ebac4ac65443d27be578fb5f1a32cd6674cfb9462309bd39f6c8da7"
+  },
+  {
+    "path": "apps/admin/app/products/page.tsx",
+    "bytes": 212,
+    "sha256": "18f59f654ba97c74832a0a884c49c6dc66211122602ed2a6ffd84c07cadc1003"
+  },
+  {
+    "path": "apps/admin/app/quotes/page.tsx",
+    "bytes": 208,
+    "sha256": "af848437f20168d3f9a397a864844c4de155d8936322aafd15d5279cb9c82375"
+  },
+  {
+    "path": "apps/admin/app/service/[id]/page.tsx",
+    "bytes": 384,
+    "sha256": "dfcb79240379e06fa73f8baa0bde453d86a0e44fbd909d637a78aa6814a52c5e"
+  },
+  {
+    "path": "apps/admin/app/service/page.tsx",
+    "bytes": 2332,
+    "sha256": "07b5bd4ac92213f33e5c03529e843bc914bb9f2d636dcb79199ebbb6b9ef7caf"
+  },
+  {
+    "path": "apps/admin/app/support/page.tsx",
+    "bytes": 747,
+    "sha256": "b9297284c888ba4407c03309a503d0053e63ef6bf141f0bd01fa335c13b19a1c"
+  },
+  {
+    "path": "apps/admin/next-env.d.ts",
+    "bytes": 262,
+    "sha256": "85ae5aee75f011967cf2d25cbc342f62d69314e9d925f7f4aa3456fc2cffcca6"
+  },
+  {
+    "path": "apps/admin/next.config.ts",
+    "bytes": 254,
+    "sha256": "6e60d489adf1b6efc44bab3598e8908001951538825998606a445d502c28c30f"
+  },
+  {
+    "path": "apps/admin/package.json",
+    "bytes": 752,
+    "sha256": "8247ed398b1dc959a010790dbed5a6266f15a614684151e09529f61be28452fa"
+  },
+  {
+    "path": "apps/admin/tsconfig.json",
+    "bytes": 283,
+    "sha256": "15ba8719aa437e45df596c6be17c5d4244c173632d21a5b4968dda84ed949e66"
+  },
+  {
+    "path": "apps/admin/tsconfig.tsbuildinfo",
+    "bytes": 112792,
+    "sha256": "775ed32ed97e5ae2b0dd7d1e5ba63cbd693e1b37dfbf6c0341dc41d7dff4635a"
+  },
+  {
+    "path": "apps/storefront/app/api/quote/route.ts",
+    "bytes": 813,
+    "sha256": "bc1f893269be003073987e686fcc32c8b4f3f695c573779fa9e404bbc881d538"
+  },
+  {
+    "path": "apps/storefront/app/api/service-request/route.ts",
+    "bytes": 4145,
+    "sha256": "fadeb8d92a8a064722f28d1d5930c2305971c8f3dbd65ca841d28f74a370da20"
+  },
+  {
+    "path": "apps/storefront/app/api/service-system-lookup/route.ts",
+    "bytes": 1122,
+    "sha256": "e50b99a2770d99060d81711b9a2458f4389a5d944919d5edd60cc7d705a83061"
+  },
+  {
+    "path": "apps/storefront/app/api/service-upload-url/route.ts",
+    "bytes": 1794,
+    "sha256": "8d7ded5ffd08691ba2a747669b9eefbceab1c85e628fa6e76a70f08b63accd7b"
+  },
+  {
+    "path": "apps/storefront/app/api/service-uploads/create-signed-upload/route.ts",
+    "bytes": 1581,
+    "sha256": "7eb363d73fcdb39ad6125d74d894765f6d11d2dd5802c59d2127dfd7f2cf671f"
+  },
+  {
+    "path": "apps/storefront/app/api/support-chat/route.ts",
+    "bytes": 4873,
+    "sha256": "3acd6938455059a97297102fc2892e609148217d6f21c89b226506244d54faf2"
+  },
+  {
+    "path": "apps/storefront/app/cart/page.tsx",
+    "bytes": 246,
+    "sha256": "62d3290ce7acc010555bfea47d9f1be8356d6fd20b76fdfa8cdea3d7594dd78d"
+  },
+  {
+    "path": "apps/storefront/app/catalog/page.tsx",
+    "bytes": 1169,
+    "sha256": "806abc552924f155a9c4dc2b36319a952cc80b139538b466ebdf499a08f018eb"
+  },
+  {
+    "path": "apps/storefront/app/contact/page.tsx",
+    "bytes": 463,
+    "sha256": "5023cbda2c75ed9bf14414782940a69a08942cc10fb27ada9d56ef4dbf13f06c"
+  },
+  {
+    "path": "apps/storefront/app/globals.css",
+    "bytes": 2477,
+    "sha256": "16104fd3aae10a73a5daf22994b8db9826736c85aca94a541b526aa53cbd7a76"
+  },
+  {
+    "path": "apps/storefront/app/layout.tsx",
+    "bytes": 1154,
+    "sha256": "6de7802ebd558b537229cd30e5935aaddfb3c24b34632fb4d28521f18af532cf"
+  },
+  {
+    "path": "apps/storefront/app/page.tsx",
+    "bytes": 1152,
+    "sha256": "3526dc5e1e3a7cabb066230995ebf8604deedaf9a5aacdb53678474be2502e37"
+  },
+  {
+    "path": "apps/storefront/app/product/[slug]/page.tsx",
+    "bytes": 907,
+    "sha256": "b0cfd8721e4374a454f1d04e51bd1ef01116e044c418ff8bd2e98fc5b8351a32"
+  },
+  {
+    "path": "apps/storefront/app/quote/page.tsx",
+    "bytes": 909,
+    "sha256": "08b7096268cde18cd29cb7f5fbe0e9a384cd7032311e2ba09ae8ffa7aa88e423"
+  },
+  {
+    "path": "apps/storefront/app/quote/thank-you/page.tsx",
+    "bytes": 215,
+    "sha256": "d97e2afe2bbfb68185652f0f1b4d16a3951156a770b739dd06a70436572ab55c"
+  },
+  {
+    "path": "apps/storefront/app/service/ServiceRequestForm.tsx",
+    "bytes": 4780,
+    "sha256": "ceb419d84d2d842c4405c64dda2853efb73feb1fd215891d78190bca462d59a1"
+  },
+  {
+    "path": "apps/storefront/app/service/page.tsx",
+    "bytes": 492,
+    "sha256": "258480814849df534512814434a6234f07ee1727e4fb2b9e9a7c269394984d74"
+  },
+  {
+    "path": "apps/storefront/app/support/SupportChat.tsx",
+    "bytes": 3850,
+    "sha256": "dcb634829c9456e3a8998f3b7aff22221fd44226da00ba7a1f83c8abe4522b65"
+  },
+  {
+    "path": "apps/storefront/app/support/page.tsx",
+    "bytes": 454,
+    "sha256": "f5f6f99181e45135ec35338101927c4e8da01050da9e10eb8bebd2f4f0c0122f"
+  },
+  {
+    "path": "apps/storefront/next-env.d.ts",
+    "bytes": 262,
+    "sha256": "85ae5aee75f011967cf2d25cbc342f62d69314e9d925f7f4aa3456fc2cffcca6"
+  },
+  {
+    "path": "apps/storefront/next.config.ts",
+    "bytes": 387,
+    "sha256": "e3e9c5c92f76f9efa83b819a78e7d7806a4498d75fe31baaeb75b1df8ed1bc4a"
+  },
+  {
+    "path": "apps/storefront/package.json",
+    "bytes": 713,
+    "sha256": "4e756531651c3cbf21d0689e721a461e0f6e3c6309caf43cd7108587106272ea"
+  },
+  {
+    "path": "apps/storefront/tsconfig.json",
+    "bytes": 283,
+    "sha256": "15ba8719aa437e45df596c6be17c5d4244c173632d21a5b4968dda84ed949e66"
+  },
+  {
+    "path": "apps/storefront/tsconfig.tsbuildinfo",
+    "bytes": 120888,
+    "sha256": "20c4b85b11fabdc963ef8c0fb48cc0d7ede99bc41681c6a182cb9a83d17698b4"
+  },
+  {
+    "path": "apps/technician/app/api/assigned-work-orders/route.ts",
+    "bytes": 544,
+    "sha256": "8a6f7d3a77a683811c272d1c2c6b190127a2e3e2ba7ccc2e8906cbc31171ee68"
+  },
+  {
+    "path": "apps/technician/app/api/checklist/route.ts",
+    "bytes": 651,
+    "sha256": "b58006453235300288649b79b4916fbff386244b1ba0d83f1c72640968a9982e"
+  },
+  {
+    "path": "apps/technician/app/api/closeout/route.ts",
+    "bytes": 687,
+    "sha256": "299645678b093b84e35699da9f1e612aa4738e8f833440c2653ebf246a11363a"
+  },
+  {
+    "path": "apps/technician/app/api/manager-review/route.ts",
+    "bytes": 1036,
+    "sha256": "1a44b4dd0c28955e8551d327c7665cc57e4a2f9292f1023b481c39f7a89066cc"
+  },
+  {
+    "path": "apps/technician/app/api/parts-used/route.ts",
+    "bytes": 651,
+    "sha256": "ebed4a6dbd213bacf6e258f28c6ebe2fe529c5fc40c629f1760980c898e6d2bf"
+  },
+  {
+    "path": "apps/technician/app/api/technician-note/route.ts",
+    "bytes": 592,
+    "sha256": "b1728c60854dbaf5fcb2d2e3760e01fb930b6caed1b9143341bfd8cd180e2506"
+  },
+  {
+    "path": "apps/technician/app/api/technician-session/route.ts",
+    "bytes": 546,
+    "sha256": "50204d1fd7d6a421f58564021473d80a99a39af595ce6dcc6a008744249dbd00"
+  },
+  {
+    "path": "apps/technician/app/api/upload-photo/route.ts",
+    "bytes": 695,
+    "sha256": "eb82d1f6dde870f4f12a69b435376da7fe79a5f2a6b4bf188e93e7fd50135c4e"
+  },
+  {
+    "path": "apps/technician/app/api/work-order-detail/route.ts",
+    "bytes": 544,
+    "sha256": "8a6f7d3a77a683811c272d1c2c6b190127a2e3e2ba7ccc2e8906cbc31171ee68"
+  },
+  {
+    "path": "apps/technician/app/globals.css",
+    "bytes": 1406,
+    "sha256": "3be493ca32ec77067c963cdd838d1be54a205f4abe66796ce8da8219d0c727d2"
+  },
+  {
+    "path": "apps/technician/app/layout.tsx",
+    "bytes": 549,
+    "sha256": "a62d999a9d7ccd462e384214d7dd311e125efe1e7ae8633a4e7476f4d09b861c"
+  },
+  {
+    "path": "apps/technician/app/login/page.tsx",
+    "bytes": 197,
+    "sha256": "66db6dd1219b9a635abc388627892f95947bc51cc2f96ddd1a2db552a102462c"
+  },
+  {
+    "path": "apps/technician/app/page.tsx",
+    "bytes": 455,
+    "sha256": "bbc950b73b445fbbabeb679594de23803f3e762a590a3e5c4ec6393405e67dac"
+  },
+  {
+    "path": "apps/technician/app/work-orders/[workOrderId]/checklist/page.tsx",
+    "bytes": 457,
+    "sha256": "bb9ff2cb03dd50204c4068492fa037e0dbef8561413fc05c2c534f4610743df9"
+  },
+  {
+    "path": "apps/technician/app/work-orders/[workOrderId]/closeout/page.tsx",
+    "bytes": 398,
+    "sha256": "3dd378fe73281668defd303c7955be076af137c37a67eec3b61f9986e7f09f56"
+  },
+  {
+    "path": "apps/technician/app/work-orders/[workOrderId]/labor/page.tsx",
+    "bytes": 301,
+    "sha256": "38de5a8577a6a61af6107f6c347c88915a1a9bda08d7477c2863284a6d4c3f83"
+  },
+  {
+    "path": "apps/technician/app/work-orders/[workOrderId]/notes/page.tsx",
+    "bytes": 310,
+    "sha256": "1a75bdab7babdfc8bf0ee0f985173402d8ffbc04568a9c933ab7e653f7e5ff32"
+  },
+  {
+    "path": "apps/technician/app/work-orders/[workOrderId]/page.tsx",
+    "bytes": 772,
+    "sha256": "59d2b3d6a4d5d56cdf755c3d26ab0ee19baca42b1c5a39740dcaea27d64a2cfc"
+  },
+  {
+    "path": "apps/technician/app/work-orders/[workOrderId]/parts/page.tsx",
+    "bytes": 317,
+    "sha256": "193046a2cc855cb2643bc0434b42faa7362cafe87de2eaedea0595231d970744"
+  },
+  {
+    "path": "apps/technician/app/work-orders/[workOrderId]/photos/page.tsx",
+    "bytes": 305,
+    "sha256": "e5ca927ad19e8956a334e56a72da61a9f8457cabfb997e7180819779a2dd95b5"
+  },
+  {
+    "path": "apps/technician/app/work-orders/page.tsx",
+    "bytes": 282,
+    "sha256": "2109fd344091fc5baf81bcc060b42a10a78fb5c7d63dc42622a1852880fa15dc"
+  },
+  {
+    "path": "apps/technician/components/ChecklistRunner.tsx",
+    "bytes": 987,
+    "sha256": "b7b7515d90418316ddc520157edae43af88ad685d83d1a59466ab9f846a19719"
+  },
+  {
+    "path": "apps/technician/components/CloseoutForm.tsx",
+    "bytes": 1049,
+    "sha256": "05b05aa87582922623cf4705246c913fdf03a41c2020a069095905ed7cf5128f"
+  },
+  {
+    "path": "apps/technician/components/HumanReviewRequiredBanner.tsx",
+    "bytes": 231,
+    "sha256": "fecb56bcf4f7524c72163615e519e8da8bbf66e08745d791b2ab9d7b02128d6d"
+  },
+  {
+    "path": "apps/technician/components/PartsUsedForm.tsx",
+    "bytes": 1153,
+    "sha256": "1a6972ecec29f9c762386e3b6c6a8acc38e08b580158ea98c0e84e1267ecf388"
+  },
+  {
+    "path": "apps/technician/components/PhotoUploadPanel.tsx",
+    "bytes": 854,
+    "sha256": "18933bec025ada80fe7bd02f07b8293d68f4dd95317d1d600c3e6d032a9e8651"
+  },
+  {
+    "path": "apps/technician/components/ServiceStatusBadge.tsx",
+    "bytes": 200,
+    "sha256": "1d0fa9576ea39e5fb1fdcebacd43eae9a451d0659588a7541f1ae9fbdbcc9947"
+  },
+  {
+    "path": "apps/technician/components/TechnicianNav.tsx",
+    "bytes": 320,
+    "sha256": "25b8b785277ff61780e741921eb99257a355f038d0b2f44e34dc12325dd7052b"
+  },
+  {
+    "path": "apps/technician/components/TechnicianNotesForm.tsx",
+    "bytes": 840,
+    "sha256": "06e54ba806c54d2508835cc5eddccc522557b56222714a82b0852bd9a85e1b90"
+  },
+  {
+    "path": "apps/technician/components/WorkOrderCard.tsx",
+    "bytes": 599,
+    "sha256": "b9702286e6d9ae907d862ff41b02fdd3e487052fb10dfb1d4e71d6203e69e5f4"
+  },
+  {
+    "path": "apps/technician/components/WorkOrderDetailCard.tsx",
+    "bytes": 973,
+    "sha256": "ab70eac6ed6d0e9555a00aeede2f7301ae815d1d25cf352943c211b56d90e8de"
+  },
+  {
+    "path": "apps/technician/components/WorkOrderList.tsx",
+    "bytes": 339,
+    "sha256": "46bdf02baabf4f420b9b16695c7b858f8fa9520abb1df2a2dbbe8da806bc1b43"
+  },
+  {
+    "path": "apps/technician/lib/technician-copy.ts",
+    "bytes": 315,
+    "sha256": "6c7fb3d142610e63352ff5abf96fa7461f43ba8c0ee055d2c32c0236c5ee8712"
+  },
+  {
+    "path": "apps/technician/lib/technician-placeholders.ts",
+    "bytes": 1149,
+    "sha256": "d9960996684b3285cc35e724d50e2c3a65ba62602ea7d711ad5552a02a071ed7"
+  },
+  {
+    "path": "apps/technician/next-env.d.ts",
+    "bytes": 262,
+    "sha256": "85ae5aee75f011967cf2d25cbc342f62d69314e9d925f7f4aa3456fc2cffcca6"
+  },
+  {
+    "path": "apps/technician/next.config.ts",
+    "bytes": 289,
+    "sha256": "d3ab0765c208481f852411fc96bfe2e4ffa4cae88a54489d9ca3167ef45727dd"
+  },
+  {
+    "path": "apps/technician/package.json",
+    "bytes": 685,
+    "sha256": "38e11ba6d5a905885c760ed033ec8af93b240f81f3aeb203ecb940692859f159"
+  },
+  {
+    "path": "apps/technician/tsconfig.json",
+    "bytes": 283,
+    "sha256": "15ba8719aa437e45df596c6be17c5d4244c173632d21a5b4968dda84ed949e66"
+  },
+  {
+    "path": "apps/technician/tsconfig.tsbuildinfo",
+    "bytes": 135892,
+    "sha256": "334628077286caec33bbde02625c0ba2d73650be9267bda99bf72c8a054604f2"
+  },
+  {
+    "path": "brands/dwg/DWG_DRESS.md",
+    "bytes": 272,
+    "sha256": "3d03e148b18dda755ca8f8b8cbed8229930c6c86610ae705413002bda1c90514"
+  },
+  {
+    "path": "brands/dwg/package.json",
+    "bytes": 382,
+    "sha256": "44bd60f11a2471465934c857c69ab4ba1571edaafb2055850a29551012be7782"
+  },
+  {
+    "path": "brands/dwg/src/brand.ts",
+    "bytes": 1137,
+    "sha256": "9253c966658d1c1889a84aa2724f842d3678eeaab1b54e5645cd2fd6b703142c"
+  },
+  {
+    "path": "brands/dwg/src/categories.ts",
+    "bytes": 894,
+    "sha256": "865298c6e62439727907d5e7edb77a1cd58757a0575af4e899efe0ab79191ab9"
+  },
+  {
+    "path": "brands/dwg/src/index.ts",
+    "bytes": 83,
+    "sha256": "c946e72fc4cb02bfa83d003a296232f8465adb9008eff57234ec9ccab2a8f6bf"
+  },
+  {
+    "path": "brands/dwg/src/products.ts",
+    "bytes": 1416,
+    "sha256": "6931709ec095eb2c310fd45333b86445fb2640e409af8d4ec96753efd82aa44e"
+  },
+  {
+    "path": "brands/dwg/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "docs/CNAME",
+    "bytes": 21,
+    "sha256": "0567b5ce38b22642ccbd707d5f1f9b73e26c919118c82e11ab68554741a9971d"
+  },
+  {
+    "path": "docs/architecture/AI_SUPPORT_BOUNDARIES.md",
+    "bytes": 699,
+    "sha256": "3c13e0a6b7db166a4eb0867a273cd5ca2a31aa0133c9860a36068a89d3ce3993"
+  },
+  {
+    "path": "docs/architecture/ARCHITECTURE.md",
+    "bytes": 290,
+    "sha256": "df5dae5b4d57663d99bfe5f53b5af3ae466c927fc86db7a01b61d93a82bebe4f"
+  },
+  {
+    "path": "docs/architecture/DWG_DRESS_MODEL.md",
+    "bytes": 132,
+    "sha256": "4f97255d0e431eff0c48b2cb14d03798d69a6fc57ded7d560c9d8dfef799b04b"
+  },
+  {
+    "path": "docs/architecture/SERVICE_BILLING_ARCHITECTURE.md",
+    "bytes": 284,
+    "sha256": "4322bc78e42c91b9029a04205e8fcddfc5b2c60d3dbc7ad7df963cc2b4350a59"
+  },
+  {
+    "path": "docs/architecture/SERVICE_INTERFACE_BOUNDARIES.md",
+    "bytes": 587,
+    "sha256": "9bdc773402e7abf4c7cde3e50f6b50753f4b5b7b16d35a02804318d455d7eb0a"
+  },
+  {
+    "path": "docs/architecture/SERVICE_PRODUCTION_PERSISTENCE.md",
+    "bytes": 1180,
+    "sha256": "e1096c088814d20c83cb19845837263ed92d8c136388e34146514555df603c82"
+  },
+  {
+    "path": "docs/architecture/SERVICE_REPOSITORY_ADAPTERS.md",
+    "bytes": 632,
+    "sha256": "38595dddc1a56dd13222ed8f1646f020142ade83fffdfcd20113718d1c1162ae"
+  },
+  {
+    "path": "docs/architecture/SUPABASE_SERVICE_REPOSITORY.md",
+    "bytes": 832,
+    "sha256": "7c18b61faaea812ac09ca4580aba9ac741c0e02948dc95a1db7a64659b68ba8f"
+  },
+  {
+    "path": "docs/architecture/TECHNICIAN_PORTAL_ARCHITECTURE.md",
+    "bytes": 389,
+    "sha256": "418ca7335fcf123de6fdbed91e0c4404046fc440595685408d780f88bc4f0f7d"
+  },
+  {
+    "path": "docs/deployment/GITHUB_PAGES.md",
+    "bytes": 94,
+    "sha256": "d841c21a697a4b2390163f625a61b75e8146a94501702c3e50540a106a55a554"
+  },
+  {
+    "path": "docs/deployment/VERCEL.md",
+    "bytes": 85,
+    "sha256": "f2a45db8d6068689a6830e724a8d66ca12a8c2d91cb5eacf26cf4b70ec601819"
+  },
+  {
+    "path": "docs/governance/BILLING_PERMISSIONS.md",
+    "bytes": 197,
+    "sha256": "a94aa0212c9e5872800c8c4544fe52c9ed67ffc9fd2a566cff817a1a9d2a6c83"
+  },
+  {
+    "path": "docs/governance/FINANCE_REVIEW_BOUNDARY.md",
+    "bytes": 142,
+    "sha256": "f30715eb8bd48637a40df6332c1880e1304ff2cbb435bbb85d64f24f135532c7"
+  },
+  {
+    "path": "docs/governance/MUTATION_GATEWAY.md",
+    "bytes": 178,
+    "sha256": "a95a3346da100ea199c80949e82caaed751cff34747824b1d1ecf5d58f35a7df"
+  },
+  {
+    "path": "docs/governance/SERVICE_AUTH_RLS_RATE_LIMITS.md",
+    "bytes": 785,
+    "sha256": "a78cfa30f133ebaf5a09c663180ca598ac675d821063340182b69db766e2e993"
+  },
+  {
+    "path": "docs/governance/SERVICE_RLS_POLICY_HARDENING.md",
+    "bytes": 631,
+    "sha256": "ac145c944277b76dbbc9a8d92bbd61dcff13fc034807db650bbdbe467daa23a9"
+  },
+  {
+    "path": "docs/governance/TECHNICIAN_PERMISSIONS.md",
+    "bytes": 254,
+    "sha256": "fbabb60aa72df18a9b48f2233651b88df79a5f6b691246f614cc7da5103cb31f"
+  },
+  {
+    "path": "docs/index.html",
+    "bytes": 1610,
+    "sha256": "2e8d0c34fd0c87bf865db863e75c552a8d60078bda56ae8da0d5d180b569257f"
+  },
+  {
+    "path": "docs/runbooks/INCIDENTS.md",
+    "bytes": 88,
+    "sha256": "d07f4497e8cb3e8a0f4df97d3dbee115a7f24d74baeb4442b78f7769c37ff4ff"
+  },
+  {
+    "path": "docs/runbooks/INVENTORY_ADJUSTMENT_REVIEW.md",
+    "bytes": 126,
+    "sha256": "098853cc6faa5adf814147c235ff1b582fd966dd3eb80af23e97fd93b0be60e8"
+  },
+  {
+    "path": "docs/runbooks/LOCAL_DEV.md",
+    "bytes": 60,
+    "sha256": "d52447605bc0f9066dd1b5b0513692007e216c4fb216d0beaeeaebe1bbf78790"
+  },
+  {
+    "path": "docs/runbooks/RELEASE.md",
+    "bytes": 63,
+    "sha256": "d0ea667ab9bf7ea72577ad4f820aa4df0a658f50e9f561f053a6008b7ef1c6a5"
+  },
+  {
+    "path": "docs/runbooks/SAGE_50_EXPORT_BATCH_REVIEW.md",
+    "bytes": 132,
+    "sha256": "13ee4505951a4e9455268a41726f20b047815630ca3a0c54f4edfdaa8ee6e5cc"
+  },
+  {
+    "path": "docs/runbooks/SERVICE_BILLING_LOCAL_DEV.md",
+    "bytes": 113,
+    "sha256": "fcf7173840b21b6ce08620687aa9f931f8a72c719d8d2f653e68f0982d7b2dcb"
+  },
+  {
+    "path": "docs/runbooks/SERVICE_CLOSEOUT_REVIEW.md",
+    "bytes": 179,
+    "sha256": "cbd7e9808149b06f3a0be841b95862fb8c8a79043cd1ac5b16d5dee5fb071259"
+  },
+  {
+    "path": "docs/runbooks/SERVICE_PRODUCTION_WIRING.md",
+    "bytes": 572,
+    "sha256": "7bdf8ea7a9b6ea41cc1c68281fd7155972e60610293e52c54ae9889d32dc6f9a"
+  },
+  {
+    "path": "docs/runbooks/SUPPORT_HUMAN_INTERVENTION.md",
+    "bytes": 991,
+    "sha256": "2e3a820011d085c8ace2588043d5f11d6d2a552087440cd0be82cf3fd55f2511"
+  },
+  {
+    "path": "docs/runbooks/TECHNICIAN_PORTAL_LOCAL_DEV.md",
+    "bytes": 226,
+    "sha256": "5aea571845f208453a1123e697b6aa921365afb0adfb27cc1401338b25223242"
+  },
+  {
+    "path": "docs/styles.css",
+    "bytes": 1469,
+    "sha256": "917b0b6031cf12eaf62510c76d200c7264ec4bb475f77045f1fb0179ed7e3fdb"
+  },
+  {
+    "path": "docs/workflows/PRODUCT_PUBLICATION.md",
+    "bytes": 126,
+    "sha256": "81ffecd9c4b34e91a78989026e6c8aa0cfd694caac93061a2580e3af4c2bc47c"
+  },
+  {
+    "path": "docs/workflows/QUOTE_FIRST.md",
+    "bytes": 159,
+    "sha256": "5b6d3d49762c4d3b9551b7de143889aa2806ae35e676f1c1dd76c557a2bf446f"
+  },
+  {
+    "path": "docs/workflows/SAGE_50_EXPORT_PREP.md",
+    "bytes": 165,
+    "sha256": "8173ffb1bd956138ff2f08ec9b426b4f0ba8c7bd489cefbd9353a3c3adca68bf"
+  },
+  {
+    "path": "docs/workflows/SERVICE_BILLING_WORKFLOW.md",
+    "bytes": 323,
+    "sha256": "762ff696bbd7861c38096aed4d04ec6a63eab9845615b3d5c948e19d4b0c5811"
+  },
+  {
+    "path": "docs/workflows/SERVICE_NOTIFICATION_DESTINATIONS.md",
+    "bytes": 520,
+    "sha256": "6418b9fe0b6308984307eed773ca98d6de61fdbe514ffacab36fcaafe789b7d4"
+  },
+  {
+    "path": "docs/workflows/TECHNICIAN_WORK_ORDER_WORKFLOW.md",
+    "bytes": 282,
+    "sha256": "e7e3a3005a67278ea526262c8d2b3eb43aea21f2dee1928ce69ca85ff4cfe3d0"
+  },
+  {
+    "path": "docs/workflows/TECH_SUPPORT_HANDOFF.md",
+    "bytes": 651,
+    "sha256": "861c9d7e8072430f92bb3769628446318a3eff64fe355e202f8e56440e999158"
+  },
+  {
+    "path": "docs/workflows/TECH_SUPPORT_HUMAN_HANDOFF.md",
+    "bytes": 2114,
+    "sha256": "ba8ca833edd9f0a8eb894fe37cd9550e8bc5e9808c0ed7d2d94c7fb16dbf9a73"
+  },
+  {
+    "path": "docs/workflows/TREATMENT_SYSTEM_SERVICE.md",
+    "bytes": 857,
+    "sha256": "b819c70c5184cb50d9426b22ecb61d4e97235ef083124f903747d3abf1b6c3ab"
+  },
+  {
+    "path": "docs/workflows/TREATMENT_SYSTEM_SERVICE_PERSISTENCE.md",
+    "bytes": 1074,
+    "sha256": "9a1487b9013d3d0c28daf26d9512b2cfed10786cf6572e2bc15d5384bd6961e3"
+  },
+  {
+    "path": "eslint.config.js",
+    "bytes": 1019,
+    "sha256": "3d8c4c0f7a370e3dc2d48e2298036f250a0fc3508306f77eb1b6236e0804d5f3"
+  },
+  {
+    "path": "infra/github/README.md",
+    "bytes": 167,
+    "sha256": "e823bf6ebde1f6a8b92234c6300f03200dd0099a131e9db2028b072ef00faa40"
+  },
+  {
+    "path": "infra/supabase/README.md",
+    "bytes": 110,
+    "sha256": "8065023d674a87aa52aa2a5c9311ec3ce79e1f18da198d2f5ffd7c6d6440b050"
+  },
+  {
+    "path": "infra/supabase/migrations/0001_initial_schema.sql",
+    "bytes": 2649,
+    "sha256": "c1c2d60f37ff57d79ac152dc6951e31bd2a0d230eeb96440d4e8861ba20e8ffc"
+  },
+  {
+    "path": "infra/supabase/migrations/0002_support_workflow.sql",
+    "bytes": 1322,
+    "sha256": "dbdf8007fbe453ddb3f746efa70d9a54435208c74556e0380ec0ac69116d0a8b"
+  },
+  {
+    "path": "infra/supabase/migrations/0003_treatment_service_interface.sql",
+    "bytes": 2957,
+    "sha256": "2df3eeb10ba7a809b95a696191177c8b2f5d816e05320952754a1ae6d4de2079"
+  },
+  {
+    "path": "infra/supabase/migrations/0004_service_auth_technicians_attachments.sql",
+    "bytes": 1390,
+    "sha256": "41933771438d9a565c96b2f62c33c64db417d844876f7956701edd0ea33d2d1a"
+  },
+  {
+    "path": "infra/supabase/migrations/0004_service_rls_auth_uploads_notifications.sql",
+    "bytes": 7818,
+    "sha256": "fd94b922ad3bdc8865373cb1a6fa9f6129b23a74ff091e712a8297368063b361"
+  },
+  {
+    "path": "infra/supabase/migrations/0004_treatment_service_notifications.sql",
+    "bytes": 901,
+    "sha256": "1774f4be65433c43c3ca35bd5c6bed9ba3e39d158a61469105f08be2d1df5be4"
+  },
+  {
+    "path": "infra/supabase/migrations/0005_service_rls_policies_hardened.sql",
+    "bytes": 3689,
+    "sha256": "eb09ccc49827bf58a0a61fff83e6d0e2770701199c8012c7d28a5218f5fbeba6"
+  },
+  {
+    "path": "infra/supabase/migrations/0006_service_notification_audit_log.sql",
+    "bytes": 852,
+    "sha256": "f394f82c76e43bfae29ea97dd4ecb61d8e6f29dc1a3515331f8de9a07923e4f0"
+  },
+  {
+    "path": "infra/supabase/migrations/0007_technician_portal.sql",
+    "bytes": 2865,
+    "sha256": "30632d4b64c45dcbdb008354bbae03be6eabcb3d06e0dd6d8c29b34f9a274814"
+  },
+  {
+    "path": "infra/supabase/migrations/0008_service_billing_inventory_sage.sql",
+    "bytes": 4253,
+    "sha256": "0430db64e3e10151b9cf9dc4f5cff52709337f08e669efeefdb3bb71ba299c61"
+  },
+  {
+    "path": "infra/vercel/README.md",
+    "bytes": 308,
+    "sha256": "241350940fc12da6cc0a49e39fdea185a3c43f2eae652e190a6a520d6e127b54"
+  },
+  {
+    "path": "jest.config.cjs",
+    "bytes": 959,
+    "sha256": "2d1b869f5effc470340750ea0f363ef647a747c7dde9ab1db1cf8bc95331d947"
+  },
+  {
+    "path": "package-lock.json",
+    "bytes": 258094,
+    "sha256": "3fb248a24c1b657c4018aa5fa1914c32cca12de092486671a7882aaa77cc2176"
+  },
+  {
+    "path": "package.json",
+    "bytes": 1493,
+    "sha256": "ab1124953ba9e8adf7df303c59343d2be14c947975c47b057f4beaf8bce55302"
+  },
+  {
+    "path": "packages/ai-support/package.json",
+    "bytes": 396,
+    "sha256": "ec73f31173075141aefb58bf23d939c8f2fcb3049dbc22a364b2f23f31d8c8f6"
+  },
+  {
+    "path": "packages/ai-support/src/escalation-rules.ts",
+    "bytes": 4458,
+    "sha256": "96b20e0c30e426f7d7b253b0daf1e3e54d20895a72bd70a9c34d03216dbb417b"
+  },
+  {
+    "path": "packages/ai-support/src/index.ts",
+    "bytes": 203,
+    "sha256": "c80d3c9d7ebc6f7f059f6b1b8281778f165b3f9d32829a729cc40d7632ce4da3"
+  },
+  {
+    "path": "packages/ai-support/src/openai-client.ts",
+    "bytes": 1788,
+    "sha256": "5a839a3b8095dfd43dd90407721f1e77d334e8591ac637c5954ce57d3684a519"
+  },
+  {
+    "path": "packages/ai-support/src/request-sanitizer.ts",
+    "bytes": 4392,
+    "sha256": "c67b6b7451382c38e706157b2aeb4cd55d1c693631044f1766d124349828f739"
+  },
+  {
+    "path": "packages/ai-support/src/response-templates.ts",
+    "bytes": 945,
+    "sha256": "e1e1ae1976174388ade1f14c783f182335ff89b3f89f47f0a8f9b0560bfe24e1"
+  },
+  {
+    "path": "packages/ai-support/src/support-prompt.ts",
+    "bytes": 1254,
+    "sha256": "c5f3eb07ba3efafd1ed8aaedd9ed5a7f1914b245f9d0222290f77d48e017781b"
+  },
+  {
+    "path": "packages/ai-support/src/types.ts",
+    "bytes": 1850,
+    "sha256": "21974401cc6548b26d4af305ce1c4359793c1be8913e608bac4dcb5e57ab4e82"
+  },
+  {
+    "path": "packages/ai-support/tsconfig.json",
+    "bytes": 170,
+    "sha256": "e0dcaf38aa33c1affc81425294b08ffd4b4ddc2f032a0fb1cdd6ff6e926735a2"
+  },
+  {
+    "path": "packages/audit/package.json",
+    "bytes": 380,
+    "sha256": "0bde2c531322168abda0e70cd9543de3a5a6b9027fef8a6dc6cbaf3009b24989"
+  },
+  {
+    "path": "packages/audit/src/append-audit-event.ts",
+    "bytes": 369,
+    "sha256": "bdd5912042f4c7902b72da7a2d117ecc2e86d21c2220a28cb9c9738e912a88c7"
+  },
+  {
+    "path": "packages/audit/src/audit-event.ts",
+    "bytes": 229,
+    "sha256": "1baf5716edb860a7fe85189ece3b950f4b654b34bac344ece8857d0ec456c699"
+  },
+  {
+    "path": "packages/audit/src/index.ts",
+    "bytes": 69,
+    "sha256": "7ef72a3ffc7efa195f019f5a48328a0680f9f6b204e4790aad56909e1f28d072"
+  },
+  {
+    "path": "packages/audit/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/catalog/package.json",
+    "bytes": 382,
+    "sha256": "525a8d20a1701e6a5ee0b1a1032d014b12524413ad482e1395992b36b061c06c"
+  },
+  {
+    "path": "packages/catalog/src/index.ts",
+    "bytes": 203,
+    "sha256": "0128872015e1428ce9c14f1234e4e8dff7477d14becabc15aa70217e89f05671"
+  },
+  {
+    "path": "packages/catalog/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/commands/package.json",
+    "bytes": 472,
+    "sha256": "86d1ae57023abe61de87bb8c6697b552e691feb94f0d68c6c84af0c1bd8097d7"
+  },
+  {
+    "path": "packages/commands/src/billing/AddInvoiceLineItemCommand.ts",
+    "bytes": 2869,
+    "sha256": "b5de5db25634e5e0f797be202868b3c534871978159354ffd6317b35b818a5da"
+  },
+  {
+    "path": "packages/commands/src/billing/AddServicePartUsedCommand.ts",
+    "bytes": 2841,
+    "sha256": "0663cb1caf8f28b1a648a472e2d2c63b9e07dc56bbed95945b6932875178f4bd"
+  },
+  {
+    "path": "packages/commands/src/billing/ApproveServiceInvoiceCommand.ts",
+    "bytes": 2702,
+    "sha256": "50f9e26e4948c9ef9134c3146f94a3d40d6b6c978a0a3fc2f9993b7379cf6041"
+  },
+  {
+    "path": "packages/commands/src/billing/CreateBillingPacketCommand.ts",
+    "bytes": 2582,
+    "sha256": "513ac980f5b3cb0a827f4dcac2d06deb10b42d198afe3d60ffd857c2b70a677a"
+  },
+  {
+    "path": "packages/commands/src/billing/CreateLaborEntryCommand.ts",
+    "bytes": 2828,
+    "sha256": "f6d1fdd3f0629ce4d58e6ad78caba12b044561f8c30e7e57422a08f1e7a1c913"
+  },
+  {
+    "path": "packages/commands/src/billing/CreateMaintenanceFollowupCommand.ts",
+    "bytes": 2773,
+    "sha256": "5a61c60ce64c25ee2f6824fa0e8ac295f8dcdb11259291e6438fc0d715899866"
+  },
+  {
+    "path": "packages/commands/src/billing/CreateSageExportBatchCommand.ts",
+    "bytes": 2704,
+    "sha256": "02278c0ccf00cac897ca38d464813afa2d1f7bc69c09892b1c40f460d9d85bb5"
+  },
+  {
+    "path": "packages/commands/src/billing/CreateServiceInvoiceDraftCommand.ts",
+    "bytes": 2791,
+    "sha256": "1f4f1b7bee5e6aeb5ea7cf23aadba735ebc0ba1ff17d5368c663d6e9d64c0ed6"
+  },
+  {
+    "path": "packages/commands/src/billing/MarkSageExportBatchReadyCommand.ts",
+    "bytes": 2746,
+    "sha256": "547f44f4b6b92ba46d9d63fdf5502ff70cdf38fc645e175cc375c3c82dbfbc4e"
+  },
+  {
+    "path": "packages/commands/src/billing/RecordInventoryAdjustmentCommand.ts",
+    "bytes": 2976,
+    "sha256": "aa13405c0d8eacc31df401503af3c423037175e3fef3ac130bd3aedd5586f9ed"
+  },
+  {
+    "path": "packages/commands/src/billing/RejectServiceInvoiceCommand.ts",
+    "bytes": 2740,
+    "sha256": "2a76172590be1e0b396d7b94075a87c99cf9ea2961d6f2ec3be43127726431f8"
+  },
+  {
+    "path": "packages/commands/src/billing/SubmitInvoiceForReviewCommand.ts",
+    "bytes": 2719,
+    "sha256": "f04ae55650396d6454c2d979e9ae6f2e38ecb1aa01322a56429ceb15d56750a8"
+  },
+  {
+    "path": "packages/commands/src/catalog/ApproveProductLaunchCommand.ts",
+    "bytes": 2786,
+    "sha256": "12600d90072961cee0ceaec9b6b105e5ca5a9c385f96826886eef5232c7e3626"
+  },
+  {
+    "path": "packages/commands/src/catalog/PublishProductCommand.ts",
+    "bytes": 2681,
+    "sha256": "f885a7dd66fe4354d80944140f3a7745417d21fae421ecc4fae618435d5b9d37"
+  },
+  {
+    "path": "packages/commands/src/catalog/QuarantineProductCommand.ts",
+    "bytes": 2762,
+    "sha256": "f2bce47a5434731ef4dccafbab3f7c41d7b386482755d495a8a80aae5f49fd18"
+  },
+  {
+    "path": "packages/commands/src/command-contract.ts",
+    "bytes": 948,
+    "sha256": "277d1db1df33c5097d59e770f87935efe75fc86ef2373b2e3432ed3286156c8e"
+  },
+  {
+    "path": "packages/commands/src/command-result.ts",
+    "bytes": 269,
+    "sha256": "1fdc87d2ff5beff4ea807c1ed10e0b92bd11e6fd8138a5d4c699bbb6f4061866"
+  },
+  {
+    "path": "packages/commands/src/commerce/AddToCartCommand.ts",
+    "bytes": 2562,
+    "sha256": "8346604c5f4c3dfebc68bb4cb3bed86e9992c9e63b2ae9f364944cafed36c08f"
+  },
+  {
+    "path": "packages/commands/src/commerce/CreateCheckoutSessionCommand.ts",
+    "bytes": 2771,
+    "sha256": "fea4c6b5601585bfea9a7c0ec9fd25022466990ed22faf2dc043fe236882d2ac"
+  },
+  {
+    "path": "packages/commands/src/commerce/CreateOrderFromStripeCommand.ts",
+    "bytes": 2804,
+    "sha256": "c83605bfc4f725dfb2d0d28d6b38bbcdcc8bddd5efaa4b381a5e6a1006a390c4"
+  },
+  {
+    "path": "packages/commands/src/fulfillment/CreateFulfillmentRequestCommand.ts",
+    "bytes": 2822,
+    "sha256": "a205d94b9a61f24b433a408ac8461ca6b78ad9039e5ebdc05af2f4380b51ee37"
+  },
+  {
+    "path": "packages/commands/src/fulfillment/GeneratePackingSlipCommand.ts",
+    "bytes": 2842,
+    "sha256": "40c7d045500b06c4ede325f7ffae0f7f29b9a0d821e1dade14db25df35434b71"
+  },
+  {
+    "path": "packages/commands/src/index.ts",
+    "bytes": 2901,
+    "sha256": "d4d710fe6e97cac421806b1c70784326d4bba30c68c65e07c70092d49d737e26"
+  },
+  {
+    "path": "packages/commands/src/internal/run-command.ts",
+    "bytes": 1009,
+    "sha256": "f268fcbebae802c2a07f083a671be9d0288bf63d61c235988dc6745f287ed6bb"
+  },
+  {
+    "path": "packages/commands/src/ops/CreateCapitalSignalCommand.ts",
+    "bytes": 2752,
+    "sha256": "3338f7489ef6f74b54827167e72246119edb18b068859b8e688043da85fbabdb"
+  },
+  {
+    "path": "packages/commands/src/ops/ExportSageBatchCommand.ts",
+    "bytes": 2679,
+    "sha256": "0b6ca3ab164dcf9db5469acae96cf087c9ac64f0dda95847a78a847becf999da"
+  },
+  {
+    "path": "packages/commands/src/pricing/ApproveRetailPriceCommand.ts",
+    "bytes": 2766,
+    "sha256": "25671f4efd84b92d7ef67e0fe58072ad6bca08290ef3e4dc2e596b5396a556f1"
+  },
+  {
+    "path": "packages/commands/src/pricing/ValidateProductPricingCommand.ts",
+    "bytes": 2866,
+    "sha256": "573fde13e09adc69ba20620882f0c0d90ac423c22d8209c2560b49b41d90c86b"
+  },
+  {
+    "path": "packages/commands/src/quotes/AcceptQuoteCommand.ts",
+    "bytes": 2580,
+    "sha256": "bff5c11a62d43ec69e334aaa11a08f1ee860d22ce84e25aaca6e870496a8fcaa"
+  },
+  {
+    "path": "packages/commands/src/quotes/CreateQuoteRequestCommand.ts",
+    "bytes": 2894,
+    "sha256": "89087571bef67eeb01294471393201e7b796f2d7ab48b401087e133deee53899"
+  },
+  {
+    "path": "packages/commands/src/quotes/DraftQuoteCommand.ts",
+    "bytes": 2558,
+    "sha256": "6108ddfca870d0e859f5b87ec87fdd73ef99ef5e8e9f0cd347f8196952e39240"
+  },
+  {
+    "path": "packages/commands/src/quotes/SendQuoteCommand.ts",
+    "bytes": 2530,
+    "sha256": "0366b5babe70687e9dc0ae4558793ad4372c24d4b3a83d246ebfd82e68f95849"
+  },
+  {
+    "path": "packages/commands/src/service/AssignServiceTechnicianCommand.ts",
+    "bytes": 3133,
+    "sha256": "1de514ff438ff216178c22dbe0eb04cb5bd5ecda79875c407028b47a059147f4"
+  },
+  {
+    "path": "packages/commands/src/service/CompleteServiceVisitCommand.ts",
+    "bytes": 3084,
+    "sha256": "e1ea8319550b32b123eae644d98371677115a5e306070060f0acb1f6cadb9c4d"
+  },
+  {
+    "path": "packages/commands/src/service/CreateServiceRequestCommand.ts",
+    "bytes": 4386,
+    "sha256": "22949d14a3ee051aa16bcebea8287b7794f8140fb525a65ab0eeed7de68a1fb4"
+  },
+  {
+    "path": "packages/commands/src/service/CreateServiceWorkOrderCommand.ts",
+    "bytes": 3250,
+    "sha256": "37c40e268c078eea7f0fb5998e0a80fc0dc966e1aaaf9a4109dc9d80208aac9d"
+  },
+  {
+    "path": "packages/commands/src/service/EscalateEmergencyServiceCommand.ts",
+    "bytes": 3230,
+    "sha256": "fe89bed51e6f3c0662888d88d334090e0cd1aab47e209548c278a2e871081445"
+  },
+  {
+    "path": "packages/commands/src/service/ScheduleServiceVisitCommand.ts",
+    "bytes": 2906,
+    "sha256": "378ceb597c32ab891398941eab87414791357c0c16a13b9063292a4c4f1ab718"
+  },
+  {
+    "path": "packages/commands/src/service/TriageServiceRequestCommand.ts",
+    "bytes": 2977,
+    "sha256": "843c0ff4f5c89ade9e29c6a566228fcb40a497c59a7aea741102116074fc83c4"
+  },
+  {
+    "path": "packages/commands/src/service/service-adapters.ts",
+    "bytes": 510,
+    "sha256": "c642bfa6533278cb6e0ac4964024ec68d560b2a622def35d48d3e6c9f9205174"
+  },
+  {
+    "path": "packages/commands/src/support/AssignSupportTicketCommand.ts",
+    "bytes": 2774,
+    "sha256": "b6cb577e52f7d0d007081566c3f3b0f5bfde3e8f0bfdd22351530041529f4117"
+  },
+  {
+    "path": "packages/commands/src/support/CloseSupportTicketCommand.ts",
+    "bytes": 2749,
+    "sha256": "e0f0a27d3bbad96fc2acd44a6b238bc7b67265ec9ec61136aae52606a9aeba0c"
+  },
+  {
+    "path": "packages/commands/src/support/CreateSupportConversationCommand.ts",
+    "bytes": 2951,
+    "sha256": "35cddd1f12506f2db26e20cbdf2427f544940bc4f0b7aaed5f3fe5fbe43626cb"
+  },
+  {
+    "path": "packages/commands/src/support/CreateSupportTicketCommand.ts",
+    "bytes": 2878,
+    "sha256": "a0914e7342a0ac7796e3ff2767263a60c3284f93232da0a7f7fe23d0fb3b5201"
+  },
+  {
+    "path": "packages/commands/src/support/SendSupportMessageCommand.ts",
+    "bytes": 2785,
+    "sha256": "f66172a5bf9d6ba127c0ea8aeef4b09f10af27049185a7627beafa111dd37b70"
+  },
+  {
+    "path": "packages/commands/src/technician/AddServicePartUsedCommand.ts",
+    "bytes": 2892,
+    "sha256": "05e9034d1f122b8c2dfb589a8d264bac90cfca7837422f36e79a9c6de2af11bd"
+  },
+  {
+    "path": "packages/commands/src/technician/AddTechnicianVisitNoteCommand.ts",
+    "bytes": 2753,
+    "sha256": "0b3ea98730f3806b329da6f56b789b6ce30cf624781c0a33443a6937c5dd6cf4"
+  },
+  {
+    "path": "packages/commands/src/technician/ApproveServiceCloseoutCommand.ts",
+    "bytes": 2737,
+    "sha256": "de32bbe7e344ab93672e069309dcceb77bc38a301eacb0453c6caa42696bd274"
+  },
+  {
+    "path": "packages/commands/src/technician/AttachServicePhotoCommand.ts",
+    "bytes": 2817,
+    "sha256": "55afb0fc481d5860446d63cfd6d0a5d627b5f20ae13105ce947d804a05517eb6"
+  },
+  {
+    "path": "packages/commands/src/technician/CompleteTechnicianChecklistItemCommand.ts",
+    "bytes": 2982,
+    "sha256": "ce3d5f1b9fe66fb6c2031a3a107b768964981a0058eb4e4cf179d0b5dd78c13a"
+  },
+  {
+    "path": "packages/commands/src/technician/CreateTechnicianSessionCommand.ts",
+    "bytes": 2609,
+    "sha256": "0ee29a6be84e1596f70f1ef2ec3990c95132637d04e541a293a070579c9a17fb"
+  },
+  {
+    "path": "packages/commands/src/technician/ListAssignedWorkOrdersCommand.ts",
+    "bytes": 2573,
+    "sha256": "8f67ccf7840104dd0d40d532b7a48eb40e48f8da09522762bc92acf0ce7e0320"
+  },
+  {
+    "path": "packages/commands/src/technician/RejectServiceCloseoutCommand.ts",
+    "bytes": 2827,
+    "sha256": "d5e0e315f34bb6fec2517127595618249fff92da773d36c4caa6210695b4fb96"
+  },
+  {
+    "path": "packages/commands/src/technician/RequestManagerReviewCommand.ts",
+    "bytes": 2718,
+    "sha256": "09ec0d4efa19a2a09c3017c6d674ad6d0e927f3bb16cb9b74b0dab898df52035"
+  },
+  {
+    "path": "packages/commands/src/technician/StartTechnicianWorkOrderCommand.ts",
+    "bytes": 2670,
+    "sha256": "efe8be8203553039615dcaa52e4510ef6aaa6f360e70cf250c5e9164d5899ff6"
+  },
+  {
+    "path": "packages/commands/src/technician/SubmitTechnicianCloseoutCommand.ts",
+    "bytes": 2996,
+    "sha256": "c2c7c60bf7e3209667152d1851cb9d75c6dbb37e89aecc9838694cfc14ad364c"
+  },
+  {
+    "path": "packages/commands/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/commerce/package.json",
+    "bytes": 383,
+    "sha256": "53b98a062e4b8345878c3a069c85a4928a589fbfd5bf87ddcb25ee60de0fae24"
+  },
+  {
+    "path": "packages/commerce/src/index.ts",
+    "bytes": 250,
+    "sha256": "541f966cd279267d854473116b3494e8b75f439e3032b842e3a293b8b7354c35"
+  },
+  {
+    "path": "packages/commerce/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/commerce-shell/package.json",
+    "bytes": 417,
+    "sha256": "a309888d84bf8e9311119b81545b334814e6d76ea284b89db1526c997ac44fbd"
+  },
+  {
+    "path": "packages/commerce-shell/src/index.ts",
+    "bytes": 58,
+    "sha256": "2453b2aeab0c7c9ca1c29fdc309c13494455c4874db39586246d7e5b8c990dfb"
+  },
+  {
+    "path": "packages/commerce-shell/src/routes.ts",
+    "bytes": 185,
+    "sha256": "4b578ea8628851a8b156e219e0c473826d80658377205aa314ea43a9786a3db3"
+  },
+  {
+    "path": "packages/commerce-shell/src/shell-policy.ts",
+    "bytes": 165,
+    "sha256": "2283ce6dced084c257ec010161dcd0b8f66aff6d6c15affae449ec3f9397032d"
+  },
+  {
+    "path": "packages/commerce-shell/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/core-contracts/package.json",
+    "bytes": 354,
+    "sha256": "70070e9e618c369c2673a72cd5d950ec9a96a2cbadccf1c2819fd089d65fee12"
+  },
+  {
+    "path": "packages/core-contracts/src/index.ts",
+    "bytes": 1501,
+    "sha256": "2e1cabff02432f8e11b87d472e16c13f3ca18bd269a293c887ac869759e5125a"
+  },
+  {
+    "path": "packages/core-contracts/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/fulfillment/package.json",
+    "bytes": 386,
+    "sha256": "4a7c9b6a2d3a1a0a881de5347da2c936887ecf2c9487814422c28fbb90206cbb"
+  },
+  {
+    "path": "packages/fulfillment/src/index.ts",
+    "bytes": 186,
+    "sha256": "ee31b88cabdff736a3be973765568d62e2cae40cb793fab095291668a09e7373"
+  },
+  {
+    "path": "packages/fulfillment/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/governance/package.json",
+    "bytes": 350,
+    "sha256": "4212537bf8d9384518b604fd5f6deb860f7bc6664e28cf857d2652d7bd31e678"
+  },
+  {
+    "path": "packages/governance/src/actors.ts",
+    "bytes": 217,
+    "sha256": "fe517d24087d8a6fe6a3eb81f026dfa5012dd00ad557a204d7da0aa7e2873438"
+  },
+  {
+    "path": "packages/governance/src/guards.ts",
+    "bytes": 861,
+    "sha256": "1d2a020efc6758dde96428d5ad03049890e415766bffca359954a42293c14eb0"
+  },
+  {
+    "path": "packages/governance/src/index.ts",
+    "bytes": 110,
+    "sha256": "caef9d8bd7b9329012e53644f3a9af6dcccc45eb8220d37ddf0742c3c6a48a5b"
+  },
+  {
+    "path": "packages/governance/src/permissions.ts",
+    "bytes": 5636,
+    "sha256": "681a009d00225728f264a8a24a371c68e30a93e07238f913c2f44822a6f8afd9"
+  },
+  {
+    "path": "packages/governance/src/results.ts",
+    "bytes": 241,
+    "sha256": "48bf0d84f6210cdfd7f2ebeb7275f9e5ff7256d26bb42fcad605fe632bf71dae"
+  },
+  {
+    "path": "packages/governance/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/parts-inventory/package.json",
+    "bytes": 445,
+    "sha256": "5ca6641b31a0763da7e95552f0cfe50decbb415451cef679280aa50c687bd107"
+  },
+  {
+    "path": "packages/parts-inventory/src/index.ts",
+    "bytes": 214,
+    "sha256": "ceeb81eadd32b924f6280e5d6f3990fe7a97d2014f48e708e26ea4aabfd818de"
+  },
+  {
+    "path": "packages/parts-inventory/src/inventory-adjustment-reason.ts",
+    "bytes": 307,
+    "sha256": "c36735e6b1e39ebff484094d82af1d8281be2a7c38432e4d60c102b6fa5310e6"
+  },
+  {
+    "path": "packages/parts-inventory/src/inventory-status.ts",
+    "bytes": 338,
+    "sha256": "3c46599bb1602e9dbc349586cd9e5b05da8c760d765bdeab00c66079f6c2ba2b"
+  },
+  {
+    "path": "packages/parts-inventory/src/parts-consumption.ts",
+    "bytes": 205,
+    "sha256": "4323722578d8ff4db88ccb0e7b96c32e25506d028cf4b15777eb32dec40292ef"
+  },
+  {
+    "path": "packages/parts-inventory/src/parts-reservation.ts",
+    "bytes": 431,
+    "sha256": "26571e7bb423d28868ed75ea4acfb7f53ba7056060a76a750206db35521d73d0"
+  },
+  {
+    "path": "packages/parts-inventory/src/stock-alerts.ts",
+    "bytes": 300,
+    "sha256": "bcf69f4a54a087bc56594729aee372a5336c7efcf91976e2d15b6bddae94fd12"
+  },
+  {
+    "path": "packages/parts-inventory/src/types.ts",
+    "bytes": 456,
+    "sha256": "798cdc3684c0dd0a36a73c4e23fa879649f7f65e9a1531ae2d679242252dfdf6"
+  },
+  {
+    "path": "packages/parts-inventory/tsconfig.json",
+    "bytes": 170,
+    "sha256": "e0dcaf38aa33c1affc81425294b08ffd4b4ddc2f032a0fb1cdd6ff6e926735a2"
+  },
+  {
+    "path": "packages/pricing/package.json",
+    "bytes": 382,
+    "sha256": "3c4a8dcbc2e614b8a227aa1229f6ceb0f50a2dd3f2d702d4850c814711357c97"
+  },
+  {
+    "path": "packages/pricing/src/index.ts",
+    "bytes": 255,
+    "sha256": "1e6d632da2162c84f17667f1d0bc62715e3daf82ebf8c9278a97079a0b027328"
+  },
+  {
+    "path": "packages/pricing/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/quotes/package.json",
+    "bytes": 381,
+    "sha256": "455feb07aeed26e8ac6bdfd79c8739ef9715249761e431f980311a9ccc760a9f"
+  },
+  {
+    "path": "packages/quotes/src/index.ts",
+    "bytes": 243,
+    "sha256": "479e59d87311731f90f264d4991000fc3a73d17609b2f13e7977116e279ffca3"
+  },
+  {
+    "path": "packages/quotes/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/service-billing/package.json",
+    "bytes": 445,
+    "sha256": "4f80151a3356a696167ab5f5e800c2c4d8c663de128327b628b6a06447680a9d"
+  },
+  {
+    "path": "packages/service-billing/src/billing-packet.ts",
+    "bytes": 263,
+    "sha256": "7e7eb9bd8911a55b45b6a1d719e0153a8f0af3d9816221a787f37c4fa9f074e3"
+  },
+  {
+    "path": "packages/service-billing/src/billing-rules.ts",
+    "bytes": 315,
+    "sha256": "49c2e4e00837a5df84bf5e35b0153043f5f890208983765a9067d4f3e43298c4"
+  },
+  {
+    "path": "packages/service-billing/src/index.ts",
+    "bytes": 335,
+    "sha256": "93fe86171260a6ce4811b6c9c4728fafd38605d9c358eea1103a388a0b8687e7"
+  },
+  {
+    "path": "packages/service-billing/src/inventory-adjustment.ts",
+    "bytes": 567,
+    "sha256": "12cd858c108cd9ac57a5353de046f780d57320a51d634ca684a94fc20dc9aaa2"
+  },
+  {
+    "path": "packages/service-billing/src/invoice-draft.ts",
+    "bytes": 752,
+    "sha256": "1568bd7ae01f6fc123104a890de5e2d2732bc1f1df8b993f487b6a53d168b597"
+  },
+  {
+    "path": "packages/service-billing/src/invoice-status.ts",
+    "bytes": 564,
+    "sha256": "4d66ddde4ad8219a01658c5a511a5def8039b7a6956c4724c06775fa89aa6ce6"
+  },
+  {
+    "path": "packages/service-billing/src/labor-entry.ts",
+    "bytes": 329,
+    "sha256": "b3e71f743de6d0e7df185d45c25bc83a9b6f7a112d1b5f57dd6c62a84f93691c"
+  },
+  {
+    "path": "packages/service-billing/src/maintenance-followup.ts",
+    "bytes": 412,
+    "sha256": "d81e146e8973664751b7b8ef679dc5a2ba586ebb4fdc94579a3666c734962d69"
+  },
+  {
+    "path": "packages/service-billing/src/parts-used.ts",
+    "bytes": 364,
+    "sha256": "68379086d452c50708175b8a58380965cac136403861359f09faec933aa2e5ed"
+  },
+  {
+    "path": "packages/service-billing/src/sage-export-dto.ts",
+    "bytes": 370,
+    "sha256": "03eb22d87d9295b5181cf2dc97069d47e10b8ffc641f48ea0b2bc669a17002ab"
+  },
+  {
+    "path": "packages/service-billing/src/types.ts",
+    "bytes": 1766,
+    "sha256": "508ed48c0c0600b504363f84367fa90820b1575623dd5d991cb90d2d714f7517"
+  },
+  {
+    "path": "packages/service-billing/tsconfig.json",
+    "bytes": 170,
+    "sha256": "e0dcaf38aa33c1affc81425294b08ffd4b4ddc2f032a0fb1cdd6ff6e926735a2"
+  },
+  {
+    "path": "packages/service-interface/package.json",
+    "bytes": 505,
+    "sha256": "c40d8b9be750766f4d277e98812d7adb958630d79937595544c203e8bb5ae53c"
+  },
+  {
+    "path": "packages/service-interface/src/api-contracts.ts",
+    "bytes": 608,
+    "sha256": "11bd90a5aac482842fbf462b34e4dab66343242b75487e90a4b1ca97f80f2c52"
+  },
+  {
+    "path": "packages/service-interface/src/checklist-templates.ts",
+    "bytes": 1266,
+    "sha256": "28dfa7d21dc47129c679d9eb3594833a4f7b2325a9e263d2f3f1210193e348de"
+  },
+  {
+    "path": "packages/service-interface/src/in-memory-service-repository.ts",
+    "bytes": 6182,
+    "sha256": "5621c4540a6448f93ba6ac0a8af622afae3c2a074720af8133961bc4a5314205"
+  },
+  {
+    "path": "packages/service-interface/src/index.ts",
+    "bytes": 728,
+    "sha256": "0b229f5fb610c2287a2762c6eb8d657295ee226845778d78c80f578581b43df0"
+  },
+  {
+    "path": "packages/service-interface/src/intake-rules.ts",
+    "bytes": 3839,
+    "sha256": "7b0b976f59625c1295bba597e4e1bf5caa6a0ca9fce434b9e463f4bf50fec523"
+  },
+  {
+    "path": "packages/service-interface/src/multi-destination-service-notifier.ts",
+    "bytes": 3505,
+    "sha256": "17375f5a94975f617584a036875bce9ad37a41dcc2d3f4eb8baf6b7c8664721a"
+  },
+  {
+    "path": "packages/service-interface/src/notification-contracts.ts",
+    "bytes": 1017,
+    "sha256": "74a0f9e1b6348a46b74babbf3827369daef90ff77ef090edf6e4001e727a6a43"
+  },
+  {
+    "path": "packages/service-interface/src/rate-limit.ts",
+    "bytes": 2903,
+    "sha256": "16a1989e91516b5f17ce8c68af29b376a9c6ea411be38cdc48e77529d88d38d8"
+  },
+  {
+    "path": "packages/service-interface/src/repository-contracts.ts",
+    "bytes": 4464,
+    "sha256": "6bf81419fd1dfa1ebffef7fd1b1c58f58c865777c5cbf9e857bc683f77a79f23"
+  },
+  {
+    "path": "packages/service-interface/src/request-sanitizer.ts",
+    "bytes": 2334,
+    "sha256": "1646bc331db1bee1fe059303de724e7a87eabe822551e8e5d982ca489bf883a9"
+  },
+  {
+    "path": "packages/service-interface/src/server-only.ts",
+    "bytes": 163,
+    "sha256": "999c91dbec950feaf9aa71c45e621e239c55a55dda4ae94cb0f1725b6bfc56cd"
+  },
+  {
+    "path": "packages/service-interface/src/service-auth.ts",
+    "bytes": 3121,
+    "sha256": "ff900a58294d44ceeb45c3e81b6dfbcff22f75a4b219efcc7434c23078c887e0"
+  },
+  {
+    "path": "packages/service-interface/src/service-command-context.ts",
+    "bytes": 1737,
+    "sha256": "7bffcfa823a8dc75100ef3f5f6da08ab5b0a579bc75534531f57a030f7b40038"
+  },
+  {
+    "path": "packages/service-interface/src/service-file-uploads.ts",
+    "bytes": 2462,
+    "sha256": "49035004b3a55f8bddd9d4fad8a45cd23c9aa971e0b5511adff23764be3d0dab"
+  },
+  {
+    "path": "packages/service-interface/src/service-sla.ts",
+    "bytes": 873,
+    "sha256": "72f5406a6d1d8a19789a62ab095ee2074f0d2e48691ed6545d52648a87e6f7b9"
+  },
+  {
+    "path": "packages/service-interface/src/supabase-admin-client.ts",
+    "bytes": 1627,
+    "sha256": "c93c5dd2c2d3cf7db307a0ad7c3b8f24bd2e6022d70fd767b28ac2d6487cafe2"
+  },
+  {
+    "path": "packages/service-interface/src/supabase-audit-sink.ts",
+    "bytes": 905,
+    "sha256": "e7a232a5d975d2a8c18493d121b4bff613c8902663c273c93aa74f8144c047df"
+  },
+  {
+    "path": "packages/service-interface/src/supabase-service-repository.ts",
+    "bytes": 10891,
+    "sha256": "d64e3e58cc7a620f7517779eb58826a6359ed5270933a1c92f3e8ac1886cff55"
+  },
+  {
+    "path": "packages/service-interface/src/types.ts",
+    "bytes": 2619,
+    "sha256": "f1488142576af3658948c72fbd02e8a91de121dee966e16d38c5b3b245f8a624"
+  },
+  {
+    "path": "packages/service-interface/src/webhook-service-notifier.ts",
+    "bytes": 1845,
+    "sha256": "886f89510350646c985e12443e886fc0e9eb9194342b22d691c10a1b314a1713"
+  },
+  {
+    "path": "packages/service-interface/tsconfig.json",
+    "bytes": 121,
+    "sha256": "9e388ea60852028037c4fd8a6e0311c02d4ff1703d66e5f9b22276b07dcb82d2"
+  },
+  {
+    "path": "packages/signals/package.json",
+    "bytes": 347,
+    "sha256": "4b629e9c5092dc52b85a95f7f6f4abab0aaa2db42e34708db09362b9717e52cd"
+  },
+  {
+    "path": "packages/signals/src/index.ts",
+    "bytes": 289,
+    "sha256": "5c4c8761d40dbb1e4c461f2aa49f731b406213886043b22bac76f2942e94fffe"
+  },
+  {
+    "path": "packages/signals/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/technician-portal/package.json",
+    "bytes": 530,
+    "sha256": "227db3262bab4e716be1e1f8eac2d01063d195315ad5b399159c83061d5df313"
+  },
+  {
+    "path": "packages/technician-portal/src/assigned-work-orders.ts",
+    "bytes": 497,
+    "sha256": "0afd1bd5eeb133f277ba1ef155afdc2570bf37a4bc082dda9ec645e367a40ee6"
+  },
+  {
+    "path": "packages/technician-portal/src/checklist-runner.ts",
+    "bytes": 375,
+    "sha256": "037126c88227e8f32f9bc0706511fd474e12e0f0ace3c64eff309104f359be16"
+  },
+  {
+    "path": "packages/technician-portal/src/closeout-policy.ts",
+    "bytes": 343,
+    "sha256": "f98f005202899f62022924866d850031c77a5ca0b2b20dda2f943543c36e4485"
+  },
+  {
+    "path": "packages/technician-portal/src/index.ts",
+    "bytes": 320,
+    "sha256": "41dc84509cc8e59d4c8426e3d2967409de5f5a76bf05e86a98ea6111e4d9ccd2"
+  },
+  {
+    "path": "packages/technician-portal/src/manager-review-policy.ts",
+    "bytes": 293,
+    "sha256": "4eb0d679818bd40c62f7472138dc0310c442e9bdb2a981beabc5ec8934682221"
+  },
+  {
+    "path": "packages/technician-portal/src/parts-used.ts",
+    "bytes": 268,
+    "sha256": "822ca49c542d66c391d8847bb24e1641432d0f8741a03f47f698b1f69acd6bec"
+  },
+  {
+    "path": "packages/technician-portal/src/photo-upload-policy.ts",
+    "bytes": 881,
+    "sha256": "f78b0555e6b4fe801cdafb9f2403ba27daa0d0f2f3c1f05b9a0b285ccbc33e54"
+  },
+  {
+    "path": "packages/technician-portal/src/technician-notes.ts",
+    "bytes": 233,
+    "sha256": "fdf7ee70827ddf7538250fa66c326197932cfd5610b09a6c4742fefe69cd557e"
+  },
+  {
+    "path": "packages/technician-portal/src/technician-session.ts",
+    "bytes": 487,
+    "sha256": "458d8db838d8b4ba04e08b96e40784fb352c058656bd04b069f4e268a4682d7d"
+  },
+  {
+    "path": "packages/technician-portal/src/types.ts",
+    "bytes": 1733,
+    "sha256": "ede4532c694f43a753a76aafe44bf24df79eb8198752a5d2ec54cdd5b232cd01"
+  },
+  {
+    "path": "packages/technician-portal/tsconfig.json",
+    "bytes": 170,
+    "sha256": "e0dcaf38aa33c1affc81425294b08ffd4b4ddc2f032a0fb1cdd6ff6e926735a2"
+  },
+  {
+    "path": "packages/tooling/package.json",
+    "bytes": 347,
+    "sha256": "0822f321116b24630b3b929e3dc44ad1a1605c2e9cca534cec11e75937f3f87f"
+  },
+  {
+    "path": "packages/tooling/src/index.ts",
+    "bytes": 41,
+    "sha256": "6e4cee8ca87f17b51b07485088cbc8c12a7f3b2a430583414ace73aaff7e147c"
+  },
+  {
+    "path": "packages/tooling/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/ui/package.json",
+    "bytes": 342,
+    "sha256": "d69af85a42c3d2f016e50ebde3d0ce9e5fff3b4d3335e508225e564ae1538180"
+  },
+  {
+    "path": "packages/ui/src/index.ts",
+    "bytes": 180,
+    "sha256": "59f0d8c069f69d815c52f625e6a6402f2bb9af572b61fe43c9cbdc5faed25368"
+  },
+  {
+    "path": "packages/ui/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "packages/workflows/package.json",
+    "bytes": 380,
+    "sha256": "f041b63bdefb3ac93d5894d746761fbbd2571abd45ddca303bc227f651c41f0a"
+  },
+  {
+    "path": "packages/workflows/src/definitions/checkout.ts",
+    "bytes": 752,
+    "sha256": "d265bd96a067cffa465ba2244f1628ec54060be01034f759d95fdf8491482443"
+  },
+  {
+    "path": "packages/workflows/src/definitions/fulfillment.ts",
+    "bytes": 737,
+    "sha256": "c5cab6245baaac5e71e55666ecea7a5fe2504a0897de489f961cf0bf640b3a65"
+  },
+  {
+    "path": "packages/workflows/src/definitions/pricing-approval.ts",
+    "bytes": 739,
+    "sha256": "b2c37e41f476cc6806114c7c901cd30030509633276a98d6694a17843d7b76e2"
+  },
+  {
+    "path": "packages/workflows/src/definitions/product-publication.ts",
+    "bytes": 1207,
+    "sha256": "5ccdc385ce0624cb72dedcdb9ef7e86a2b4fda674980d9b3b6dff95e06a02b3a"
+  },
+  {
+    "path": "packages/workflows/src/definitions/quote-first.ts",
+    "bytes": 889,
+    "sha256": "eea7421bf84f4120d14a19062d8fac52f112e35ff1032ae8513dddf1023d3bbe"
+  },
+  {
+    "path": "packages/workflows/src/definitions/sage-export.ts",
+    "bytes": 583,
+    "sha256": "dd919eb93a1fb0464b0eb1753a100c5d18c4fca1c2a07d1a6bc1e3d2b946f337"
+  },
+  {
+    "path": "packages/workflows/src/definitions/service-billing.ts",
+    "bytes": 2206,
+    "sha256": "4d23f149716dc745f9ee33f1eb67553988cfde3f288cc0f397954908a8e239d6"
+  },
+  {
+    "path": "packages/workflows/src/definitions/tech-support.ts",
+    "bytes": 1157,
+    "sha256": "e1d53f7f96590a6aba025e712b47ada0ef2fb35d0d10b706fa050323fef7b11f"
+  },
+  {
+    "path": "packages/workflows/src/definitions/technician-work-order.ts",
+    "bytes": 2528,
+    "sha256": "75a3152f1850ad4f7d12f7d53b8e31f2a8a8f3863183e4a461f2aa0e0ba21539"
+  },
+  {
+    "path": "packages/workflows/src/definitions/treatment-service.ts",
+    "bytes": 1446,
+    "sha256": "740362465438937192ce6258ebaee595109dd7829b634ad97f5cd28ae16118fa"
+  },
+  {
+    "path": "packages/workflows/src/index.ts",
+    "bytes": 1732,
+    "sha256": "64fad665de5f88990fcf95c1103c695d7bf20ff311248f10433c72143d333080"
+  },
+  {
+    "path": "packages/workflows/src/workflow-engine.ts",
+    "bytes": 631,
+    "sha256": "ed04af0d5ead149c16255c0bf214e32c647c3357f956eab6f8c8d5ceb941bb2f"
+  },
+  {
+    "path": "packages/workflows/src/workflow-types.ts",
+    "bytes": 447,
+    "sha256": "637c8076528fdce6a55ad56e43844c8149a4ea59f455f87edeabe338e7c82319"
+  },
+  {
+    "path": "packages/workflows/tsconfig.json",
+    "bytes": 137,
+    "sha256": "241f82da42b43a8f902afd242ca34ba38e46126c2069a79e9b8d22f1711ed76e"
+  },
+  {
+    "path": "scripts/audit-service-billing.mjs",
+    "bytes": 2690,
+    "sha256": "f29a6e7856ddcfa33e73ccb9c0f843e79344d9901127bb8c4006a8b9eb1b70b2"
+  },
+  {
+    "path": "scripts/audit-service-interface.mjs",
+    "bytes": 4440,
+    "sha256": "8c3236bc56543857c017a9da50d21edf2b4bcfff108a3645a23eab4655965bb1"
+  },
+  {
+    "path": "scripts/audit-service-production.mjs",
+    "bytes": 2103,
+    "sha256": "3335d86be07cbaff594243e546b33fdb4e2ccefc4ec55dc9b4b5e9f02e833c0c"
+  },
+  {
+    "path": "scripts/audit-support-workflow.mjs",
+    "bytes": 2925,
+    "sha256": "32eef027d869cf929ca91f4069fe4c20f17c28bd3ad447db10b91e46e7a67300"
+  },
+  {
+    "path": "scripts/audit-technician-portal.mjs",
+    "bytes": 1742,
+    "sha256": "3d22ff2096d3585265dc46558378ca89d470fd01da82052c295cfc7e7d6932dd"
+  },
+  {
+    "path": "scripts/print-workflows.mjs",
+    "bytes": 248,
+    "sha256": "714fcb584a97852209497c3114d6221f2cfeb2674e5fc154fa63cff6a465df2f"
+  },
+  {
+    "path": "scripts/validate-boundaries.mjs",
+    "bytes": 918,
+    "sha256": "43d1ea813f329ec645465e0470dcf11f730ee113761aa86b3aae9ab2fec76b89"
+  },
+  {
+    "path": "tests/billing/billing-permissions.test.ts",
+    "bytes": 637,
+    "sha256": "f84e40acb300b73bf6ada1dd059a659a165942edc19b3774a7f10157fe8ca11f"
+  },
+  {
+    "path": "tests/billing/inventory-adjustment.test.ts",
+    "bytes": 412,
+    "sha256": "4260fe201d462fcf0623641341231f4a50f79551152a4e574de951af36fcd20c"
+  },
+  {
+    "path": "tests/billing/invoice-workflow.test.ts",
+    "bytes": 827,
+    "sha256": "fe159d0d367bc07902ee23b52cde3809c415b86656bf8f32bf8279879751d336"
+  },
+  {
+    "path": "tests/billing/maintenance-followup.test.ts",
+    "bytes": 362,
+    "sha256": "880f7728d0293df57d44de375d2d64f0ca842225b161406aa6b457d01304098a"
+  },
+  {
+    "path": "tests/billing/sage-export-batch.test.ts",
+    "bytes": 417,
+    "sha256": "a7361425cee1c4051d020271690470eb5c3cf7c2a5bd42cb89b07b3a5673aa9b"
+  },
+  {
+    "path": "tests/boundaries/billing-app-no-direct-mutation.test.ts",
+    "bytes": 1046,
+    "sha256": "f2dc46dd46052b71a10823df65d6982508811220162d2b21ca94c2b77da65a72"
+  },
+  {
+    "path": "tests/boundaries/sage-export-no-direct-sync.test.ts",
+    "bytes": 845,
+    "sha256": "e4881fb158101f04e249e6fb49103a153c0b3e88998826f4e83c66ac1ca159e1"
+  },
+  {
+    "path": "tests/boundaries/technician-app-no-direct-mutation.test.ts",
+    "bytes": 885,
+    "sha256": "c56ce72ffd26c9b893359cb8ff12b5c43b1e251f8d0404a7cee5a6bbca656d1d"
+  },
+  {
+    "path": "tests/governance/command-lifecycle.test.ts",
+    "bytes": 944,
+    "sha256": "1e1b793e32846fa0fae1ac06f717bc16bc9195d1d9dfaa57aeffb2e9e3b84acc"
+  },
+  {
+    "path": "tests/governance/import-boundary.test.ts",
+    "bytes": 838,
+    "sha256": "64cf359be842303b163b304f419ac24e83b00fae9f6d1cf2c352626c96afb2cc"
+  },
+  {
+    "path": "tests/governance/mutation-gateway.test.ts",
+    "bytes": 526,
+    "sha256": "c8aefee6f7887401a0e38d7908bce45e1ed718a001449bb6f36980e865fa04f5"
+  },
+  {
+    "path": "tests/service/service-adapter-config.test.ts",
+    "bytes": 610,
+    "sha256": "35210d42504caf8ded921a4f5458ee6d3ab866100e5ef92e38eb5fde31a0ab63"
+  },
+  {
+    "path": "tests/service/service-admin-auth.test.ts",
+    "bytes": 307,
+    "sha256": "6533fdf7dec31a4e88436d73c445e4b18c78fb2f74f1e4e8792b6502039898c1"
+  },
+  {
+    "path": "tests/service/service-command-repository-wiring.test.ts",
+    "bytes": 2601,
+    "sha256": "5fee6b6b8f228a1b0de6e32c284422d98003fd0a396bd6e053f7028222a66590"
+  },
+  {
+    "path": "tests/service/service-intake-rules.test.ts",
+    "bytes": 1851,
+    "sha256": "a602f06f8f3c151bb83732f42b3184367cf405fdffe6c29a855e38fa291a4ac5"
+  },
+  {
+    "path": "tests/service/service-notification.test.ts",
+    "bytes": 445,
+    "sha256": "92889921e2c046ca6b440b82fc1e6cf0d41dacd2d8bd12f95dc706a4ae95e9ae"
+  },
+  {
+    "path": "tests/service/service-production-adapters.test.ts",
+    "bytes": 1257,
+    "sha256": "8650eab5ac81c3c630b6cad6fde2b82517615aaa1cdf2ab53b0266211a29b390"
+  },
+  {
+    "path": "tests/service/service-rate-limit.test.ts",
+    "bytes": 360,
+    "sha256": "dbe1cb14abdfd952dc00f8d35a618b66b72cf95939f9fe1f2db9360687b0a4e0"
+  },
+  {
+    "path": "tests/support/escalation-rules.test.ts",
+    "bytes": 1753,
+    "sha256": "4cc556809300d57049a42f13b981400de3066699218705660c3b5ef462ef3e7f"
+  },
+  {
+    "path": "tests/support/request-sanitizer.test.ts",
+    "bytes": 1581,
+    "sha256": "5884d2712e1a429c505fe42c959826e2c6cadbc1dbfbd2814a9f65e57dff16ce"
+  },
+  {
+    "path": "tests/technician/technician-assigned-work-orders.test.ts",
+    "bytes": 769,
+    "sha256": "bb99c9881032d8d126a93e9310817aef707da73b808d9c94b25c7b79d233b92e"
+  },
+  {
+    "path": "tests/technician/technician-closeout-review.test.ts",
+    "bytes": 659,
+    "sha256": "e3b452fae3c997a33929e41ab6a2a475e4f56db1972fc1d074fc6ee72222c138"
+  },
+  {
+    "path": "tests/technician/technician-command-lifecycle.test.ts",
+    "bytes": 683,
+    "sha256": "5de708cd338c8200fcd2b656fcc5756a6e47bb12b9999d5c41d36fa50afb0c42"
+  },
+  {
+    "path": "tests/technician/technician-permissions.test.ts",
+    "bytes": 748,
+    "sha256": "051cd670453cbce3809e5c63ea2676773b49d00fe3ff8320bd3789e12509e9d6"
+  },
+  {
+    "path": "tests/technician/technician-photo-policy.test.ts",
+    "bytes": 596,
+    "sha256": "680fd949d203e09a7df2cea4cecb10b52d84b7ead802a7f9c75afb531f8e0b72"
+  },
+  {
+    "path": "tsconfig.base.json",
+    "bytes": 2043,
+    "sha256": "c6b0586ab2a62521e39abc34332cf3199a54c5b66fecc153acddc06c31c3fe65"
+  },
+  {
+    "path": "turbo.json",
+    "bytes": 370,
+    "sha256": "dc352247cfd7bf42944a8c5a3a8d527f3f43b29686ad527a2e99c36bc2c22b7a"
+  },
+  {
+    "path": "vercel.json",
+    "bytes": 173,
+    "sha256": "141ec4aac8f4e8519c73da2ae47a2fe819abe1e0e7500606aad55e791ebb07b6"
+  }
+]

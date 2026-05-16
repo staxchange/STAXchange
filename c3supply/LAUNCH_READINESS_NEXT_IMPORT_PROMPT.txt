@@ -1,0 +1,37 @@
+Import the Launch Readiness Next repo.
+
+After extracting, run:
+
+npm install
+npm run audit:launch
+npm run audit:storefront-conversion
+npm run audit:visual
+npm run audit:theme
+npm run audit:auth
+npm run audit:finance-export-ui
+npm run audit:accounting-storage
+npm run audit:accounting-export
+npm run audit:billing
+npm run audit:customer-ops
+npm run audit:technician
+npm run audit:service
+npm run validate:boundaries
+npm run test -- --runInBand
+npm run typecheck --workspace @stax/launch-readiness
+npm run typecheck --workspace @stax/storefront
+npm run build --workspace @stax/storefront
+
+Rules:
+- Launch readiness is content, legal, SEO, accessibility, and deployment only.
+- Do not change protected workflow governance.
+- Do not commit production secrets.
+- Do not add direct Supabase mutations.
+- Do not change Simply Accounting export boundaries.
+- Do not add AI diagnosis or autonomous technical recommendations.
+
+Return:
+- files changed
+- command results
+- build results
+- unresolved blockers
+- latest commit hash

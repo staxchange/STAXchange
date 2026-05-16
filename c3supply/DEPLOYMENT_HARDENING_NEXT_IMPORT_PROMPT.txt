@@ -1,0 +1,44 @@
+Import the Deployment Hardening Next repo.
+
+After extracting, run:
+
+npm install
+npm run audit:deployment
+npm run audit:launch
+npm run audit:storefront-conversion
+npm run audit:visual
+npm run audit:theme
+npm run audit:auth
+npm run audit:finance-export-ui
+npm run audit:accounting-storage
+npm run audit:accounting-export
+npm run audit:billing
+npm run audit:customer-ops
+npm run audit:technician
+npm run audit:service
+npm run validate:boundaries
+npm run test -- --runInBand
+npm run typecheck --workspace @stax/deployment-switchboard
+npm run typecheck --workspace @stax/storefront
+npm run typecheck --workspace @stax/admin
+npm run typecheck --workspace @stax/customer
+npm run typecheck --workspace @stax/technician
+npm run build --workspace @stax/storefront
+npm run build --workspace @stax/admin
+npm run build --workspace @stax/customer
+npm run build --workspace @stax/technician
+
+Rules:
+- Deployment hardening does not change protected workflow governance.
+- Do not commit production secrets.
+- Supabase service-role key remains server-only.
+- OpenAI key remains server-only.
+- Simply Accounting export remains finance-reviewed file/batch prep only.
+- Admin/customer/technician should deploy as separate Vercel projects.
+
+Return:
+- files changed
+- command results
+- build results
+- unresolved blockers
+- latest commit hash

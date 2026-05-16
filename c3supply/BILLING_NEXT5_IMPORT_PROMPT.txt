@@ -1,0 +1,33 @@
+Import the Billing/Inventory/Simply Accounting Next-5 repo into the current DWG/STAX repository.
+
+After extracting, run:
+
+npm install
+npm run audit:billing
+npm run audit:technician
+npm run audit:service
+npm run validate:boundaries
+npm run test -- --runInBand
+npm run typecheck --workspace @stax/service-billing
+npm run typecheck --workspace @stax/parts-inventory
+npm run typecheck --workspace @stax/commands
+npm run typecheck --workspace @stax/workflows
+npm run typecheck --workspace @stax/admin
+npm run typecheck --workspace @stax/technician
+npm run build --workspace @stax/admin
+npm run build --workspace @stax/technician
+npm run build --workspace @stax/storefront
+
+Rules:
+- Apps must not directly mutate protected billing, inventory, or Simply Accounting export workflow data.
+- packages/commands remains the protected mutation gateway.
+- Simply Accounting export is file/batch preparation only, not direct sync.
+- Finance review is required before invoice approval and export prep.
+- Do not commit production secrets.
+
+Return:
+- files changed
+- command results
+- build results
+- unresolved blockers
+- latest commit hash

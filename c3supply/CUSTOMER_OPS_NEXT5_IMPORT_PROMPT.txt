@@ -1,0 +1,37 @@
+Import the Customer Portal / Maintenance / Notifications / Reporting Next-5 repo into the current DWG/STAX repository.
+
+After extracting, run:
+
+npm install
+npm run audit:customer-ops
+npm run audit:billing
+npm run audit:technician
+npm run audit:service
+npm run validate:boundaries
+npm run test -- --runInBand
+npm run typecheck --workspace @stax/customer-portal
+npm run typecheck --workspace @stax/maintenance-plans
+npm run typecheck --workspace @stax/notifications
+npm run typecheck --workspace @stax/reporting
+npm run typecheck --workspace @stax/commands
+npm run typecheck --workspace @stax/workflows
+npm run typecheck --workspace @stax/customer
+npm run typecheck --workspace @stax/admin
+npm run build --workspace @stax/customer
+npm run build --workspace @stax/admin
+npm run build --workspace @stax/storefront
+
+Rules:
+- Customer portal is read-focused and cannot directly mutate protected workflow data.
+- Maintenance plan mutations must go through packages/commands.
+- Notification queue dispatch must be governed.
+- Reporting snapshots are summaries, not autonomous recommendations.
+- Apps must not import Supabase clients directly or expose service-role keys.
+- Do not commit production secrets.
+
+Return:
+- files changed
+- command results
+- build results
+- unresolved blockers
+- latest commit hash

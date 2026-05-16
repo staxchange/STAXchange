@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "packages/ai-support/src/types.ts",
+      "bytes": 1850,
+      "lines": 78,
+      "sha256": "21974401cc6548b26d4af305ce1c4359793c1be8913e608bac4dcb5e57ab4e82"
+    },
+    {
+      "path": "packages/ai-support/src/request-sanitizer.ts",
+      "bytes": 4392,
+      "lines": 132,
+      "sha256": "c67b6b7451382c38e706157b2aeb4cd55d1c693631044f1766d124349828f739"
+    },
+    {
+      "path": "packages/ai-support/src/escalation-rules.ts",
+      "bytes": 4458,
+      "lines": 134,
+      "sha256": "96b20e0c30e426f7d7b253b0daf1e3e54d20895a72bd70a9c34d03216dbb417b"
+    },
+    {
+      "path": "packages/ai-support/src/openai-client.ts",
+      "bytes": 1788,
+      "lines": 65,
+      "sha256": "5a839a3b8095dfd43dd90407721f1e77d334e8591ac637c5954ce57d3684a519"
+    },
+    {
+      "path": "packages/ai-support/src/index.ts",
+      "bytes": 203,
+      "lines": 7,
+      "sha256": "c80d3c9d7ebc6f7f059f6b1b8281778f165b3f9d32829a729cc40d7632ce4da3"
+    },
+    {
+      "path": "apps/storefront/app/api/support-chat/route.ts",
+      "bytes": 4873,
+      "lines": 187,
+      "sha256": "3acd6938455059a97297102fc2892e609148217d6f21c89b226506244d54faf2"
+    },
+    {
+      "path": "apps/storefront/app/support/SupportChat.tsx",
+      "bytes": 3850,
+      "lines": 109,
+      "sha256": "dcb634829c9456e3a8998f3b7aff22221fd44226da00ba7a1f83c8abe4522b65"
+    },
+    {
+      "path": "docs/workflows/TECH_SUPPORT_HUMAN_HANDOFF.md",
+      "bytes": 2114,
+      "lines": 58,
+      "sha256": "ba8ca833edd9f0a8eb894fe37cd9550e8bc5e9808c0ed7d2d94c7fb16dbf9a73"
+    },
+    {
+      "path": "scripts/audit-support-workflow.mjs",
+      "bytes": 2925,
+      "lines": 77,
+      "sha256": "32eef027d869cf929ca91f4069fe4c20f17c28bd3ad447db10b91e46e7a67300"
+    },
+    {
+      "path": "tests/support/escalation-rules.test.ts",
+      "bytes": 1753,
+      "lines": 49,
+      "sha256": "4cc556809300d57049a42f13b981400de3066699218705660c3b5ef462ef3e7f"
+    },
+    {
+      "path": "tests/support/request-sanitizer.test.ts",
+      "bytes": 1581,
+      "lines": 54,
+      "sha256": "5884d2712e1a429c505fe42c959826e2c6cadbc1dbfbd2814a9f65e57dff16ce"
+    },
+    {
+      "path": "AI_SUPPORT_HARDENING_REPORT.md",
+      "bytes": 2802,
+      "lines": 78,
+      "sha256": "1667010811f8d25ae9bc653f3cb7e53929d98f993867ffe419d569ca76bb7cc4"
+    }
+  ]
+}

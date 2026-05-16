@@ -1,0 +1,3 @@
+import { canAcceptQuote, canApproveQuote, canSendQuote, quoteRequiresHumanReview } from "@stax/quote-workflow";
+test("quote approval requires human review status",()=>{expect(quoteRequiresHumanReview()).toBe(true); expect(canApproveQuote({status:"HUMAN_REVIEW_REQUIRED",reviewStatus:"HUMAN_REVIEW_REQUIRED"})).toBe(true); expect(canApproveQuote({status:"QUOTE_DRAFTED",reviewStatus:"NOT_SUBMITTED"})).toBe(false);});
+test("quote send and acceptance rules",()=>{expect(canSendQuote({status:"QUOTE_APPROVED",reviewStatus:"APPROVED"})).toBe(true); expect(canAcceptQuote("QUOTE_SENT")).toBe(true); expect(canAcceptQuote("QUOTE_DRAFTED")).toBe(false);});

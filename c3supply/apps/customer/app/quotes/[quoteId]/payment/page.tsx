@@ -1,0 +1,1 @@
+export default async function Page({ params }: { params: Promise<{ quoteId: string }> }) { const { quoteId } = await params; return <main><h1>Quote payment</h1><p>Quote {quoteId}: Start checkout only after accepted quote and approved payment request.</p></main>; }

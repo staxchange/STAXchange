@@ -1,0 +1,1 @@
+export default async function CustomerInvoicePage({ params }: { params: Promise<{ orderId: string }> }) { const { orderId } = await params; return <main><h1>Invoice status</h1><p>Order {orderId}: invoice ready or billing in progress. Supplier costs and internal finance notes are not shown.</p></main>; }

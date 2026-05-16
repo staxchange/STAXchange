@@ -1,0 +1,27 @@
+Import Pricing + Margin Governance Phase 1.
+
+Use:
+stax_ecommerce_shell_dwg_PRICING_MARGIN_PHASE1.zip
+
+Run:
+npm install
+npm run audit:pricing
+npm run audit:quote-documents
+npm run audit:photo-quote
+npm run audit:c3
+npm run audit:commerce
+npm run audit:repo-strength
+npm run audit:all-strengthened
+npm run test -- --runInBand
+npm run typecheck --workspace @stax/supplier-costs
+npm run typecheck --workspace @stax/margin-rules
+npm run typecheck --workspace @stax/pricing-governance
+npm run typecheck --workspace @stax/quote-documents
+npm run typecheck --workspace @stax/commands
+npm run typecheck --workspace @stax/workflows
+npm run typecheck --workspace @stax/admin
+npm run typecheck --workspace @stax/storefront
+npm run typecheck --workspace @stax/c3-storefront
+npm run build --workspace @stax/admin
+npm run build --workspace @stax/storefront
+npm run build --workspace @stax/c3-storefront

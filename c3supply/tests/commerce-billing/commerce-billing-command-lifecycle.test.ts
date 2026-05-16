@@ -1,0 +1,2 @@
+import { CreateCommerceInvoiceDraftCommand, ApproveCommerceInvoiceCommand, CreateCommerceBillingPacketCommand } from "@stax/commands";
+test("commerce billing commands expose lifecycle methods",()=>{for(const c of [new CreateCommerceInvoiceDraftCommand(),new ApproveCommerceInvoiceCommand(),new CreateCommerceBillingPacketCommand()]){expect(typeof c.validateInput).toBe("function");expect(typeof c.run).toBe("function")}});

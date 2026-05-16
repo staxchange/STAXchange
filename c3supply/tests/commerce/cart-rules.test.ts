@@ -1,0 +1,3 @@
+import { cartCanCheckoutLite, cartRequiresQuote, createCartDTO } from "@stax/cart";
+test("cart detects quote-required items",()=>{const cart=createCartDTO({id:"cart",items:[{id:"i",cartId:"cart",productId:"p",name:"System",quantity:1,quoteRequired:true,checkoutEligible:false}]}); expect(cartRequiresQuote(cart)).toBe(true); expect(cartCanCheckoutLite(cart)).toBe(false);});
+test("cart permits checkout-lite for eligible commodity",()=>{const cart=createCartDTO({id:"cart",items:[{id:"i",cartId:"cart",productId:"p",name:"Filter",quantity:1,quoteRequired:false,checkoutEligible:true,unitPriceCents:1000}]}); expect(cartCanCheckoutLite(cart)).toBe(true);});

@@ -1,0 +1,25 @@
+{
+  "bundle": "DWG/STAX Final Master Bundle",
+  "source": "deployment hardening checkpoint",
+  "file_count": 754,
+  "major_layers": [
+    "storefront",
+    "boiler-room theme",
+    "visual system",
+    "conversion polish",
+    "launch readiness",
+    "AI support",
+    "service interface",
+    "technician portal",
+    "service billing",
+    "parts inventory",
+    "Simply Accounting export prep",
+    "finance dashboard",
+    "customer portal",
+    "maintenance plans",
+    "notifications",
+    "ops reporting",
+    "auth guards",
+    "deployment switchboard"
+  ]
+}

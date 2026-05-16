@@ -1,0 +1,1 @@
+export function HumanReviewRequiredBanner({ children }: { children?: React.ReactNode }) { return <section className="rivet-panel"><p className="kicker">Human review required</p><p>{children ?? "Technical fit, sizing, installation, warranty, and billing decisions require human review."}</p></section>; }

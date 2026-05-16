@@ -1,0 +1,21 @@
+{
+  "name": "@stax/technician-portal",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo \"lint placeholder\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "echo \"no technician-portal package tests yet\""
+  },
+  "dependencies": {
+    "@stax/core-contracts": "*",
+    "@stax/governance": "*",
+    "@stax/service-interface": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

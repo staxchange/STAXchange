@@ -1,0 +1,10 @@
+{
+  "fixture": "supplier-po",
+  "records": [
+    {
+      "id": "supplier-po-sample-1",
+      "status": "SUPPLIER_PO_DRAFTED",
+      "internalOnly": true
+    }
+  ]
+}

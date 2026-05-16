@@ -1,0 +1,9 @@
+{
+  "fixture": "quote-document",
+  "records": [
+    {
+      "id": "quote-document-sample-1",
+      "status": "DOCUMENT_APPROVED"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export function QuoteRequiredBanner() { return <section className="rivet-panel"><p className="kicker">Human review required</p><h2>Quote-first item</h2><p>This product requires DWG review before quote, compatibility, price, or order decisions.</p></section>; }

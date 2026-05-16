@@ -1,0 +1,1 @@
+export default async function Page({ params }: { params: Promise<{ quoteId: string }> }) { const { quoteId } = await params; return <main><h1>Payment canceled</h1><p>Quote {quoteId}: Payment was canceled or not completed.</p></main>; }

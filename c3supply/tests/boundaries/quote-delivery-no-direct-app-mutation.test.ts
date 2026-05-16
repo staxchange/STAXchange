@@ -1,0 +1,4 @@
+import fs from "node:fs";
+import path from "node:path";
+function walk(dir: string): string[] { if (!fs.existsSync(dir)) return []; return fs.readdirSync(dir).flatMap((entry) => { const full = path.join(dir, entry); return fs.statSync(full).isDirectory() ? walk(full) : [full]; }); }
+test("quote delivery app APIs do not directly mutate Supabase", () => { const files = ["apps/admin/app/api/quote-delivery", "apps/customer/app/api/quote-delivery", "apps/storefront/app/api/quote-delivery", "apps/c3-storefront/app/api/quote-delivery"].flatMap((dir) => walk(path.join(process.cwd(), dir))).filter((file) => /\.(ts|tsx)$/.test(file)); const banned = ["@supabase/supabase-js", "insert(", "update(", "delete(", "upsert("]; const violations = files.flatMap((file) => { const text = fs.readFileSync(file, "utf8"); return banned.filter((token) => text.includes(token)).map((token) => `${file} contains ${token}`); }); expect(violations).toEqual([]); });

@@ -1,0 +1,11 @@
+{
+  "fixture": "cart",
+  "records": [
+    {
+      "id": "cart-sample-1",
+      "items": [
+        "product-sample-1"
+      ]
+    }
+  ]
+}

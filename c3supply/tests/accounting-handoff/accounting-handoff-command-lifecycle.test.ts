@@ -1,0 +1,2 @@
+import { CreateAccountingHandoffCommand, MarkReadyForSimplyAccountingExportCommand, AddAccountingReconciliationNoteCommand } from "@stax/commands";
+test("accounting handoff commands expose lifecycle methods",()=>{for(const c of [new CreateAccountingHandoffCommand(),new MarkReadyForSimplyAccountingExportCommand(),new AddAccountingReconciliationNoteCommand()]){expect(typeof c.validateInput).toBe("function");expect(typeof c.run).toBe("function")}});

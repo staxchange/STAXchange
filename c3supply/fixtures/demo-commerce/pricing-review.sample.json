@@ -1,0 +1,10 @@
+{
+  "fixture": "pricing-review",
+  "records": [
+    {
+      "id": "pricing-review-sample-1",
+      "status": "PRICING_APPROVED",
+      "supplierCostExample": "INTERNAL_SAMPLE_ONLY"
+    }
+  ]
+}

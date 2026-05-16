@@ -1,0 +1,9 @@
+{
+  "fixture": "payment-request",
+  "records": [
+    {
+      "id": "payment-request-sample-1",
+      "status": "PAYMENT_REQUEST_APPROVED"
+    }
+  ]
+}

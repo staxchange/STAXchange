@@ -1,0 +1,6 @@
+Import Quote PDF + Customer Acceptance Phase 1.
+
+Use:
+stax_ecommerce_shell_dwg_QUOTE_DOCUMENTS_PHASE1.zip
+
+Run validation commands from QUOTE_DOCUMENTS_PHASE1_REPORT.md. Do not deploy.

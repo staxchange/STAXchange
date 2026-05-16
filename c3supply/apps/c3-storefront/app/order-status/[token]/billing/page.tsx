@@ -1,0 +1,1 @@
+export default async function BillingStatusPage({ params }: { params: Promise<{ token: string }> }) { const { token } = await params; return <main><h1>C3 Supply Co. billing status</h1><p>Reference {token}: billing in progress / invoice ready.</p></main>; }

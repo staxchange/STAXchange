@@ -1,0 +1,1541 @@
+{
+  "result": "PASS",
+  "file_count": 146,
+  "issues": [],
+  "files": [
+    {
+      "file": ".env.example",
+      "bytes": 320,
+      "lines": 12,
+      "sha256": "6588cc241c32ac81",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": ".github/workflows/ci.yml",
+      "bytes": 535,
+      "lines": 29,
+      "sha256": "76c05bb24b6cbbc9",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": ".github/workflows/pages.yml",
+      "bytes": 567,
+      "lines": 29,
+      "sha256": "02942dd01db23f11",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 73,
+      "lines": 10,
+      "sha256": "14f33a83fb579fc9",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": ".npmrc",
+      "bytes": 23,
+      "lines": 3,
+      "sha256": "f7dbda001b627b3a",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "COPILOT_IMPORT_PROMPT.txt",
+      "bytes": 624,
+      "lines": 20,
+      "sha256": "498eed4392f107a3",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "README.md",
+      "bytes": 2226,
+      "lines": 93,
+      "sha256": "7d4bad111d7362a6",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "TREE.txt",
+      "bytes": 7912,
+      "lines": 225,
+      "sha256": "a86c909d7f94d464",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "apps/admin/app/exports/page.tsx",
+      "bytes": 210,
+      "lines": 9,
+      "sha256": "26c7ab178546c934",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/admin/app/fulfillment/page.tsx",
+      "bytes": 218,
+      "lines": 9,
+      "sha256": "ed0a238427465fbf",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/admin/app/layout.tsx",
+      "bytes": 480,
+      "lines": 17,
+      "sha256": "9055518fb722576c",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/admin/app/page.tsx",
+      "bytes": 677,
+      "lines": 19,
+      "sha256": "ad337e1a946478da",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/admin/app/pricing/page.tsx",
+      "bytes": 210,
+      "lines": 9,
+      "sha256": "3b34854a9ebac4ac",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/admin/app/products/page.tsx",
+      "bytes": 212,
+      "lines": 9,
+      "sha256": "18f59f654ba97c74",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/admin/app/quotes/page.tsx",
+      "bytes": 208,
+      "lines": 9,
+      "sha256": "af848437f20168d3",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/admin/next-env.d.ts",
+      "bytes": 262,
+      "lines": 7,
+      "sha256": "85ae5aee75f01196",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/admin/next.config.ts",
+      "bytes": 271,
+      "lines": 15,
+      "sha256": "3e92dbbbffb61bfb",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/admin/package.json",
+      "bytes": 619,
+      "lines": 28,
+      "sha256": "af4ef483eb4c285c",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "apps/admin/tsconfig.json",
+      "bytes": 283,
+      "lines": 12,
+      "sha256": "15ba8719aa437e45",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "apps/storefront/app/api/quote/route.ts",
+      "bytes": 813,
+      "lines": 28,
+      "sha256": "bc1f893269be0030",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/storefront/app/cart/page.tsx",
+      "bytes": 246,
+      "lines": 10,
+      "sha256": "62d3290ce7acc010",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/storefront/app/catalog/page.tsx",
+      "bytes": 1169,
+      "lines": 33,
+      "sha256": "806abc552924f155",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/storefront/app/contact/page.tsx",
+      "bytes": 463,
+      "lines": 16,
+      "sha256": "5023cbda2c75ed9b",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/storefront/app/globals.css",
+      "bytes": 2477,
+      "lines": 162,
+      "sha256": "16104fd3aae10a73",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "apps/storefront/app/layout.tsx",
+      "bytes": 1154,
+      "lines": 41,
+      "sha256": "6de7802ebd558b53",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/storefront/app/page.tsx",
+      "bytes": 1152,
+      "lines": 38,
+      "sha256": "3526dc5e1e3a7cab",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/storefront/app/product/[slug]/page.tsx",
+      "bytes": 907,
+      "lines": 31,
+      "sha256": "b0cfd8721e4374a4",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/storefront/app/quote/page.tsx",
+      "bytes": 909,
+      "lines": 23,
+      "sha256": "08b7096268cde18c",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/storefront/app/quote/thank-you/page.tsx",
+      "bytes": 215,
+      "lines": 9,
+      "sha256": "d97e2afe2bbfb681",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/storefront/next-env.d.ts",
+      "bytes": 262,
+      "lines": 7,
+      "sha256": "85ae5aee75f01196",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/storefront/next.config.ts",
+      "bytes": 271,
+      "lines": 15,
+      "sha256": "3e92dbbbffb61bfb",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "app-boundary"
+      ]
+    },
+    {
+      "file": "apps/storefront/package.json",
+      "bytes": 648,
+      "lines": 29,
+      "sha256": "ff5025fa7936c797",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "apps/storefront/tsconfig.json",
+      "bytes": 283,
+      "lines": 12,
+      "sha256": "15ba8719aa437e45",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "brands/dwg/DWG_DRESS.md",
+      "bytes": 272,
+      "lines": 15,
+      "sha256": "3d03e148b18dda75",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "brands/dwg/package.json",
+      "bytes": 382,
+      "lines": 17,
+      "sha256": "44bd60f11a247146",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "brands/dwg/src/brand.ts",
+      "bytes": 1049,
+      "lines": 27,
+      "sha256": "04a10255bab691fc",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "brands/dwg/src/categories.ts",
+      "bytes": 894,
+      "lines": 30,
+      "sha256": "865298c6e6243972",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "brands/dwg/src/index.ts",
+      "bytes": 83,
+      "lines": 4,
+      "sha256": "c946e72fc4cb02bf",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "brands/dwg/src/products.ts",
+      "bytes": 1416,
+      "lines": 50,
+      "sha256": "6931709ec095eb2c",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "brands/dwg/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "docs/CNAME",
+      "bytes": 21,
+      "lines": 2,
+      "sha256": "0567b5ce38b22642",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "docs/architecture/ARCHITECTURE.md",
+      "bytes": 290,
+      "lines": 11,
+      "sha256": "df5dae5b4d57663d",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "docs/architecture/DWG_DRESS_MODEL.md",
+      "bytes": 132,
+      "lines": 6,
+      "sha256": "4f97255d0e431eff",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "docs/deployment/GITHUB_PAGES.md",
+      "bytes": 94,
+      "lines": 6,
+      "sha256": "d841c21a697a4b23",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "docs/deployment/VERCEL.md",
+      "bytes": 85,
+      "lines": 4,
+      "sha256": "f2a45db8d6068689",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "docs/governance/MUTATION_GATEWAY.md",
+      "bytes": 178,
+      "lines": 6,
+      "sha256": "a95a3346da100ea1",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "docs/index.html",
+      "bytes": 1610,
+      "lines": 36,
+      "sha256": "2e8d0c34fd0c87bf",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "docs/runbooks/INCIDENTS.md",
+      "bytes": 88,
+      "lines": 4,
+      "sha256": "d07f4497e8cb3e8a",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "docs/runbooks/LOCAL_DEV.md",
+      "bytes": 60,
+      "lines": 4,
+      "sha256": "d52447605bc0f906",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "docs/runbooks/RELEASE.md",
+      "bytes": 63,
+      "lines": 4,
+      "sha256": "d0ea667ab9bf7ea7",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "docs/styles.css",
+      "bytes": 1469,
+      "lines": 86,
+      "sha256": "917b0b6031cf12ea",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "docs/workflows/PRODUCT_PUBLICATION.md",
+      "bytes": 126,
+      "lines": 6,
+      "sha256": "81ffecd9c4b34e91",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "docs/workflows/QUOTE_FIRST.md",
+      "bytes": 159,
+      "lines": 4,
+      "sha256": "5b6d3d49762c4d3b",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "eslint.config.js",
+      "bytes": 1019,
+      "lines": 46,
+      "sha256": "3d8c4c0f7a370e3d",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "infra/github/README.md",
+      "bytes": 167,
+      "lines": 5,
+      "sha256": "e823bf6ebde1f6a8",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "infra/supabase/README.md",
+      "bytes": 110,
+      "lines": 6,
+      "sha256": "8065023d674a87aa",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "infra/supabase/migrations/0001_initial_schema.sql",
+      "bytes": 2649,
+      "lines": 84,
+      "sha256": "c1c2d60f37ff57d7",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "infra/vercel/README.md",
+      "bytes": 308,
+      "lines": 15,
+      "sha256": "241350940fc12da6",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "jest.config.cjs",
+      "bytes": 551,
+      "lines": 15,
+      "sha256": "e5099b651a0ba1e5",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 252219,
+      "lines": 6313,
+      "sha256": "1df371486c751f67",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "package.json",
+      "bytes": 1060,
+      "lines": 35,
+      "sha256": "673d4036699012d6",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/audit/package.json",
+      "bytes": 380,
+      "lines": 17,
+      "sha256": "0bde2c531322168a",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/audit/src/append-audit-event.ts",
+      "bytes": 369,
+      "lines": 16,
+      "sha256": "bdd5912042f4c790",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/audit/src/audit-event.ts",
+      "bytes": 229,
+      "lines": 12,
+      "sha256": "1baf5716edb860a7",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/audit/src/index.ts",
+      "bytes": 69,
+      "lines": 3,
+      "sha256": "7ef72a3ffc7efa19",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/audit/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/catalog/package.json",
+      "bytes": 382,
+      "lines": 17,
+      "sha256": "525a8d20a1701e6a",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/catalog/src/index.ts",
+      "bytes": 203,
+      "lines": 8,
+      "sha256": "0128872015e1428c",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/catalog/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/commands/package.json",
+      "bytes": 436,
+      "lines": 19,
+      "sha256": "e571944f1174ac87",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/commands/src/catalog/ApproveProductLaunchCommand.ts",
+      "bytes": 2786,
+      "lines": 82,
+      "sha256": "12600d90072961ce",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/catalog/PublishProductCommand.ts",
+      "bytes": 2681,
+      "lines": 82,
+      "sha256": "f885a7dd66fe4354",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/catalog/QuarantineProductCommand.ts",
+      "bytes": 2762,
+      "lines": 83,
+      "sha256": "f2bce47a5434731e",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/command-contract.ts",
+      "bytes": 905,
+      "lines": 21,
+      "sha256": "ae83b48b2b148bed",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/commands/src/command-result.ts",
+      "bytes": 269,
+      "lines": 13,
+      "sha256": "1fdc87d2ff5beff4",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/commands/src/commerce/AddToCartCommand.ts",
+      "bytes": 2562,
+      "lines": 84,
+      "sha256": "8346604c5f4c3dfe",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/commerce/CreateCheckoutSessionCommand.ts",
+      "bytes": 2771,
+      "lines": 82,
+      "sha256": "fea4c6b5601585bf",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/commerce/CreateOrderFromStripeCommand.ts",
+      "bytes": 2804,
+      "lines": 82,
+      "sha256": "c83605bfc4f725df",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/fulfillment/CreateFulfillmentRequestCommand.ts",
+      "bytes": 2822,
+      "lines": 82,
+      "sha256": "a205d94b9a61f24b",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/fulfillment/GeneratePackingSlipCommand.ts",
+      "bytes": 2842,
+      "lines": 82,
+      "sha256": "40c7d045500b06c4",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/index.ts",
+      "bytes": 896,
+      "lines": 19,
+      "sha256": "c151cf99b3bbd6a6",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/commands/src/internal/run-command.ts",
+      "bytes": 1009,
+      "lines": 27,
+      "sha256": "f268fcbebae802c2",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/commands/src/ops/CreateCapitalSignalCommand.ts",
+      "bytes": 2752,
+      "lines": 83,
+      "sha256": "3338f7489ef6f74b",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/ops/ExportSageBatchCommand.ts",
+      "bytes": 2679,
+      "lines": 82,
+      "sha256": "0b6ca3ab164dcf9d",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/pricing/ApproveRetailPriceCommand.ts",
+      "bytes": 2766,
+      "lines": 83,
+      "sha256": "25671f4efd84b92d",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/pricing/ValidateProductPricingCommand.ts",
+      "bytes": 2866,
+      "lines": 84,
+      "sha256": "573fde13e09adc69",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/quotes/AcceptQuoteCommand.ts",
+      "bytes": 2580,
+      "lines": 82,
+      "sha256": "bff5c11a62d43ec6",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/quotes/CreateQuoteRequestCommand.ts",
+      "bytes": 2894,
+      "lines": 88,
+      "sha256": "89087571bef67eeb",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/quotes/DraftQuoteCommand.ts",
+      "bytes": 2558,
+      "lines": 82,
+      "sha256": "6108ddfca870d0e8",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/src/quotes/SendQuoteCommand.ts",
+      "bytes": 2530,
+      "lines": 82,
+      "sha256": "0366b5babe70687e",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "command-lifecycle"
+      ]
+    },
+    {
+      "file": "packages/commands/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/commerce-shell/package.json",
+      "bytes": 417,
+      "lines": 18,
+      "sha256": "a309888d84bf8e93",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/commerce-shell/src/index.ts",
+      "bytes": 58,
+      "lines": 3,
+      "sha256": "2453b2aeab0c7c9c",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/commerce-shell/src/routes.ts",
+      "bytes": 185,
+      "lines": 7,
+      "sha256": "4b578ea8628851a8",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/commerce-shell/src/shell-policy.ts",
+      "bytes": 165,
+      "lines": 7,
+      "sha256": "2283ce6dced084c2",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/commerce-shell/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/commerce/package.json",
+      "bytes": 383,
+      "lines": 17,
+      "sha256": "53b98a062e4b8345",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/commerce/src/index.ts",
+      "bytes": 250,
+      "lines": 11,
+      "sha256": "541f966cd279267d",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/commerce/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/core-contracts/package.json",
+      "bytes": 354,
+      "lines": 15,
+      "sha256": "70070e9e618c369c",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/core-contracts/src/index.ts",
+      "bytes": 1501,
+      "lines": 80,
+      "sha256": "2e1cabff02432f8e",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/core-contracts/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/fulfillment/package.json",
+      "bytes": 386,
+      "lines": 17,
+      "sha256": "4a7c9b6a2d3a1a0a",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/fulfillment/src/index.ts",
+      "bytes": 186,
+      "lines": 8,
+      "sha256": "ee31b88cabdff736",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/fulfillment/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/governance/package.json",
+      "bytes": 350,
+      "lines": 15,
+      "sha256": "4212537bf8d93845",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/governance/src/actors.ts",
+      "bytes": 170,
+      "lines": 8,
+      "sha256": "78be8ce2e1bf1eec",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/governance/src/guards.ts",
+      "bytes": 861,
+      "lines": 22,
+      "sha256": "1d2a020efc6758dd",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/governance/src/index.ts",
+      "bytes": 110,
+      "lines": 5,
+      "sha256": "caef9d8bd7b93290",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/governance/src/permissions.ts",
+      "bytes": 1596,
+      "lines": 63,
+      "sha256": "3d49fb119c6f1c02",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/governance/src/results.ts",
+      "bytes": 241,
+      "lines": 12,
+      "sha256": "48bf0d84f6210cdf",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/governance/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/pricing/package.json",
+      "bytes": 382,
+      "lines": 17,
+      "sha256": "3c4a8dcbc2e614b8",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/pricing/src/index.ts",
+      "bytes": 255,
+      "lines": 8,
+      "sha256": "1e6d632da2162c84",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/pricing/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/quotes/package.json",
+      "bytes": 381,
+      "lines": 17,
+      "sha256": "455feb07aeed26e8",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/quotes/src/index.ts",
+      "bytes": 243,
+      "lines": 8,
+      "sha256": "479e59d87311731f",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/quotes/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/signals/package.json",
+      "bytes": 347,
+      "lines": 15,
+      "sha256": "4b629e9c5092dc52",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/signals/src/index.ts",
+      "bytes": 289,
+      "lines": 13,
+      "sha256": "5c4c8761d40dbb1e",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/signals/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/tooling/package.json",
+      "bytes": 347,
+      "lines": 15,
+      "sha256": "0822f321116b2463",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/tooling/src/index.ts",
+      "bytes": 41,
+      "lines": 2,
+      "sha256": "6e4cee8ca87f17b5",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/tooling/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/ui/package.json",
+      "bytes": 342,
+      "lines": 15,
+      "sha256": "d69af85a42c3d2f0",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/ui/src/index.ts",
+      "bytes": 180,
+      "lines": 10,
+      "sha256": "59f0d8c069f69d81",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/ui/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/workflows/package.json",
+      "bytes": 380,
+      "lines": 17,
+      "sha256": "f041b63bdefb3ac9",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "packages/workflows/src/definitions/checkout.ts",
+      "bytes": 752,
+      "lines": 15,
+      "sha256": "d265bd96a067cffa",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/workflows/src/definitions/fulfillment.ts",
+      "bytes": 737,
+      "lines": 15,
+      "sha256": "c5cab6245baaac5e",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/workflows/src/definitions/pricing-approval.ts",
+      "bytes": 739,
+      "lines": 15,
+      "sha256": "b2c37e41f476cc68",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/workflows/src/definitions/product-publication.ts",
+      "bytes": 1207,
+      "lines": 19,
+      "sha256": "5ccdc385ce0624cb",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/workflows/src/definitions/quote-first.ts",
+      "bytes": 889,
+      "lines": 16,
+      "sha256": "eea7421bf84f4120",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/workflows/src/definitions/sage-export.ts",
+      "bytes": 583,
+      "lines": 14,
+      "sha256": "dd919eb93a1fb046",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/workflows/src/index.ts",
+      "bytes": 1086,
+      "lines": 31,
+      "sha256": "41f9d20fc4640eec",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/workflows/src/workflow-engine.ts",
+      "bytes": 631,
+      "lines": 23,
+      "sha256": "ed04af0d5ead149c",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/workflows/src/workflow-types.ts",
+      "bytes": 447,
+      "lines": 24,
+      "sha256": "637c8076528fdce6",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "packages/workflows/tsconfig.json",
+      "bytes": 137,
+      "lines": 8,
+      "sha256": "241f82da42b43a8f",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "scripts/print-workflows.mjs",
+      "bytes": 217,
+      "lines": 8,
+      "sha256": "a3c425a9fe9c4a64",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "scripts/validate-boundaries.mjs",
+      "bytes": 918,
+      "lines": 39,
+      "sha256": "43d1ea813f329ec6",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "tests/governance/command-lifecycle.test.ts",
+      "bytes": 944,
+      "lines": 33,
+      "sha256": "1e1b793e32846fa0",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "tests/governance/import-boundary.test.ts",
+      "bytes": 838,
+      "lines": 27,
+      "sha256": "64cf359be842303b",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "tests/governance/mutation-gateway.test.ts",
+      "bytes": 456,
+      "lines": 12,
+      "sha256": "bd79fd7ee2b4ee5c",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "tsconfig.base.json",
+      "bytes": 1347,
+      "lines": 36,
+      "sha256": "6476caf9d40bd67e",
+      "status": "ok",
+      "checks": [
+        "non-empty"
+      ]
+    },
+    {
+      "file": "turbo.json",
+      "bytes": 370,
+      "lines": 23,
+      "sha256": "dc352247cfd7bf42",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    },
+    {
+      "file": "vercel.json",
+      "bytes": 173,
+      "lines": 7,
+      "sha256": "141ec4aac8f4e851",
+      "status": "ok",
+      "checks": [
+        "non-empty",
+        "valid-json"
+      ]
+    }
+  ]
+}

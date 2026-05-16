@@ -1,0 +1,40 @@
+Import the strengthened DWG/STAX ecommerce-service repo.
+
+Use:
+stax_ecommerce_shell_dwg_STRENGTHENED_REPO.zip
+
+After extracting, run:
+
+npm install
+npm run audit:repo-strength
+npm run audit:all-strengthened
+npm run test -- --runInBand
+npm run typecheck --workspace @stax/platform-hardening
+npm run typecheck --workspace @stax/storefront
+npm run typecheck --workspace @stax/admin
+npm run typecheck --workspace @stax/customer
+npm run typecheck --workspace @stax/technician
+npm run typecheck --workspace @stax/commands
+npm run typecheck --workspace @stax/workflows
+npm run typecheck --workspace @stax/authz
+npm run typecheck --workspace @stax/deployment-switchboard
+npm run build --workspace @stax/storefront
+npm run build --workspace @stax/admin
+npm run build --workspace @stax/customer
+npm run build --workspace @stax/technician
+
+Rules:
+- STAX/DALENSTAX is the core OS.
+- DWG ecommerce/service is the active vertical.
+- Do not add Collectibles vertical logic.
+- packages/commands remains the protected mutation gateway.
+- service-role and OpenAI keys remain server-only.
+- Simply Accounting export remains finance-reviewed file/batch prep only.
+- Do not deploy yet.
+
+Return:
+- files changed
+- command results
+- build results
+- unresolved blockers
+- latest commit hash

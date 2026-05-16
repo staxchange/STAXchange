@@ -1,0 +1,1 @@
+export default async function FulfillmentPlanPage({ params }: { params: Promise<{ id: string }> }) { const { id } = await params; return <section><h1>Fulfillment plan {id}</h1><p>Safe internal fulfillment review.</p></section>; }

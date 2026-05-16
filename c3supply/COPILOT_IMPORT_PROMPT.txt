@@ -1,0 +1,20 @@
+Import this repository into GitHub as the full STAX ecommerce shell with the DWG dress.
+
+After extracting, run:
+
+npm install
+npm run validate:boundaries
+npm run audit:support
+npm run typecheck
+npm run test
+npm run build
+
+Rules:
+- Do not add DALENSTAX truth, Event Horizon, confidence scoring, or autonomous recommendation logic.
+- Apps must not directly mutate protected workflows.
+- packages/commands is the only protected mutation gateway.
+- DWG brand dress belongs in brands/dwg.
+- Shell logic belongs in packages/commerce-shell and packages/workflows.
+- Production secrets must not be committed.
+
+Then commit to main and open a PR if needed.

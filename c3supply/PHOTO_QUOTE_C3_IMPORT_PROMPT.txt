@@ -1,0 +1,26 @@
+Import the Photo Quote Intake + C3 Supply Dress expansion.
+
+Use:
+stax_ecommerce_shell_dwg_PHOTO_QUOTE_C3_EXPANSION.zip
+
+Run:
+
+npm install
+npm run audit:photo-quote
+npm run audit:c3
+npm run audit:commerce
+npm run audit:repo-strength
+npm run audit:all-strengthened
+npm run test -- --runInBand
+npm run typecheck --workspace @stax/photo-quote-intake
+npm run typecheck --workspace @stax/c3-supply
+npm run typecheck --workspace @stax/c3-storefront
+npm run typecheck --workspace @stax/commands
+npm run typecheck --workspace @stax/workflows
+npm run typecheck --workspace @stax/storefront
+npm run typecheck --workspace @stax/admin
+npm run build --workspace @stax/c3-storefront
+npm run build --workspace @stax/storefront
+npm run build --workspace @stax/admin
+
+Fix blockers only. Do not deploy.

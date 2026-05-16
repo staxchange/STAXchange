@@ -1,0 +1,172 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": false,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@stax/brand-dwg": [
+        "brands/dwg/src/index.ts"
+      ],
+      "@stax/core-contracts": [
+        "packages/core-contracts/src/index.ts"
+      ],
+      "@stax/governance": [
+        "packages/governance/src/index.ts"
+      ],
+      "@stax/audit": [
+        "packages/audit/src/index.ts"
+      ],
+      "@stax/commands": [
+        "packages/commands/src/index.ts"
+      ],
+      "@stax/workflows": [
+        "packages/workflows/src/index.ts"
+      ],
+      "@stax/commerce-shell": [
+        "packages/commerce-shell/src/index.ts"
+      ],
+      "@stax/ui": [
+        "packages/ui/src/index.ts"
+      ],
+      "@stax/catalog": [
+        "packages/catalog/src/index.ts"
+      ],
+      "@stax/pricing": [
+        "packages/pricing/src/index.ts"
+      ],
+      "@stax/quotes": [
+        "packages/quotes/src/index.ts"
+      ],
+      "@stax/commerce": [
+        "packages/commerce/src/index.ts"
+      ],
+      "@stax/fulfillment": [
+        "packages/fulfillment/src/index.ts"
+      ],
+      "@stax/signals": [
+        "packages/signals/src/index.ts"
+      ],
+      "@stax/ai-support": [
+        "packages/ai-support/src/index.ts"
+      ],
+      "@stax/service-interface": [
+        "packages/service-interface/src/index.ts"
+      ],
+      "@stax/technician-portal": [
+        "packages/technician-portal/src/index.ts"
+      ],
+      "@stax/service-billing": [
+        "packages/service-billing/src/index.ts"
+      ],
+      "@stax/parts-inventory": [
+        "packages/parts-inventory/src/index.ts"
+      ],
+      "@stax/customer-portal": [
+        "packages/customer-portal/src/index.ts"
+      ],
+      "@stax/maintenance-plans": [
+        "packages/maintenance-plans/src/index.ts"
+      ],
+      "@stax/notifications": [
+        "packages/notifications/src/index.ts"
+      ],
+      "@stax/reporting": [
+        "packages/reporting/src/index.ts"
+      ],
+      "@stax/accounting-export": [
+        "packages/accounting-export/src/index.ts"
+      ],
+      "@stax/accounting-export-storage": [
+        "packages/accounting-export-storage/src/index.ts"
+      ],
+      "@stax/finance-export-ui": [
+        "packages/finance-export-ui/src/index.ts"
+      ],
+      "@stax/authz": [
+        "packages/authz/src/index.ts"
+      ],
+      "@stax/visual-system": [
+        "packages/visual-system/src/index.ts"
+      ],
+      "@stax/storefront-conversion": [
+        "packages/storefront-conversion/src/index.ts"
+      ],
+      "@stax/launch-readiness": [
+        "packages/launch-readiness/src/index.ts"
+      ],
+      "@stax/deployment-switchboard": [
+        "packages/deployment-switchboard/src/index.ts"
+      ],
+      "@stax/platform-hardening": [
+        "packages/platform-hardening/src/index.ts"
+      ],
+      "@stax/product-catalog": [
+        "packages/product-catalog/src/index.ts"
+      ],
+      "@stax/cart": [
+        "packages/cart/src/index.ts"
+      ],
+      "@stax/quote-workflow": [
+        "packages/quote-workflow/src/index.ts"
+      ],
+      "@stax/orders": [
+        "packages/orders/src/index.ts"
+      ],
+      "@stax/photo-quote-intake": [
+        "packages/photo-quote-intake/src/index.ts"
+      ],
+      "@stax/c3-supply": [
+        "brands/c3-supply/src/index.ts"
+      ],
+      "@stax/quote-documents": [
+        "packages/quote-documents/src/index.ts"
+      ],
+      "@stax/supplier-costs": [
+        "packages/supplier-costs/src/index.ts"
+      ],
+      "@stax/margin-rules": [
+        "packages/margin-rules/src/index.ts"
+      ],
+      "@stax/pricing-governance": [
+        "packages/pricing-governance/src/index.ts"
+      ],
+      "@stax/quote-delivery": [
+        "packages/quote-delivery/src/index.ts"
+      ],
+      "@stax/payments": [
+        "packages/payments/src/index.ts"
+      ],
+      "@stax/stripe-payments": [
+        "packages/stripe-payments/src/index.ts"
+      ],
+      "@stax/supplier-purchasing": [
+        "packages/supplier-purchasing/src/index.ts"
+      ],
+      "@stax/commerce-billing": [
+        "packages/commerce-billing/src/index.ts"
+      ],
+      "@stax/accounting-handoff": [
+        "packages/accounting-handoff/src/index.ts"
+      ],
+      "@stax/e2e-readiness": [
+        "packages/e2e-readiness/src/index.ts"
+      ]
+    }
+  }
+}

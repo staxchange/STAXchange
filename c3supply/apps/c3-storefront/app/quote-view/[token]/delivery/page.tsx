@@ -1,0 +1,1 @@
+export default async function Page({ params }: { params: Promise<{ token: string }> }) { const { token } = await params; return <main><h1>C3 Supply Co. quote delivery</h1><p>Secure customer-safe quote delivery link. Token: {token}</p></main>; }

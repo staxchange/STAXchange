@@ -1,0 +1,35 @@
+Import the Storefront Conversion Next repo.
+
+After extracting, run:
+
+npm install
+npm run audit:storefront-conversion
+npm run audit:visual
+npm run audit:theme
+npm run audit:auth
+npm run audit:finance-export-ui
+npm run audit:accounting-storage
+npm run audit:accounting-export
+npm run audit:billing
+npm run audit:customer-ops
+npm run audit:technician
+npm run audit:service
+npm run validate:boundaries
+npm run test -- --runInBand
+npm run typecheck --workspace @stax/storefront-conversion
+npm run typecheck --workspace @stax/storefront
+npm run build --workspace @stax/storefront
+
+Rules:
+- This is conversion polish only.
+- Do not change protected workflow governance.
+- Do not add AI diagnosis or autonomous recommendations.
+- Do not add direct Supabase mutation from app/client code.
+- Do not alter Simply Accounting export boundaries.
+
+Return:
+- files changed
+- command results
+- build results
+- unresolved blockers
+- latest commit hash

@@ -1,0 +1,20 @@
+{
+  "name": "@stax/accounting-export-storage",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo \"lint placeholder\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "echo \"no accounting-export-storage package tests yet\""
+  },
+  "dependencies": {
+    "@stax/accounting-export": "*",
+    "@stax/core-contracts": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

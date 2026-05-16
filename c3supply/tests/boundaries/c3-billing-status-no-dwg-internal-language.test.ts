@@ -1,0 +1,3 @@
+import fs from "node:fs"; import path from "node:path";
+function walk(d:string):string[]{if(!fs.existsSync(d))return[];return fs.readdirSync(d).flatMap(e=>{const f=path.join(d,e);return fs.statSync(f).isDirectory()?walk(f):[f]})}
+test("C3 billing status has no DWG internal language",()=>{const files=walk(path.join(process.cwd(),"apps/c3-storefront/app/order-status")).filter(f=>/\.(ts|tsx)$/.test(f));const banned=["DWG Process Supply","Simply Accounting","technician portal","supplier cost"];const v=files.flatMap(f=>{const t=fs.readFileSync(f,"utf8");return banned.filter(b=>t.includes(b)).map(b=>`${f} contains ${b}`)});expect(v).toEqual([])});

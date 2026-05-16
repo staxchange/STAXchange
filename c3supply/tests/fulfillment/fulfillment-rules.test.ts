@@ -1,0 +1,2 @@
+import { autoFulfillmentAllowed, fulfillmentRequiresAcceptedOrder, fulfillmentRequiresHumanReview, fulfillmentRequiresPaymentOrOverride } from "@stax/fulfillment";
+test("fulfillment requires accepted/paid handoff and human review",()=>{ expect(fulfillmentRequiresAcceptedOrder()).toBe(true); expect(fulfillmentRequiresHumanReview()).toBe(true); expect(fulfillmentRequiresPaymentOrOverride({paymentSucceeded:true})).toBe(true); expect(autoFulfillmentAllowed()).toBe(false); });

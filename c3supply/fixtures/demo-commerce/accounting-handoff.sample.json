@@ -1,0 +1,9 @@
+{
+  "fixture": "accounting-handoff",
+  "records": [
+    {
+      "id": "accounting-handoff-sample-1",
+      "status": "HANDOFF_DRAFTED"
+    }
+  ]
+}

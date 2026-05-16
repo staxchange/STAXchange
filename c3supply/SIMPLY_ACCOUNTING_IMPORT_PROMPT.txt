@@ -1,0 +1,38 @@
+Import the Simply Accounting checkpoint repo into the current DWG/STAX repository.
+
+After extracting, run:
+
+npm install
+npm run audit:billing
+npm run audit:customer-ops
+npm run audit:technician
+npm run audit:service
+npm run validate:boundaries
+npm run test -- --runInBand
+npm run typecheck --workspace @stax/service-billing
+npm run typecheck --workspace @stax/parts-inventory
+npm run typecheck --workspace @stax/commands
+npm run typecheck --workspace @stax/workflows
+npm run typecheck --workspace @stax/admin
+npm run typecheck --workspace @stax/customer
+npm run build --workspace @stax/admin
+npm run build --workspace @stax/customer
+npm run build --workspace @stax/storefront
+
+Rules:
+- Use “Simply Accounting” as the business-facing accounting language.
+- Use “Simply Accounting / Sage 50 Canada” only as a technical compatibility note.
+- Export workflow remains finance-reviewed file/batch preparation only.
+- Do not build direct accounting sync.
+- Do not auto-post to accounting.
+- Do not auto-approve invoices.
+- packages/commands remains the protected mutation gateway.
+- Do not commit production secrets.
+
+Return:
+- files changed
+- old terms replaced
+- remaining Sage references and why they remain
+- command results
+- unresolved blockers
+- latest commit hash

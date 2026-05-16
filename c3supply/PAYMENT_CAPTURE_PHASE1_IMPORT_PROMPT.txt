@@ -1,0 +1,5 @@
+Import Stripe Deposit + Payment Capture Phase 1.
+
+Use: stax_ecommerce_shell_dwg_PAYMENT_CAPTURE_PHASE1.zip
+
+Run full audits, tests, typechecks, and builds before deployment. Do not deploy until all pass.

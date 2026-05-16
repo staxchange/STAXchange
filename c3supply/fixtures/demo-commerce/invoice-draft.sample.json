@@ -1,0 +1,9 @@
+{
+  "fixture": "invoice-draft",
+  "records": [
+    {
+      "id": "invoice-draft-sample-1",
+      "status": "INVOICE_DRAFT_CREATED"
+    }
+  ]
+}

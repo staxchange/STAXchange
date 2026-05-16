@@ -1,0 +1,9 @@
+{
+  "fixture": "quote-delivery",
+  "records": [
+    {
+      "id": "quote-delivery-sample-1",
+      "status": "CUSTOMER_NOTIFIED"
+    }
+  ]
+}

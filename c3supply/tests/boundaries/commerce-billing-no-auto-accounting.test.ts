@@ -1,0 +1,2 @@
+import fs from "node:fs"; import path from "node:path";
+test("commerce billing package does not auto-post accounting",()=>{const root=path.join(process.cwd(),"packages/commerce-billing/src");const files=fs.readdirSync(root).map(f=>path.join(root,f));const banned=["auto-post", "direct sync", "automatic accounting"];const v=files.flatMap(f=>{const t=fs.readFileSync(f,"utf8");return banned.filter(b=>t.includes(b)).map(b=>`${f} contains ${b}`)});expect(v).toEqual([])});

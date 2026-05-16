@@ -1,0 +1,1 @@
+export default async function SupplierPOPage({ params }: { params: Promise<{ id: string }> }) { const { id } = await params; return <section><h1>Supplier PO {id}</h1><p>Draft/review/manual-send only.</p></section>; }

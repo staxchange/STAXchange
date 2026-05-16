@@ -1,0 +1,82 @@
+Import this treatment systems service-interface module into the existing STAX Ecommerce Shell + DWG brand dress repo.
+
+Copy these folders/files into the repo root:
+
+- packages/service-interface
+- packages/commands/src/service
+- apps/storefront/app/service
+- apps/storefront/app/api/service-request
+- apps/storefront/app/api/service-system-lookup
+- apps/admin/app/service
+- infra/supabase/migrations/0003_treatment_service_interface.sql
+- docs/workflows/TREATMENT_SYSTEM_SERVICE.md
+- docs/architecture/SERVICE_INTERFACE_BOUNDARIES.md
+- tests/service/service-intake-rules.test.ts
+- scripts/audit-service-interface.mjs
+
+Then update existing files:
+
+1. package.json
+   Add:
+   "audit:service": "node scripts/audit-service-interface.mjs"
+
+2. tsconfig.base.json
+   Add path alias:
+   "@stax/service-interface": ["packages/service-interface/src/index.ts"]
+
+3. apps/storefront/package.json
+   Add dependency:
+   "@stax/service-interface": "*"
+
+4. apps/storefront/next.config.ts
+   Add transpile package:
+   "@stax/service-interface"
+
+5. apps/admin/package.json
+   Add dependency:
+   "@stax/service-interface": "*"
+
+6. packages/commands/src/index.ts
+   Add exports:
+   export * from "./service/CreateServiceRequestCommand";
+   export * from "./service/TriageServiceRequestCommand";
+   export * from "./service/CreateServiceWorkOrderCommand";
+   export * from "./service/ScheduleServiceVisitCommand";
+   export * from "./service/AssignServiceTechnicianCommand";
+   export * from "./service/CompleteServiceVisitCommand";
+   export * from "./service/EscalateEmergencyServiceCommand";
+
+7. packages/governance/src/permissions.ts
+   Add service permissions:
+   - service.request.create
+   - service.request.triage
+   - service.work_order.create
+   - service.visit.schedule
+   - service.technician.assign
+   - service.visit.complete
+   - service.emergency.escalate
+
+8. packages/workflows/src/index.ts
+   Export and include treatmentServiceWorkflow.
+
+9. jest.config.cjs
+   Add mapper:
+   "^@stax/service-interface$": "<rootDir>/packages/service-interface/src/index.ts"
+
+Run:
+
+npm install
+npm run audit:service
+npm run validate:boundaries
+npm run test -- --runInBand
+npm run typecheck --workspace @stax/service-interface
+npm run typecheck --workspace @stax/commands
+npm run typecheck --workspace @stax/storefront
+npm run typecheck --workspace @stax/admin
+
+Rules:
+- Service interface is intake, workflow, dispatch, and recordkeeping.
+- Do not let AI make final safety, plumbing, chemical, electrical, sizing, or engineering conclusions.
+- Apps must not directly mutate protected workflow tables.
+- packages/commands remains the protected mutation gateway.
+- Do not commit production secrets.

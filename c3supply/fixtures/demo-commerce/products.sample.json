@@ -1,0 +1,11 @@
+{
+  "fixture": "products",
+  "scope": "DWG",
+  "records": [
+    {
+      "id": "product-sample-1",
+      "name": "Sample Filter Housing",
+      "public": true
+    }
+  ]
+}

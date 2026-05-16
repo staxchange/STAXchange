@@ -1,0 +1,1 @@
+export default async function C3OrderStatusPage({ params }: { params: Promise<{ token: string }> }) { const { token } = await params; return <main><h1>C3 Supply Co. order status</h1><p>Secure token ending {token.slice(-4)}. Customer-safe status only.</p></main>; }

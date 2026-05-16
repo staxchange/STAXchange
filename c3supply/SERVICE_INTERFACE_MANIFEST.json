@@ -1,0 +1,162 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 1289,
+    "sha256": "80e5db23c56bb06bb2ff9cb5778680555d244d395ec8899fce34d62dabc585d0"
+  },
+  {
+    "path": "SERVICE_INTERFACE_IMPORT_PROMPT.txt",
+    "bytes": 2673,
+    "sha256": "13a3fab263be4c2c0242fb26830b44e8250aedfd7e68581a87936f3dc0021a76"
+  },
+  {
+    "path": "TREE.txt",
+    "bytes": 2303,
+    "sha256": "7410b408240608239aa869680ed82bbe12595481abcb84f8dd4c648dc31c107d"
+  },
+  {
+    "path": "UPDATE_EXISTING_FILES.md",
+    "bytes": 1951,
+    "sha256": "b93de8eeb0b250a4aa801f6a9ac3d63e06dba9196f0cf394f638ea508c3ba925"
+  },
+  {
+    "path": "apps/admin/app/service/[id]/page.tsx",
+    "bytes": 344,
+    "sha256": "4a9cc0dd0b0cdd7d6a335967f9c87d25b425dd3adbe1a2841e33da93104583cb"
+  },
+  {
+    "path": "apps/admin/app/service/page.tsx",
+    "bytes": 2073,
+    "sha256": "4f96534cea2b42b3bdadaa48ab35cfdf9c95fab25e6ec102890f38d2cdf04921"
+  },
+  {
+    "path": "apps/storefront/app/api/service-request/route.ts",
+    "bytes": 3237,
+    "sha256": "5dd1cc92e04988670f0c543aaac863102155e3ab5bc3183e9a6aae0cfab39cc5"
+  },
+  {
+    "path": "apps/storefront/app/api/service-system-lookup/route.ts",
+    "bytes": 995,
+    "sha256": "8a5d9cdf3d10c4f123eef720c14e36b375090d12ace227a3e2c8a70eddd1ba3e"
+  },
+  {
+    "path": "apps/storefront/app/service/ServiceRequestForm.tsx",
+    "bytes": 4780,
+    "sha256": "ceb419d84d2d842c4405c64dda2853efb73feb1fd215891d78190bca462d59a1"
+  },
+  {
+    "path": "apps/storefront/app/service/page.tsx",
+    "bytes": 492,
+    "sha256": "258480814849df534512814434a6234f07ee1727e4fb2b9e9a7c269394984d74"
+  },
+  {
+    "path": "docs/architecture/SERVICE_INTERFACE_BOUNDARIES.md",
+    "bytes": 587,
+    "sha256": "9bdc773402e7abf4c7cde3e50f6b50753f4b5b7b16d35a02804318d455d7eb0a"
+  },
+  {
+    "path": "docs/workflows/TREATMENT_SYSTEM_SERVICE.md",
+    "bytes": 857,
+    "sha256": "b819c70c5184cb50d9426b22ecb61d4e97235ef083124f903747d3abf1b6c3ab"
+  },
+  {
+    "path": "infra/supabase/migrations/0003_treatment_service_interface.sql",
+    "bytes": 2957,
+    "sha256": "2df3eeb10ba7a809b95a696191177c8b2f5d816e05320952754a1ae6d4de2079"
+  },
+  {
+    "path": "packages/commands/src/service/AssignServiceTechnicianCommand.ts",
+    "bytes": 2758,
+    "sha256": "6c1f9f07bf28141cc21de2477d5016e4d49248d6cd69474c420474bd8df80e10"
+  },
+  {
+    "path": "packages/commands/src/service/CompleteServiceVisitCommand.ts",
+    "bytes": 2978,
+    "sha256": "9d23055a616612171f329b83829075fe69cf98bcf0db549a8883c079fb49f88f"
+  },
+  {
+    "path": "packages/commands/src/service/CreateServiceRequestCommand.ts",
+    "bytes": 3149,
+    "sha256": "c55c096141dc790c3cbabb19cddec5ec725b17db6a447d4b33b4dbe12ab87d00"
+  },
+  {
+    "path": "packages/commands/src/service/CreateServiceWorkOrderCommand.ts",
+    "bytes": 2891,
+    "sha256": "29654783e47220b54654193eab45902699cfbf4c9606776d3ab8077880381803"
+  },
+  {
+    "path": "packages/commands/src/service/EscalateEmergencyServiceCommand.ts",
+    "bytes": 2909,
+    "sha256": "53989d861b70c0813893823887303bf7691a2d63b88699f2f7bb495b0ce0d067"
+  },
+  {
+    "path": "packages/commands/src/service/ScheduleServiceVisitCommand.ts",
+    "bytes": 2800,
+    "sha256": "6212c9e5461efa207929b81a7c7af1ae9da32db16fa99f72726baecbaf8e376a"
+  },
+  {
+    "path": "packages/commands/src/service/TriageServiceRequestCommand.ts",
+    "bytes": 2852,
+    "sha256": "a687639fba120093f15ce459f9398d4f4668fb822e6e9083bc9dcec2bd73b379"
+  },
+  {
+    "path": "packages/service-interface/package.json",
+    "bytes": 465,
+    "sha256": "aa4ebc548014cae1cab8479f4f44781462d084883b1f3938a0fcdb2ebb861f61"
+  },
+  {
+    "path": "packages/service-interface/src/api-contracts.ts",
+    "bytes": 608,
+    "sha256": "11bd90a5aac482842fbf462b34e4dab66343242b75487e90a4b1ca97f80f2c52"
+  },
+  {
+    "path": "packages/service-interface/src/checklist-templates.ts",
+    "bytes": 1266,
+    "sha256": "28dfa7d21dc47129c679d9eb3594833a4f7b2325a9e263d2f3f1210193e348de"
+  },
+  {
+    "path": "packages/service-interface/src/index.ts",
+    "bytes": 197,
+    "sha256": "9295f810c33bcfda62e54b911a7545d4b6d5d888f4f860a089802e8628928bcd"
+  },
+  {
+    "path": "packages/service-interface/src/intake-rules.ts",
+    "bytes": 3839,
+    "sha256": "7b0b976f59625c1295bba597e4e1bf5caa6a0ca9fce434b9e463f4bf50fec523"
+  },
+  {
+    "path": "packages/service-interface/src/request-sanitizer.ts",
+    "bytes": 2334,
+    "sha256": "1646bc331db1bee1fe059303de724e7a87eabe822551e8e5d982ca489bf883a9"
+  },
+  {
+    "path": "packages/service-interface/src/service-sla.ts",
+    "bytes": 873,
+    "sha256": "72f5406a6d1d8a19789a62ab095ee2074f0d2e48691ed6545d52648a87e6f7b9"
+  },
+  {
+    "path": "packages/service-interface/src/types.ts",
+    "bytes": 2619,
+    "sha256": "f1488142576af3658948c72fbd02e8a91de121dee966e16d38c5b3b245f8a624"
+  },
+  {
+    "path": "packages/service-interface/tsconfig.json",
+    "bytes": 170,
+    "sha256": "e0dcaf38aa33c1affc81425294b08ffd4b4ddc2f032a0fb1cdd6ff6e926735a2"
+  },
+  {
+    "path": "packages/workflows/src/definitions/treatment-service.ts",
+    "bytes": 1446,
+    "sha256": "740362465438937192ce6258ebaee595109dd7829b634ad97f5cd28ae16118fa"
+  },
+  {
+    "path": "scripts/audit-service-interface.mjs",
+    "bytes": 2222,
+    "sha256": "3c7c20c8ba3da2f27118f992094f7e2f51809e847008d5b14dd8a173b40cebbb"
+  },
+  {
+    "path": "tests/service/service-intake-rules.test.ts",
+    "bytes": 1851,
+    "sha256": "a602f06f8f3c151bb83732f42b3184367cf405fdffe6c29a855e38fa291a4ac5"
+  }
+]

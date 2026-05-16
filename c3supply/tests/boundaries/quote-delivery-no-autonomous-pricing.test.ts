@@ -1,0 +1,3 @@
+import fs from "node:fs";
+import path from "node:path";
+test("quote delivery package avoids autonomous pricing language", () => { const files = fs.readdirSync(path.join(process.cwd(), "packages/quote-delivery/src")).map((file) => path.join(process.cwd(), "packages/quote-delivery/src", file)); const banned = ["autonomous pricing", "automatic price recommendation", "AI pricing"]; const violations = files.flatMap((file) => { const text = fs.readFileSync(file, "utf8"); return banned.filter((token) => text.includes(token)).map((token) => `${file} contains ${token}`); }); expect(violations).toEqual([]); });

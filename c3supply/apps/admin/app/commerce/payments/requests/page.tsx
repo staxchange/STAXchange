@@ -1,0 +1,1 @@
+export default function Page() { return <section><h1>Payment requests</h1><p>Payment review. Payment success does not auto-fulfill orders or post accounting.</p></section>; }

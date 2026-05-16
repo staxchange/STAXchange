@@ -1,0 +1,2 @@
+import { cartCanCheckoutLite, cartRequiresQuote, cartSubtotalCents, type CartDTO } from "@stax/cart";
+export function CartSummary({ cart }: { cart: CartDTO }) { return <section className="rivet-panel"><p className="kicker">Cart intent</p><h2>{cart.status}</h2><p>Items: {cart.items.length}</p><p>Quote required: {cartRequiresQuote(cart) ? "yes" : "no"}</p><p>Checkout-lite eligible: {cartCanCheckoutLite(cart) ? "yes" : "no"}</p><p>Subtotal placeholder: ${cartSubtotalCents(cart) / 100}</p></section>; }

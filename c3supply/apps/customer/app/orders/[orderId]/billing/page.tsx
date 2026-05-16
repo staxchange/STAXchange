@@ -1,0 +1,1 @@
+export default async function CustomerBillingPage({ params }: { params: Promise<{ orderId: string }> }) { const { orderId } = await params; return <main><h1>Billing status</h1><p>Order {orderId}: billing in progress / invoice ready.</p></main>; }

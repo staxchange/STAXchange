@@ -1,0 +1,1 @@
+export default async function Page({ params }: { params: Promise<{ quoteId: string }> }) { const { quoteId } = await params; return <main><h1>Payment recorded</h1><p>Quote {quoteId}: Payment was recorded and remains subject to review; it does not imply automatic fulfillment.</p></main>; }

@@ -1,0 +1,1 @@
+export default async function OrderStatusPage({ params }: { params: Promise<{ token: string }> }) { const { token } = await params; return <main className="page"><h1>Order status</h1><p>Secure token ending {token.slice(-4)}. Safe shipment status only.</p></main>; }

@@ -1,0 +1,1 @@
+export default async function Page({ params }: { params: Promise<{ quoteId: string }> }) { const { quoteId } = await params; return <main><h1>Quote events {quoteId}</h1><p>Viewed, accepted, and revision request events.</p></main>; }

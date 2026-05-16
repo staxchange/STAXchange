@@ -1,0 +1,66 @@
+# Production Environment Matrix
+
+## Storefront
+
+```env
+NEXT_PUBLIC_SITE_NAME=DWG Process Supply
+NEXT_PUBLIC_SITE_DOMAIN=dwgprocesssupply.com
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+OPENAI_API_KEY=
+OPENAI_SUPPORT_MODEL=gpt-5-mini
+```
+
+## Server-only service variables
+
+```env
+SUPABASE_URL=
+SUPABASE_SERVICE_ROLE_KEY=
+SERVICE_USE_SUPABASE=true
+SERVICE_ATTACHMENTS_BUCKET=service-attachments
+SERVICE_RATE_LIMIT_MAX=10
+SERVICE_RATE_LIMIT_WINDOW_MS=60000
+```
+
+## Simply Accounting export
+
+```env
+SIMPLY_ACCOUNTING_EXPORT_ENABLED=false
+SIMPLY_ACCOUNTING_EXPORT_MODE=file_batch
+SIMPLY_ACCOUNTING_EXPORT_FILE_FORMAT=CSV_REVIEW_BATCH
+SIMPLY_ACCOUNTING_EXPORT_STORAGE_BUCKET=simply-accounting-export-files
+SIMPLY_ACCOUNTING_DIRECT_SYNC_ENABLED=false
+SIMPLY_ACCOUNTING_EXPORT_FINANCE_APPROVAL_REQUIRED=true
+SIMPLY_ACCOUNTING_EXPORT_RECONCILIATION_REQUIRED=true
+```
+
+## Auth
+
+```env
+AUTH_GUARDS_ENABLED=true
+AUTH_PRODUCTION_PROVIDER=supabase
+AUTH_REQUIRE_FINANCE_FOR_ACCOUNTING_EXPORT=true
+AUTH_REQUIRE_TECHNICIAN_ASSIGNMENT=true
+```
+
+## Never public
+
+These must never be prefixed with `NEXT_PUBLIC_`:
+
+```txt
+SUPABASE_SERVICE_ROLE_KEY
+OPENAI_API_KEY
+SERVICE_NOTIFICATION_SHARED_SECRET
+```
+
+
+## Production Integration Phase 1
+
+Set `AUTH_DEV_HEADER_FALLBACK_ENABLED=false` in production. Configure notification webhooks only in server-side environments.
+
+
+Storage bucket: `quote-documents` for customer-safe quote delivery snapshots.
+
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
+PAYMENT_NOTIFICATION_WEBHOOK_URL=

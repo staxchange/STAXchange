@@ -1,0 +1,3 @@
+import fs from "node:fs"; import path from "node:path";
+function walk(d:string):string[]{if(!fs.existsSync(d))return[];return fs.readdirSync(d).flatMap(e=>{const f=path.join(d,e);return fs.statSync(f).isDirectory()?walk(f):[f]})}
+test("commerce billing APIs do not directly mutate Supabase",()=>{const files=walk(path.join(process.cwd(),"apps/admin/app/api/commerce-billing")).filter(f=>/\.(ts|tsx)$/.test(f));const banned=["@supabase/supabase-js","insert(","update(","delete(","upsert("];const v=files.flatMap(f=>{const t=fs.readFileSync(f,"utf8");return banned.filter(b=>t.includes(b)).map(b=>`${f} contains ${b}`)});expect(v).toEqual([])});

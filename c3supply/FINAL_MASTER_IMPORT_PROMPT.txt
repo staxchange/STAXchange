@@ -1,0 +1,45 @@
+Import the Final DWG/STAX Master Bundle into the GitHub repository.
+
+After extracting, run:
+
+npm install
+npm run audit:all
+npm run test -- --runInBand
+npm run typecheck --workspace @stax/storefront
+npm run typecheck --workspace @stax/admin
+npm run typecheck --workspace @stax/customer
+npm run typecheck --workspace @stax/technician
+npm run typecheck --workspace @stax/commands
+npm run typecheck --workspace @stax/workflows
+npm run typecheck --workspace @stax/authz
+npm run typecheck --workspace @stax/deployment-switchboard
+npm run typecheck --workspace @stax/launch-readiness
+npm run typecheck --workspace @stax/storefront-conversion
+npm run typecheck --workspace @stax/visual-system
+npm run typecheck --workspace @stax/accounting-export
+npm run typecheck --workspace @stax/accounting-export-storage
+npm run typecheck --workspace @stax/finance-export-ui
+npm run build --workspace @stax/storefront
+npm run build --workspace @stax/admin
+npm run build --workspace @stax/customer
+npm run build --workspace @stax/technician
+
+Rules:
+- Do not commit production secrets.
+- Do not expose SUPABASE_SERVICE_ROLE_KEY.
+- Do not expose OPENAI_API_KEY.
+- Do not add direct Supabase mutation from app/client files.
+- packages/commands remains the protected mutation gateway.
+- AI support is intake/routing only.
+- Human review is required for sizing, safety, chemical, electrical, plumbing, installation, warranty, compatibility, billing, finance, and accounting export decisions.
+- Simply Accounting export remains finance-reviewed file/batch preparation only.
+- Do not build direct accounting sync.
+- Do not auto-post accounting entries.
+- Do not auto-approve invoices.
+
+Return:
+- files changed
+- command results
+- build results
+- unresolved blockers
+- latest commit hash

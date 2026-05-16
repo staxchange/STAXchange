@@ -1,0 +1,9 @@
+{
+  "fixture": "quote-request",
+  "records": [
+    {
+      "id": "quote-request-sample-1",
+      "status": "QUOTE_REQUESTED"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+import fs from "node:fs"; import path from "node:path";
+function walk(dir: string): string[] { if (!fs.existsSync(dir)) return []; return fs.readdirSync(dir).flatMap((entry) => { const full = path.join(dir, entry); return fs.statSync(full).isDirectory() ? walk(full) : [full]; }); }
+test("C3 payment pages do not expose DWG internal language", () => {
+  const files = walk(path.join(process.cwd(), "apps/c3-storefront/app/quote-view")).filter((f) => /\.(ts|tsx)$/.test(f));
+  const banned = ["DWG Process Supply", "Simply Accounting", "technician portal"];
+  const violations = files.flatMap((file) => { const text = fs.readFileSync(file, "utf8"); return banned.filter((token) => text.includes(token)).map((token) => `${file} contains ${token}`); });
+  expect(violations).toEqual([]);
+});

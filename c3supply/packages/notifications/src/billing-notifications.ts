@@ -1,0 +1,3 @@
+export type BillingNotificationType = "INVOICE_DRAFT_CREATED" | "FINANCE_REVIEW_REQUIRED" | "INVOICE_APPROVED" | "BILLING_PACKET_CREATED" | "ACCOUNTING_EXPORT_READY" | "RECONCILIATION_NOTE_ADDED";
+export interface BillingNotificationResult { ok: boolean; skipped: boolean; type: BillingNotificationType; reason?: string; }
+export function createBillingNotificationResult(type: BillingNotificationType, providerConfigured: boolean): BillingNotificationResult { return providerConfigured ? { ok: true, skipped: false, type } : { ok: false, skipped: true, type, reason: "Notification provider not configured." }; }

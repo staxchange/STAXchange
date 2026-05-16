@@ -1,0 +1,3 @@
+import { quoteDeliveryCanBeCreated, quoteDeliveryExposesSupplierCost, quoteDeliveryUsesAutonomousPricing } from "@stax/quote-delivery";
+test("delivery requires approved locked pricing and approved document", () => { expect(quoteDeliveryCanBeCreated({ pricingApproved: true, pricingLocked: true, documentApproved: true })).toBe(true); expect(quoteDeliveryCanBeCreated({ pricingApproved: true, pricingLocked: false, documentApproved: true })).toBe(false); });
+test("delivery exposes no supplier cost and no autonomous pricing", () => { expect(quoteDeliveryExposesSupplierCost()).toBe(false); expect(quoteDeliveryUsesAutonomousPricing()).toBe(false); });

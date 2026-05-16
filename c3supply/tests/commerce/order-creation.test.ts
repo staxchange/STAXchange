@@ -1,0 +1,2 @@
+import { createOrderDraftFromAcceptedQuote, orderCanBeCreatedFromQuoteStatus } from "@stax/orders";
+test("order can only be created from accepted quote",()=>{expect(orderCanBeCreatedFromQuoteStatus("QUOTE_ACCEPTED")).toBe(true); expect(orderCanBeCreatedFromQuoteStatus("QUOTE_SENT")).toBe(false); expect(()=>createOrderDraftFromAcceptedQuote({id:"o",quoteId:"q",quoteStatus:"QUOTE_SENT"})).toThrow();});

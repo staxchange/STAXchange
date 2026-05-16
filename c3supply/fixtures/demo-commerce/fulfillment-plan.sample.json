@@ -1,0 +1,9 @@
+{
+  "fixture": "fulfillment-plan",
+  "records": [
+    {
+      "id": "fulfillment-plan-sample-1",
+      "status": "FULFILLMENT_PLAN_CREATED"
+    }
+  ]
+}

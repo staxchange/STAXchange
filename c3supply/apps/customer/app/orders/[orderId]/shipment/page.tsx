@@ -1,0 +1,1 @@
+export default async function CustomerShipmentPage({ params }: { params: Promise<{ orderId: string }> }) { const { orderId } = await params; return <main><h1>Shipment for {orderId}</h1><p>Shipment status is pending or confirmed only.</p></main>; }

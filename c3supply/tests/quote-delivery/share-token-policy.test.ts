@@ -1,0 +1,2 @@
+import { createQuoteShareToken, expiredTokenBlocksAcceptance, shareTokenIsValid } from "@stax/quote-delivery";
+test("share token required and expiry blocks acceptance", () => { const token = createQuoteShareToken({ id: "t1", quoteDeliveryId: "d1", tokenHash: "hash", ttlMinutes: 1, now: new Date("2026-01-01T00:00:00.000Z") }); expect(shareTokenIsValid(token, new Date("2026-01-01T00:00:30.000Z"))).toBe(true); expect(expiredTokenBlocksAcceptance(token, new Date("2026-01-01T00:02:00.000Z"))).toBe(true); });
