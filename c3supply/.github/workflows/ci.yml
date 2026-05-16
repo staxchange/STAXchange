@@ -20,16 +20,15 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           cache: npm
-      - run: npm install
-      - run: npm run audit:e2e-commerce
-          npm run audit:commerce
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm run audit:e2e-commerce && npm run audit:commerce
       - run: npm run audit:repo-strength
       - run: npm run audit:all-strengthened
       - run: npm run audit:master
       - run: npm run audit:all
       - run: npm run supabase:check
-      - run: npm run seed:demo:dry-run
-          npm run test -- --runInBand
+      - run: npm run seed:demo:dry-run && npm run test -- --runInBand
+      - run: npm run typecheck --workspace @stax/e2e-readiness
       - run: npm run typecheck --workspace @stax/platform-hardening
       - run: npm run typecheck --workspace @stax/storefront
       - run: npm run typecheck --workspace @stax/admin
@@ -39,3 +38,6 @@ jobs:
       - run: npm run typecheck --workspace @stax/workflows
       - run: npm run build --workspace @stax/storefront
       - run: npm run build --workspace @stax/admin
+      - run: npm run build --workspace @stax/customer
+      - run: npm run build --workspace @stax/c3-storefront
+      - run: npm run validate:boundaries
